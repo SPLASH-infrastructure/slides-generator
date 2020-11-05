@@ -9,13 +9,28 @@
       * The only thing that can change is the clock image (or text). The clock changes every minute.
       * For video < 1min, we only need one frame (no clock updates)
       * For vidoe > 1min, we then need to render the template multiple times, one for each minute.
+        * _unimplemented_
    3. Then the script generates slide videos from the images
 
 # Install
 
 MacOS: `bash ./setup-macos.h`
+
 Ubuntu: `bash ./setup-linux.h`
 
 # Run:
 
-`python3 ./gen.py <subevent-id>`
+Generate videos for all subevents: `python3 ./gen.py`
+
+Generate videos for one subevent: `python3 ./gen.py --subevent=c49b3977-bf78-4796-930d-b360d8899600`
+
+# Outout
+
+```
+out/
+    <subevent-id>/
+        <timeslot-id>/
+            intro.mp4
+            qa.mp4
+            exit.mp4
+```
