@@ -36,6 +36,10 @@ class ConferenceEvent:
     track: str
     authors: List[Tuple[str, str]]
 
+    @property
+    def authors_display(self) -> str:
+        return ', '.join(f'{a[0]} {a[1]}' for a in self.authors)
+
     @staticmethod
     def parse(timeslot, conference) -> Optional['ConferenceEvent']:
         if timeslot.find('event_id') is None: return None
