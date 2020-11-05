@@ -1,0 +1,31 @@
+body {
+    width: 1960px;
+    height: 1080px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1960px;
+    height: 1080px;
+    object-fit: cover;
+}
+
+.translucent-layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1960px;
+    height: 1080px;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.sponsor-logo {
+    width: 200px;
+}

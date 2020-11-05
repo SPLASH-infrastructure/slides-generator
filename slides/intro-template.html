@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <img src="./bgimage.jpg" class="background">
+    <div class="translucent-layer"></div>
+
+    <div style="position: absolute; color: white; top: 3em; left: 3em; width: calc(1960px - 6em);">
+        <h1 style="font-size: 40px; font-weight: 100; font-style: italic; margin-bottom: 3em;">{{ event.conference.title }}</h1>
+        <h1 style="font-size: 40px; font-weight: 100;">Upcoming:</h1>
+        <h1 style="font-size: 60px;">{{ event.title }}</h1>
+        <h1 style="font-size: 60px; font-weight: 100; font-style: italic;">{% for author in event.authors %}{{ author[0] }} {{ author[1] }}, {% endfor %}</h1>
+    </div>
+
+    <div style="position: absolute; color: white; top: 3em; right: 3em;">
+        <h1 style="font-size: 40px;">[Clock {{ time }}]</h1>
+    </div>
+
+    <div style="position: absolute; color: black; background: honeydew; left: 30px; right: 30px; bottom: 30px; display: -webkit-flex; display: flex; -webkit-flex-wrap: nowrap; flex-wrap: nowrap; flex-direction: row; align-items: center;">
+        <h1 style="font-size: 40px; font-weight: 100; width: 300px;">Sponsors:</h1>
+        <div style="flex: 1; display: -webkit-flex; display: flex; flex-wrap: wrap; flex-direction: row; align-items: center;">
+            <img class="sponsor-logo" src="./sponsors/acm_logo.gif"/>
+            <img class="sponsor-logo" src="./sponsors/aito-logo-small.jpg"/>
+            <img class="sponsor-logo" src="./sponsors/facebook.png"/>
+            <img class="sponsor-logo" src="./sponsors/futurewei.png"/>
+            <img class="sponsor-logo" src="./sponsors/google-logo.png"/>
+            <img class="sponsor-logo" src="./sponsors/huawei.jpg"/>
+            <img class="sponsor-logo" src="./sponsors/IBM_Research2.png"/>
+            <img class="sponsor-logo" src="./sponsors/logo_cx_vivendi_rgb_3000px.png"/>
+            <img class="sponsor-logo" src="./sponsors/o-sponsorship-clr.png"/>
+            <img class="sponsor-logo" src="./sponsors/SIGPLAN.png"/>
+        </div>
+    </div>
+</body>
+</html>
