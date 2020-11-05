@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
-from scheduleloader import *
 import tempfile
 import os
 from jinja2 import Template
+from scheduleloader import ConferenceEvent
+
 
 
 def htmlToPNG(html, png, env):
@@ -16,6 +16,7 @@ def htmlToPNG(html, png, env):
 def stillImageToVideo(image, video, duration):
     os.system(f'ffmpeg -y -loop 1 -framerate 30 -i {image} -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -af "aresample=async=1:min_hard_comp=0.100000:first_pts=0" -g 60 -c:v libx264 -r 30 -t {duration} -pix_fmt yuv420p {video}')
 
+# Generate videos from a timeslot
 def generateVideoFromEvent(event: ConferenceEvent, duration, next_event=None):
     out = f'./out/{event.conference.subevent_id}/{event.event_id}'
     os.system(f'mkdir -p {out}')

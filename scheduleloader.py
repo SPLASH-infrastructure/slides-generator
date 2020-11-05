@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
-from typing import *
+from typing import List, Tuple, Optional
+
 
 
 @dataclass
@@ -55,9 +56,7 @@ class ConferenceEvent:
             authors = [ (p.find('first_name').text, p.find('last_name').text) for p in timeslot.findall('persons/person')],
         )
 
-def parseSubEvent(xml, subevent_id):
-    tree = ET.parse(xml)
-    root = tree.getroot()
+def parseSubEvent(root, subevent_id):
     subevent = root.find(f"subevent[subevent_id='{subevent_id}']")
     conference = ConferenceInfo.parse(subevent)
     timeslots = []
@@ -67,4 +66,8 @@ def parseSubEvent(xml, subevent_id):
             timeslots.append(e)
     return timeslots
 
-# print(parseSubEvent('./data/splash-schedule.xml', 'c49b3977-bf78-4796-930d-b360d8899600'))
+def getAllSubEventIds(root):
+    return [ e.find('subevent_id').text for e in root.findall(f"subevent") if e.find('subevent_id') is not None ]
+
+def loadXML(xml):
+    return ET.parse(xml).getroot()
