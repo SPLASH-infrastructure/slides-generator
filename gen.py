@@ -6,6 +6,7 @@ import getopt
 INTRO_LENGTH = 8
 QA_LENGTH = 4
 EXIT_LENGTH = 5
+FILLER_LENGTH = 10
 
 SCHEDULE_XML = './data/splash-schedule.xml'
 
@@ -13,7 +14,7 @@ xml = scheduleloader.loadXML(SCHEDULE_XML)
 
 def generateSubEvent(subevent_id, image_only=False):
     conference, events = scheduleloader.parseSubEvent(xml, subevent_id)
-    videogen.generateFillerVideo(conference=conference, duration=10, image_only=image_only)
+    videogen.generateFillerVideo(conference=conference, duration=FILLER_LENGTH, image_only=image_only)
     for i in range(len(events)):
         e = events[i]
         videogen.generateVideoFromEvent(event=e, duration=(INTRO_LENGTH, QA_LENGTH, EXIT_LENGTH), image_only=image_only)
