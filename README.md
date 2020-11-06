@@ -34,3 +34,13 @@ out/
             qa.mp4
             exit.mp4
 ```
+
+# TODO
+
+* Keynotes get filtered out? (because no `event_id` present)
+* Styles
+* 12 Background images
+* Location name in top right corner
+* Display times for 13 different time zones
+* Top left corner: current stream
+* Better sponsor logos
