@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="bounds">
+        <img src="./bgimage.png" class="background">
+        <div class="translucent-layer"></div>
+
+        <!-- {% include 'clocks.html' %} -->
+
+        <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 25%;">This is room {{conference.room_display}}</h1>
+
+        {% include 'sponsors.html' %}
+    </div>
+</body>
+</html>

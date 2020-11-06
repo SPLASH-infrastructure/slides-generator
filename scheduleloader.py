@@ -13,6 +13,10 @@ class ConferenceInfo:
     date: str
     track: str
 
+    @property
+    def room_display(self) -> str:
+        return self.room.replace('Online | ', '')
+
     @staticmethod
     def parse(timeslot) -> 'ConferenceInfo':
         return ConferenceInfo(
@@ -64,7 +68,7 @@ def parseSubEvent(root, subevent_id):
         e = ConferenceEvent.parse(timeslot, conference)
         if e is not None:
             timeslots.append(e)
-    return timeslots
+    return conference, timeslots
 
 def getAllSubEventIds(root):
     return [ e.find('subevent_id').text for e in root.findall(f"subevent") if e.find('subevent_id') is not None ]
