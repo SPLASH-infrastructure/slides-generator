@@ -11,12 +11,11 @@ SCHEDULE_XML = './data/splash-schedule.xml'
 
 xml = scheduleloader.loadXML(SCHEDULE_XML)
 
-def generateSubEvent(subevent_id):
+def generateSubEvent(subevent_id, image_only=False):
     events = scheduleloader.parseSubEvent(xml, subevent_id)
     for i in range(len(events)):
         e = events[i]
-        next_e = events[i + 1] if i < len(events) - 1 else None
-        videogen.generateVideoFromEvent(event=e, duration=(INTRO_LENGTH, QA_LENGTH, EXIT_LENGTH), next_event=next_e)
+        videogen.generateVideoFromEvent(event=e, duration=(INTRO_LENGTH, QA_LENGTH, EXIT_LENGTH), image_only=image_only)
 
 def printHelp():
     print('Usage:')
@@ -28,7 +27,7 @@ def printHelp():
     print('    python3 ./gen.py --subevent=c49b3977-bf78-4796-930d-b360d8899600')
 
 try:
-    opts, args = getopt.getopt(sys.argv[1:], 'h', [ 'subevent=' ])
+    opts, args = getopt.getopt(sys.argv[1:], 'h', [ 'subevent=', 'imageonly' ])
 except getopt.GetoptError:
     printHelp()
     sys.exit(2)
@@ -38,9 +37,15 @@ for opt, arg in opts:
         printHelp()
         sys.exit()
 
+image_only = False
+
+for opt, arg in opts:
+    if opt == '--imageonly':
+        image_only = True
+
 for opt, arg in opts:
     if opt == '--subevent':
-        generateSubEvent(arg)
+        generateSubEvent(arg, image_only=image_only)
         sys.exit()
 
 for subevent in scheduleloader.getAllSubEventIds(xml):

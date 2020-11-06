@@ -8,43 +8,18 @@
 </head>
 <body>
     <div class="bounds">
-        <img src="./bgimage.jpg" class="background">
+        <img src="./bgimage.png" class="background">
         <div class="translucent-layer"></div>
 
+        {% include 'clocks.html' %}
+
         <div style="position: absolute; color: white; top: 3em; left: 3em; width: calc(1960px - 6em);">
-            <h1 style="font-size: 40px; font-weight: 100; font-style: italic; margin-bottom: 3em;">{{ event.conference.title }}</h1>
-            <h1 style="font-size: 40px; font-weight: 100;">{{ event.title }}</h1>
-            <h1 style="font-size: 60px;">Q & A Session</h1>
-            <h1 style="font-size: 40px; font-weight: 100; font-style: italic;">
-                Wait here for the next talk or go to [Some zoom link?] for discussing with the authors.
-            </h1>
+
         </div>
 
-        <div style="position: absolute; color: white; top: 3em; right: 3em;">
-            <h1 style="font-size: 40px;">[Clock {{ time }}]</h1>
-        </div>
+        <img src="./split-qa.png" style="position: absolute; top: 15em; right: 17em; width: 1000px;">
 
-        <table style="position: absolute; display: inline-block;  color: black; background: honeydew; left: 30px; right: 30px; bottom: 30px;">
-            <tr>
-                <td>
-                    <h1 style="font-size: 40px; font-weight: 100; margin: 1em;">Sponsors:</h1>
-                </td>
-                <td>
-                    <div style="display: inline;">
-                        <img class="sponsor-logo" src="./sponsors/acm_logo.gif"/>
-                        <img class="sponsor-logo" src="./sponsors/aito-logo-small.jpg"/>
-                        <img class="sponsor-logo" src="./sponsors/facebook.png"/>
-                        <img class="sponsor-logo" src="./sponsors/futurewei.png"/>
-                        <img class="sponsor-logo" src="./sponsors/google-logo.png"/>
-                        <img class="sponsor-logo" src="./sponsors/huawei.jpg"/>
-                        <img class="sponsor-logo" src="./sponsors/IBM_Research2.png"/>
-                        <img class="sponsor-logo" src="./sponsors/logo_cx_vivendi_rgb_3000px.png"/>
-                        <img class="sponsor-logo" src="./sponsors/o-sponsorship-clr.png"/>
-                        <img class="sponsor-logo" src="./sponsors/SIGPLAN.png"/>
-                    </div>
-                </td>
-            </tr>
-        </table>
+        {% include 'sponsors.html' %}
     </div>
 </body>
 </html>
