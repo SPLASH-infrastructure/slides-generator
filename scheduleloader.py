@@ -42,6 +42,29 @@ class ConferenceEvent:
     authors: List[Tuple[str, str]]
 
     @property
+    def is_keynote(self) -> bool:
+        return self.track == "Keynotes"
+
+    @property
+    def is_prerecorded_talk(self) -> bool:
+        return self.room == "Online | Rebase"
+
+    @property
+    def is_live_talk(self) -> bool:
+        return self.room == "Online | OOPSLA/ECOOP" \
+            or (self.room == "Online | SPLASH" and self.track in [
+                "SLE (Software Language Engineering) 2020",
+                "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
+                "SAS 2020 - 27th Static Analysis Symposium",
+                "Dynamic Languages Symposium",
+                "SLE (Software Language Engineering) 2020",
+                "OOPSLA",
+                "Onward! Papers and Essays",
+                "Onward! Essays and Papers",
+                "ECOOP 2020",
+            ])
+
+    @property
     def authors_display(self) -> str:
         return ', '.join(f'{a[0]} {a[1]}' for a in self.authors)
 
