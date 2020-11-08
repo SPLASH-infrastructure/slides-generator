@@ -37,5 +37,7 @@ body {
 }
 
 .sponsor-logo {
-    width: 275px;
+    height: 70px;
+    /* background-color: red; */
+    margin: auto;
 }
