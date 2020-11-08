@@ -2,8 +2,7 @@ import tempfile
 import os
 import os.path
 from jinja2 import FileSystemLoader, Environment
-from scheduleloader import ConferenceEvent, ConferenceInfo
-
+from scheduleloader import ConferenceEvent, ConferenceInfo, CurrentTime
 
 
 def htmlToPNG(html, png, env):
@@ -22,7 +21,7 @@ def generateFillerVideo(conference: ConferenceInfo, duration, image_only=False):
     out = f'./out/{conference.subevent_id}'
     os.system(f'mkdir -p {out}')
     image = f'{out}/filler.png'
-    htmlToPNG('./slides/empty-filler.html', image, { 'conference': conference })
+    htmlToPNG('./slides/empty-filler.html', image, { 'conference': conference, 'time': CurrentTime.parse('00:00') })
     if not image_only: stillImageToVideo(image=image, video=f'{out}/filler.mp4', duration=duration)
 
 def genVideo(template, outdir, image, video, duration, env, image_only=False):
@@ -35,16 +34,16 @@ def generateVideoFromEvent(event: ConferenceEvent, duration, image_only=False):
     os.system(f'mkdir -p {out}')
     if event.is_prerecorded_talk:
         print(f">>> Pre-recorded Talk {event.event_id} " + event.start + " " + event.end)
-        genVideo('./slides/intro-template.html', out, 'precorded-talk-intro-000.png', 'precorded-talk-intro.mp4', duration[0], image_only=image_only, env={ 'event': event, 'time': '00:00' })
-        genVideo('./slides/qa-template.html', out, 'precorded-talk-qa-000.png', 'precorded-talk-qa.mp4', duration[1], image_only=image_only, env={ 'event': event, 'time': '00:00' })
-        genVideo('./slides/exit-template.html', out, 'precorded-talk-exit-000.png', 'precorded-talk-exit.mp4', duration[2], image_only=image_only, env={ 'event': event, 'time': '00:00' })
+        genVideo('./slides/intro-template.html', out, 'precorded-talk-intro-000.png', 'precorded-talk-intro.mp4', duration[0], image_only=image_only, env={ 'event': event, 'time': CurrentTime.parse(event.start) })
+        genVideo('./slides/qa-template.html', out, 'precorded-talk-qa-000.png', 'precorded-talk-qa.mp4', duration[1], image_only=image_only, env={ 'event': event, 'time': CurrentTime.parse(event.start) })
+        genVideo('./slides/exit-template.html', out, 'precorded-talk-exit-000.png', 'precorded-talk-exit.mp4', duration[2], image_only=image_only, env={ 'event': event, 'time': CurrentTime.parse(event.start) })
     elif event.is_live_talk:
         print(f">>> Live Talk {event.event_id} " + event.start + " " + event.end)
-        genVideo('./slides/intro-template.html', out, 'live-intro-000.png', 'live-intro.mp4', duration[0], image_only=image_only, env={ 'event': event, 'time': '00:00' })
-        genVideo('./slides/exit-template.html', out, 'live-exit-000.png', 'live-exit.mp4', duration[1], image_only=image_only, env={ 'event': event, 'time': '00:00' })
+        genVideo('./slides/intro-template.html', out, 'live-intro-000.png', 'live-intro.mp4', duration[0], image_only=image_only, env={ 'event': event, 'time': CurrentTime.parse(event.start) })
+        genVideo('./slides/exit-template.html', out, 'live-exit-000.png', 'live-exit.mp4', duration[1], image_only=image_only, env={ 'event': event, 'time': CurrentTime.parse(event.start) })
     elif event.is_keynote:
         print(f">>> Keynotes {event.event_id} " + event.start + " " + event.end)
-        genVideo('./slides/intro-template.html', out, 'keynote-intro-000.png', 'keynote-intro.mp4', duration[0], image_only=image_only, env={ 'event': event, 'time': '00:00' })
-        genVideo('./slides/qa-break-template.html', out, 'keynote-qa-000.png', 'keynote-qa.mp4', duration[1], image_only=image_only, env={ 'event': event, 'time': '00:00' })
+        genVideo('./slides/intro-template.html', out, 'keynote-intro-000.png', 'keynote-intro.mp4', duration[0], image_only=image_only, env={ 'event': event, 'time': CurrentTime.parse(event.start) })
+        genVideo('./slides/qa-break-template.html', out, 'keynote-qa-000.png', 'keynote-qa.mp4', duration[1], image_only=image_only, env={ 'event': event, 'time': CurrentTime.parse(event.start) })
     else:
         print(f'Unhandled: {event}')

@@ -24,12 +24,12 @@
 
 <table class="clocks">
     <tr>
-        {% for t in event.local_times_start %}
+        {% for t in time.local_times %}
             <td {% if t.is_active %}class="active"{% endif %}>{{ t.name }}</td>
         {% endfor %}
     </tr>
     <tr>
-        {% for t in event.local_times_start %}
+        {% for t in time.local_times %}
             <td {% if t.is_active %}class="active"{% endif %}>{{ t.time_display }}</td>
         {% endfor %}
     </tr>
@@ -37,5 +37,5 @@
 
 <div style="position: absolute; top: 10px; right: 10px; width: 150px;">
     <img src="./logo.png" style="width: 150px" style="background: green;">
-    <p style="text-align: center; font-size: 30px; margin: 0; color: white;">Chicago</p>
+    <p style="text-align: center; font-size: 30px; margin: 0; color: white;">{{time.background_city}}</p>
 </div>
