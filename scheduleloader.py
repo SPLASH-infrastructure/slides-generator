@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from typing import List, Tuple, Optional
+from datetime import datetime, timedelta
 
 
 
@@ -29,6 +30,19 @@ class ConferenceInfo:
         )
 
 @dataclass
+class LocalTime:
+    name: str
+    time: datetime
+
+    @property
+    def is_active(self) -> bool:
+        return self.time.hour >= 7 and self.time.hour < 18
+
+    @property
+    def time_display(self) -> str:
+        return self.time.strftime('%H:%M')
+
+@dataclass
 class ConferenceEvent:
     conference: ConferenceInfo
     event_id: str
@@ -36,10 +50,32 @@ class ConferenceEvent:
     room: str
     track: str
     date: str
-    start: str
-    end: str
+    start: str # Chicago time
+    end: str # Chicago time
     track: str
     authors: List[Tuple[str, str]]
+
+    def __getAllLocalTimes(self, chicage_time) -> List[LocalTime]:
+        return [
+            LocalTime(name="SFO", time=chicage_time + timedelta(hours=-2)),
+            LocalTime(name="CHI", time=chicage_time + timedelta(hours=0)),
+            LocalTime(name="NYC", time=chicage_time + timedelta(hours=1)),
+            LocalTime(name="RIO", time=chicage_time + timedelta(hours=3)),
+            LocalTime(name="LON", time=chicage_time + timedelta(hours=6)),
+            LocalTime(name="PAR", time=chicage_time + timedelta(hours=7)),
+            LocalTime(name="TLV", time=chicage_time + timedelta(hours=8)),
+            LocalTime(name="MOS", time=chicage_time + timedelta(hours=9)),
+            LocalTime(name="DEL", time=chicage_time + timedelta(hours=11.5)),
+            LocalTime(name="PEK", time=chicage_time + timedelta(hours=14)),
+            LocalTime(name="TYO", time=chicage_time + timedelta(hours=15)),
+            LocalTime(name="SYD", time=chicage_time + timedelta(hours=17)),
+            LocalTime(name="AKL", time=chicage_time + timedelta(hours=19)),
+        ]
+
+    @property
+    def local_times_start(self) -> List[LocalTime]:
+        chicage_time = datetime.strptime(self.start, '%H:%M')
+        return self.__getAllLocalTimes(chicage_time)
 
     @property
     def is_keynote(self) -> bool:
