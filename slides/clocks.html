@@ -33,6 +33,8 @@
 }
 </style>
 
+<!-- List of cities and their local times  -->
+
 <table class="clocks">
     <tr>
         {% for t in time.local_times %}
@@ -46,10 +48,14 @@
     </tr>
 </table>
 
+<!-- Logo & city name at the right top corner  -->
+
 <div style="position: absolute; top: 10px; right: 10px; width: 150px;">
     <img src="./logo.png" style="width: 150px">
     <p style="text-align: center; font-size: 30px; margin: 0; color: white;">{{time.background_city}}</p>
 </div>
+
+<!-- Three rooms at the left top corner  -->
 
 <table style="position: absolute; top: 0px; left: 10px; width: 300px;">
     <tr>
@@ -67,3 +73,57 @@
         </td>
     </tr>
 </table>
+
+<!-- Scheduled again in 12 hours -->
+
+<style>
+    .schedule-clock {
+        position: absolute;
+        top: 50%;
+    }
+    .schedule-clock.schedule-clock-right {
+        right: 0;
+    }
+    .schedule-clock.schedule-clock-left {
+        left: 0;
+    }
+    .schedule-clock .text {
+        color: white;
+        width: 5em;
+        font-size: 1.7em;
+    }
+    .schedule-clock .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+    }
+</style>
+
+{% if time.first_round_of_streaming %}
+    <table class="schedule-clock schedule-clock-right" style="position: absolute; right: 0; top: 50%;">
+        <tr>
+            <td>
+                <p class="text">Scheduled again in 12 hours</p>
+            </td>
+            <td>
+                <img src="./scheduled-again.png" class="image">
+            </td>
+        </tr>
+    </table>
+{% endif %}
+
+<!-- Presented previously 12 hours ago -->
+
+{% if not time.first_round_of_streaming %}
+    <table class="schedule-clock schedule-clock-left" style="position: absolute; right: 0; top: 50%;">
+        <tr>
+            <td>
+                <img src="./presented-previously.png" class="image">
+            </td>
+            <td>
+                <p class="text">Presented previously 12 hours ago</p>
+            </td>
+        </tr>
+    </table>
+{% endif %}

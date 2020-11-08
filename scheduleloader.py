@@ -26,6 +26,10 @@ class CurrentTime:
         return CurrentTime(time=datetime.strptime(time, '%H:%M'))
 
     @property
+    def first_round_of_streaming(self) -> bool:
+        return self.time.hour >= 7 and self.time.hour < 19
+
+    @property
     def background_city(self) -> str:
         t = (self.time.hour, self.time.minute)
         if ( 7, 0) <= t and t < ( 9, 0): return 'Chicago'
