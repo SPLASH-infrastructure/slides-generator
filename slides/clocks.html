@@ -9,7 +9,7 @@
     border-spacing: 0;
     font-weight: bold;
     width: 1350px;
-    left: 300px;
+    left: 370px;
     top: 1em;
 }
 .clocks td {
@@ -19,6 +19,17 @@
 
 .clocks .active {
     color: white;
+}
+
+.inactive-mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.5;
+    z-index: 100000000;
 }
 </style>
 
@@ -36,6 +47,23 @@
 </table>
 
 <div style="position: absolute; top: 10px; right: 10px; width: 150px;">
-    <img src="./logo.png" style="width: 150px" style="background: green;">
+    <img src="./logo.png" style="width: 150px">
     <p style="text-align: center; font-size: 30px; margin: 0; color: white;">{{time.background_city}}</p>
 </div>
+
+<table style="position: absolute; top: 0px; left: 10px; width: 300px;">
+    <tr>
+        <td style="position: relative">
+            <img src="./{% if conference.room == 'Online | OOPSLA/ECOOP' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
+            <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">OOPSLA</p>
+        </td>
+        <td style="position: relative">
+            <img src="./{% if conference.room == 'Online | Rebase' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
+            <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">Rebase</p>
+        </td>
+        <td style="position: relative">
+            <img src="./{% if conference.room == 'Online | SPLASH' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
+            <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">SPLASH</p>
+        </td>
+    </tr>
+</table>
