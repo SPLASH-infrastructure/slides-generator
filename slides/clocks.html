@@ -35,6 +35,7 @@
 
 <!-- List of cities and their local times  -->
 
+{% if no_clock is not defined %}
 <table class="clocks">
     <tr>
         {% for t in time.local_times %}
@@ -47,6 +48,7 @@
         {% endfor %}
     </tr>
 </table>
+{% endif %}
 
 <!-- Logo & city name at the right top corner  -->
 
@@ -60,15 +62,15 @@
 <table style="position: absolute; top: 0px; left: 10px; width: 300px;">
     <tr>
         <td style="position: relative">
-            <img src="./{% if conference.room == 'Online | OOPSLA/ECOOP' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
+            <img src="./{% if conference.room == 'Online | OOPSLA/ECOOP' or conference.room == 'OOPSLA' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
             <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">OOPSLA</p>
         </td>
         <td style="position: relative">
-            <img src="./{% if conference.room == 'Online | Rebase' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
+            <img src="./{% if conference.room == 'Online | Rebase' or conference.room == 'Rebase' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
             <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">Rebase</p>
         </td>
         <td style="position: relative">
-            <img src="./{% if conference.room == 'Online | SPLASH' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
+            <img src="./{% if conference.room == 'Online | SPLASH' or conference.room == 'SPLASH' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
             <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">SPLASH</p>
         </td>
     </tr>

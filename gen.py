@@ -3,7 +3,7 @@ import scheduleloader
 import sys
 import getopt
 
-INTRO_LENGTH = 8
+INTRO_LENGTH = 70
 QA_LENGTH = 4
 EXIT_LENGTH = 5
 FILLER_LENGTH = 10
@@ -13,8 +13,8 @@ SCHEDULE_XML = './data/splash-schedule.xml'
 xml = scheduleloader.loadXML(SCHEDULE_XML)
 
 def generateSubEvent(subevent_id, image_only=False):
-    conference, events = scheduleloader.parseSubEvent(xml, subevent_id)
-    videogen.generateFillerVideo(conference=conference, duration=FILLER_LENGTH, image_only=image_only)
+    _, events = scheduleloader.parseSubEvent(xml, subevent_id)
+    # videogen.generateFillerVideo(conference=conference, duration=FILLER_LENGTH, image_only=image_only)
     for i in range(len(events)):
         e = events[i]
         videogen.generateVideoFromEvent(event=e, duration=(INTRO_LENGTH, QA_LENGTH, EXIT_LENGTH), image_only=image_only)
@@ -29,7 +29,7 @@ def printHelp():
     print('    python3 ./gen.py --subevent=c49b3977-bf78-4796-930d-b360d8899600')
 
 try:
-    opts, args = getopt.getopt(sys.argv[1:], 'h', [ 'subevent=', 'imageonly' ])
+    opts, args = getopt.getopt(sys.argv[1:], 'h', [ 'subevent=', 'filler-for-room=', 'imageonly' ])
 except getopt.GetoptError:
     printHelp()
     sys.exit(2)
@@ -48,6 +48,12 @@ for opt, arg in opts:
 for opt, arg in opts:
     if opt == '--subevent':
         generateSubEvent(arg, image_only=image_only)
+        sys.exit()
+
+for opt, arg in opts:
+    if opt == '--filler-for-room':
+        assert arg in ['OOPSLA', 'Rebase', 'SPLASH']
+        videogen.generateFillerVideos(arg)
         sys.exit()
 
 for subevent in scheduleloader.getAllSubEventIds(xml):

@@ -22,8 +22,8 @@ class CurrentTime:
     time: datetime
 
     @staticmethod
-    def parse(time) -> 'CurrentTime':
-        return CurrentTime(time=datetime.strptime(time, '%H:%M'))
+    def parse(time, offset: timedelta = timedelta()) -> 'CurrentTime':
+        return CurrentTime(time=datetime.strptime(time, '%H:%M') + offset)
 
     @property
     def first_round_of_streaming(self) -> bool:
@@ -52,7 +52,7 @@ class CurrentTime:
         if ( 7, 0) <= t and t < ( 9, 0): return 'breakfast-in-chicago'
         if ( 9, 0) <= t and t < (11, 0): return 'breakfast-in-seattle'
         if (11, 0) <= t and t < (13, 0): return 'breakfast-in-wellington'
-        if (13, 0) <= t and t < (15, 0): return 'cocktail-in-paris'
+        if (13, 0) <= t and t < (15, 0): return 'cocktails-in-paris'
         if (15, 0) <= t and t < (17, 0): return 'breakfast-in-seoul'
         if (17, 0) <= t and t < (19, 0): return 'cocktails-in-rio'
         if (19, 0) <= t and t < (21, 0): return 'cocktails-in-new-york'
@@ -84,6 +84,9 @@ class CurrentTime:
             LocalTime(name="SYD", time=self.time + timedelta(hours=17)),
             LocalTime(name="AKL", time=self.time + timedelta(hours=19)),
         ]
+
+    def __add__(self, delta: timedelta) -> 'CurrentTime':
+        return CurrentTime(time=self.time + delta)
 
 
 @dataclass
