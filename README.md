@@ -57,10 +57,19 @@ out/
 
 # TODO
 
-* Keynotes get filtered out? (because no `event_id` present)
-* Styles
-* 12 Background images
-* Location name in top right corner
-* Display times for 13 different time zones
-* Top left corner: current stream
-* Better sponsor logos
+- [x] Keynotes get filtered out? (because no `event_id` present)
+- [x] Styles
+- [x] 12 Background images
+- [x] Location name in top right corner
+- [x] Display times for 13 different time zones
+- [x] Top left corner: current stream
+- [x] Better sponsor logos
+- [ ] Display auther names
+- [ ] Potential corner cases?
+- [ ] Calculate time for qa-transition videos
+- [ ] Output naming convention
+
+_Low Priority:_
+
+- [ ] Fade-in animation for outro videos
+- [ ] High-resolution images
