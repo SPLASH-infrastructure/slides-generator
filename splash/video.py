@@ -42,7 +42,7 @@ def __renderKeyFramesAndGenVideo(template: str, outdir: str, basename: str, dura
 
 
 def generateVideoForEvent(event: Event):
-    out = os.path.realpath(f'./out/{event.stream.name}')
+    out = os.path.realpath(f'./out/{event.stream.stream_id}')
     env = {
         'event': event,
         'stream': event.stream,
@@ -50,13 +50,13 @@ def generateVideoForEvent(event: Event):
     stream_round = 'A' if event.first_round else 'B'
     if event.is_prerecorded_talk:
         print(f">>> Pre-recorded Talk {event.event_id} " + event.start.time_display + " " + event.end.time_display)
-        __renderKeyFramesAndGenVideo('./slides/intro-template.html', out, f'{event.event_id}-{stream_round}-intro', config.INTRO_SECONDS, start_time=event.start, env=env)
-        __renderKeyFramesAndGenVideo('./slides/qa-template.html', out, f'{event.event_id}-{stream_round}-qa', config.QA_TRANSITION_SECONDS, start_time=event.start, env=env)
-        __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-outro', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
+        __renderKeyFramesAndGenVideo('./slides/intro-template.html', out, f'{event.event_id}-{stream_round}-opening', config.INTRO_SECONDS, start_time=event.start, env=env)
+        __renderKeyFramesAndGenVideo('./slides/qa-template.html', out, f'{event.event_id}-{stream_round}-transition', config.QA_TRANSITION_SECONDS, start_time=event.start + timedelta(seconds=event.recorded_duration), env=env)
+        __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-closing', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
     else:
         print(f">>> Live Talk or KeyNotes {event.event_id} " + event.start.time_display + " " + event.end.time_display)
-        __renderKeyFramesAndGenVideo('./slides/intro-template.html', out, f'{event.event_id}-{stream_round}-intro', config.INTRO_SECONDS, start_time=event.start, env=env)
-        __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-outro', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
+        __renderKeyFramesAndGenVideo('./slides/intro-template.html', out, f'{event.event_id}-{stream_round}-opening', config.INTRO_SECONDS, start_time=event.start, env=env)
+        __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-closing', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
 
 
 def generateFillerVideo(stream: Stream, start_time: str):
@@ -64,18 +64,18 @@ def generateFillerVideo(stream: Stream, start_time: str):
     # A minute of clock-enabled frame for each 5 minutes
     for i in range(0, minutes, 5):
         time = CurrentTime.parse(start_time, offset=timedelta(minutes=i))
-        frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.name}/fillers/clock-{time.time_display}.png', 5, env={
+        frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.stream_id}/fillers/clock-{time.time_display}.png', 5, env={
             'stream': stream,
             'time': time
         })
-        generateFromKeyFrames(frames=[frame], video=f'./out/{stream.name}/fillers/clock-{time.time_display}.mp4')
+        generateFromKeyFrames(frames=[frame], video=f'./out/{stream.stream_id}/fillers/clock-{time.time_display}.mp4')
     # One still image video
-    frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.name}/fillers/static-{start_time}.png', 5, env={
+    frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.stream_id}/fillers/static-{start_time}.png', 5, env={
         'stream': stream,
         'time': CurrentTime.parse(start_time),
         'no_clock': True,
     })
-    generateFromKeyFrames(frames=[frame], video=f'./out/{stream.name}/fillers/static-{start_time}.mp4')
+    generateFromKeyFrames(frames=[frame], video=f'./out/{stream.stream_id}/fillers/static-{start_time}.mp4')
 
 def generateFillerVideosForStream(stream: Stream):
     for break_time in config.BREAKS:

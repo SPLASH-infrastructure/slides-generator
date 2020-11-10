@@ -3,6 +3,7 @@ from typing import List, Tuple, Optional
 from datetime import datetime, timedelta
 import json
 from . import config
+import copy
 
 # Local time for each local timezone
 @dataclass
@@ -129,7 +130,8 @@ class Event:
     start: CurrentTime
     end: CurrentTime
     recorded: Optional[str]
-    repeat: bool
+    recorded_duration: float
+    authors: str
 
     @property
     def is_prerecorded_talk(self) -> bool:
@@ -141,7 +143,7 @@ class Event:
 
     @property
     def authors_display(self) -> str:
-        return '[No Authors]'
+        return self.authors
         # return ', '.join(f'{a[0]} {a[1]}' for a in self.authors)
 
     @property
@@ -156,20 +158,27 @@ class Event:
     @staticmethod
     def load(data) -> 'Event':
         return Event(
-            name = data['name'],
+            name = data['title'],
             event_id = data['id'],
-            stream = Stream(stream_id=data['stream']),
-            start = CurrentTime.parse(data['tstart']),
-            end = CurrentTime.parse(data['tend']),
-            recorded = data['recorded'],
-            repeat = data['repeat'],
+            stream = Stream(stream_id=data['room'][9:].replace('-', '')),
+            start = CurrentTime.from_unix_timestamp(data['tstart'], timedelta(hours=-6)),
+            end = CurrentTime.from_unix_timestamp(data['tend'], timedelta(hours=-6)),
+            recorded = data['recorded_duration'] < 0,
+            recorded_duration = data['recorded_duration'],
+            authors = data['authors'],
         )
 
 def loadAllEvents(json_file: str) -> List[Event]:
     with open(json_file) as f:
         data = json.load(f)
         results = []
-        for events in data:
-            for e in events[2]:
-                results.append(Event.load(e))
+        for e in data:
+            event = Event.load(e)
+            results.append(event)
+            if event.stream.stream_id != 'SPLASHII':
+                event = copy.deepcopy(event)
+                event.start -= timedelta(hours=12)
+                event.end -= timedelta(hours=12)
+                assert event.first_round
+                results.append(event)
         return results

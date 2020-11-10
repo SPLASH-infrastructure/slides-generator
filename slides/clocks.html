@@ -102,6 +102,8 @@
     }
 </style>
 
+{% if event is defined and event.stream.stream_id != 'OOPSLAII' %}
+
 {% if time.first_round_of_streaming %}
     <table class="schedule-clock schedule-clock-right" style="position: absolute; right: 0; top: 50%;">
         <tr>
@@ -128,4 +130,6 @@
             </td>
         </tr>
     </table>
+{% endif %}
+
 {% endif %}

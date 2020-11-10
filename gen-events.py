@@ -13,7 +13,7 @@ args = parser.parse_args()
 
 # Load all events
 
-events = splash.data.loadAllEvents('./data/schedule.json')
+events = splash.data.loadAllEvents('./data/transitions.json')
 
 print(len(events))
 # Filter events by arguments
@@ -26,6 +26,8 @@ if args.event is not None:
     events = [ e for e in events if e.event_id == args.event ]
 
 # Generate
-print(events)
+# print(events)
 for e in events:
+    print(e.start.time, e.first_round, e.name)
     splash.video.generateVideoForEvent(e)
+

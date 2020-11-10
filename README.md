@@ -36,7 +36,7 @@ Generate fillers:
 
 ```
 out/
-    OOPSLA/
+    SPLASHI/
         fillers/
             clock-16:30.mp4
             clock-16:35.mp4
@@ -64,10 +64,11 @@ out/
 - [x] Display times for 13 different time zones
 - [x] Top left corner: current stream
 - [x] Better sponsor logos
-- [ ] Display auther names
+- [x] Display auther names
+- [x] Calculate time for qa-transition videos
 - [ ] Potential corner cases?
-- [ ] Calculate time for qa-transition videos
 - [ ] Output naming convention
+- [ ] Missing `recorded_duration` for some pre-recorded videos
 
 _Low Priority:_
 
