@@ -52,11 +52,11 @@ def generateVideoForEvent(event: Event):
         print(f">>> Pre-recorded Talk {event.event_id} " + event.start.time_display + " " + event.end.time_display)
         __renderKeyFramesAndGenVideo('./slides/intro-template.html', out, f'{event.event_id}-{stream_round}-intro', config.INTRO_SECONDS, start_time=event.start, env=env)
         __renderKeyFramesAndGenVideo('./slides/qa-template.html', out, f'{event.event_id}-{stream_round}-qa', config.QA_TRANSITION_SECONDS, start_time=event.start, env=env)
-        __renderKeyFramesAndGenVideo('./slides/exit-template.html', out, f'{event.event_id}-{stream_round}-outro', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
+        __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-outro', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
     else:
         print(f">>> Live Talk or KeyNotes {event.event_id} " + event.start.time_display + " " + event.end.time_display)
         __renderKeyFramesAndGenVideo('./slides/intro-template.html', out, f'{event.event_id}-{stream_round}-intro', config.INTRO_SECONDS, start_time=event.start, env=env)
-        __renderKeyFramesAndGenVideo('./slides/exit-template.html', out, f'{event.event_id}-{stream_round}-exit', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
+        __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-outro', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
 
 
 def generateFillerVideo(stream: Stream, start_time: str):
