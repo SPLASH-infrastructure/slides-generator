@@ -20,20 +20,40 @@ Ubuntu: `bash ./setup-linux.h`
 
 # Run:
 
-Generate videos for all subevents: `python3 ./gen.py`
+Generate splash videos:
 
-Generate videos for one subevent: `python3 ./gen.py --subevent=c49b3977-bf78-4796-930d-b360d8899600`
+* For all events in all streams: `./gen-events.py`
+* For one stream: `./gen-events.py --steam=OOPSLA`
+* For one event: `./gen-events.py --stream=OOPSLA --event=5d1aeb28-75c6-4924-8e7a-5cbbe33cfacd`
+
+Generate fillers:
+
+* For all streams: `./gen-fillers.py`
+* For one stream: `./gen-fillers.py --stream=OOPSLA`
+* For one break: `./gen-fillers.py --stream=OOPSLA --time=16:30`
 
 # Outout
 
 ```
 out/
-    <subevent-id>/
-        <timeslot-id>/
-            intro.mp4
-            qa.mp4
-            exit.mp4
+    OOPSLA/
+        fillers/
+            clock-16:30.mp4
+            clock-16:35.mp4
+            ...
+            clock-17:05.mp4
+            static-16:30.mp4
+        <event-id>-A-intro.mp4
+        <event-id>-A-qa.mp4
+        <event-id>-A-outro.mp4
+        <event-id>-B-intro.mp4
+        <event-id>-B-qa.mp4
+        <event-id>-B-outro.mp4
 ```
+
+`A` means this video is used for the first round of 12-hours streaming.
+
+`B` means the second round of streaming.
 
 # TODO
 
