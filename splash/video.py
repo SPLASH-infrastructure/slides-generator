@@ -78,16 +78,5 @@ def generateFillerVideo(stream: Stream, start_time: str):
     generateFromKeyFrames(frames=[frame], video=f'./out/{stream.name}/fillers/static-{start_time}.mp4')
 
 def generateFillerVideosForStream(stream: Stream):
-    # We have 12 breaks
-    generateFillerVideo(stream, '08:20')
-    generateFillerVideo(stream, '10:20')
-    generateFillerVideo(stream, '12:20')
-    generateFillerVideo(stream, '14:20')
-    generateFillerVideo(stream, '16:20')
-    generateFillerVideo(stream, '18:20')
-    generateFillerVideo(stream, '20:20')
-    generateFillerVideo(stream, '22:20')
-    generateFillerVideo(stream, '00:20')
-    generateFillerVideo(stream, '02:20')
-    generateFillerVideo(stream, '04:20')
-    generateFillerVideo(stream, '06:20')
+    for break_time in config.BREAKS:
+        generateFillerVideo(stream, break_time)

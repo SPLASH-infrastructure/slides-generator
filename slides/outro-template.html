@@ -16,7 +16,11 @@
 
         </div>
 
-        <img src="./split-exit.png" style="position: absolute; top: 15em; right: 17em; width: 1000px;">
+        {% if event.is_last_event_before_break %}
+            <img src="./split-break.png" style="position: absolute; top: 15em; right: 17em; width: 1000px;">
+        {% else %}
+            <img src="./split-exit.png" style="position: absolute; top: 15em; right: 17em; width: 1000px;">
+        {% endif %}
 
         {% include 'sponsors.html' %}
     </div>

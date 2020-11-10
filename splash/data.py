@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from typing import List, Tuple, Optional
 from datetime import datetime, timedelta
 import json
+from . import config
 
 # Local time for each local timezone
 @dataclass
@@ -146,6 +147,11 @@ class Event:
     @property
     def first_round(self) -> bool:
         return self.start.first_round_of_streaming
+
+    @property
+    def is_last_event_before_break(self) -> bool:
+        time = self.start.time_display
+        return time in config.START_TIME_OF_LAST_EVENT_BEFORE_BREAK
 
     @staticmethod
     def load(data) -> 'Event':
