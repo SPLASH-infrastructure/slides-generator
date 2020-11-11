@@ -7,7 +7,7 @@ from datetime import datetime
 
 parser = argparse.ArgumentParser(description='Generate all event splash videos')
 
-parser.add_argument('--stream', type=str, help='Generate splash videos only for the given stream. Must oe one of ["OOPSLA", "Rebase", "SPLASH"].')
+parser.add_argument('--stream', type=str, help='Generate splash videos only for the given stream. Must oe one of ["SPLASHI", "SPLASHII", "SPLASHIII"].')
 parser.add_argument('--event', type=str, help='Generate splash videos only for the given event-id. (--stream must be specified)')
 parser.add_argument('--start', type=str, help='Time range limits')
 parser.add_argument('--end', type=str, help='Time range limits')
@@ -35,11 +35,13 @@ if args.end is not None:
     end = datetime.strptime(args.end, '%y-%m-%d-%H:%M')
     # for e in events: print(e.start.time)
     # Generate videos for the given event id
-    events = [ e for e in events if e.end.time <= end ]
+    events = [ e for e in events if e.start.time < end ]
+
+events = sorted(events, key=lambda e: e.start.time)
 
 # Generate
 # print(events)
 for e in events:
-    print(e.start.time, e.first_round, e.name)
+    print(f"========== {e.start.time} - {e.end.time} : {e.name} ({e.first_round}) ==========")
     splash.video.generateVideoForEvent(e)
 
