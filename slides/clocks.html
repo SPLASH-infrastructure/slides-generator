@@ -9,7 +9,7 @@
     border-spacing: 0;
     font-weight: bold;
     width: 1350px;
-    left: 370px;
+    left: 250px;
     top: 1em;
 }
 .clocks td {
@@ -58,23 +58,6 @@
 </div>
 
 <!-- Three rooms at the left top corner  -->
-
-<table style="position: absolute; top: 0px; left: 10px; width: 300px;">
-    <tr>
-        <td style="position: relative">
-            <img src="./{% if stream.name == 'OOPSLA' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
-            <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">OOPSLA</p>
-        </td>
-        <td style="position: relative">
-            <img src="./{% if stream.name == 'Rebase' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
-            <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">Rebase</p>
-        </td>
-        <td style="position: relative">
-            <img src="./{% if stream.name == 'SPLASH' %}room-active{% else %}room-inactive{% endif %}.png" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
-            <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">SPLASH</p>
-        </td>
-    </tr>
-</table>
 
 <!-- Scheduled again in 12 hours -->
 
