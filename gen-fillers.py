@@ -12,13 +12,24 @@ parser.add_argument('--time', type=str, help='Generate fillers only for the give
 
 args = parser.parse_args()
 
-if args.stream is None:
-    # Generate all fillers for all three streams
-    for stream in ['OOPSLA', 'Rebase', 'SPLASH']:
-        splash.video.generateFillerVideosForStream(stream=Stream.from_name(stream))
-elif args.time is None:
-    # Generate all fillers for the given stream
-    splash.video.generateFillerVideosForStream(stream=Stream.from_name(args.stream))
-else:
-    # Generate filler for the given stream and time
-    splash.video.generateFillerVideo(stream=Stream.from_name(args.stream), start_time=args.time)
+# Load all breaks
+
+breaks = splash.data.loadAllBreaks('./data/breaks.json')
+
+# Filter events by arguments
+
+if args.stream is not None:
+    # Generate videos for the given stream
+    breaks = [ b for b in breaks if b.stream.name == args.stream ]
+if args.time is not None:
+    # Generate videos for the given start time
+    breaks = [ b for b in breaks if b.start.time_display == args.time ]
+
+breaks = {
+    f'{b.start.time_display} {b.end.time_display} {b.stream.stream_id}': b for b in breaks
+}
+
+breaks = [ v for v in breaks.values() ]
+
+for b in breaks:
+    splash.video.generateFillerVideoForBreak(b)

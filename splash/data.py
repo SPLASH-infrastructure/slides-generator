@@ -182,3 +182,31 @@ def loadAllEvents(json_file: str) -> List[Event]:
                 assert event.first_round
                 results.append(event)
         return results
+
+
+
+@dataclass
+class Break:
+    start: CurrentTime
+    end: CurrentTime
+    stream: Stream
+
+
+
+def loadAllBreaks(json_file: str) -> List[Break]:
+    with open(json_file) as f:
+        data = json.load(f)
+        results = []
+        for a in data:
+            start = CurrentTime.from_unix_timestamp(a[0], timedelta(hours=-6))
+            end = CurrentTime.from_unix_timestamp(a[1], timedelta(hours=-6))
+            streams = ['SPLASHI', 'SPLASHII', 'SPLASHIII']
+            for e in a[2]:
+                streams = [s for s in streams if s != e['stream']]
+            for s in streams:
+                results.append(Break(
+                    start=start,
+                    end=end,
+                    stream=Stream(stream_id=s)
+                ))
+        return results

@@ -3,7 +3,7 @@ from typing import List
 import os
 from . import config
 from datetime import timedelta
-from .data import CurrentTime, Stream, Event
+from .data import CurrentTime, Stream, Event, Break
 
 
 
@@ -59,24 +59,24 @@ def generateVideoForEvent(event: Event):
         __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-closing', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
 
 
-def generateFillerVideo(stream: Stream, start_time: str):
-    minutes = config.FILLER_MINUTES
+def generateFillerVideoForBreak(b: Break):
+    stream = b.stream
+    start_time = b.start
+    minutes = int((b.end.time - start_time.time).total_seconds() / 60)
     # A minute of clock-enabled frame for each 5 minutes
     for i in range(0, minutes, 5):
-        time = CurrentTime.parse(start_time, offset=timedelta(minutes=i))
+        time = start_time + timedelta(minutes=i)
         frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.stream_id}/fillers/clock-{time.time_display}.png', 5, env={
             'stream': stream,
             'time': time
         })
-        generateFromKeyFrames(frames=[frame], video=f'./out/{stream.stream_id}/fillers/clock-{time.time_display}.mp4')
+        if not config.GENERATE_IMAGE_ONLY:
+            generateFromKeyFrames(frames=[frame], video=f'./out/{stream.stream_id}/fillers/clock-{time.time_display}.mp4')
     # One still image video
-    frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.stream_id}/fillers/static-{start_time}.png', 5, env={
+    frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.stream_id}/fillers/static-{start_time.time_display}.png', 5, env={
         'stream': stream,
-        'time': CurrentTime.parse(start_time),
+        'time': start_time,
         'no_clock': True,
     })
-    generateFromKeyFrames(frames=[frame], video=f'./out/{stream.stream_id}/fillers/static-{start_time}.mp4')
-
-def generateFillerVideosForStream(stream: Stream):
-    for break_time in config.BREAKS:
-        generateFillerVideo(stream, break_time)
+    if not config.GENERATE_IMAGE_ONLY:
+        generateFromKeyFrames(frames=[frame], video=f'./out/{stream.stream_id}/fillers/static-{start_time.time_display}.mp4')
