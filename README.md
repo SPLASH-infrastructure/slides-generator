@@ -23,14 +23,14 @@ Ubuntu: `bash ./setup-linux.h`
 Generate splash videos:
 
 * For all events in all streams: `./gen-events.py`
-* For one stream: `./gen-events.py --steam=OOPSLA`
-* For one event: `./gen-events.py --stream=OOPSLA --event=5d1aeb28-75c6-4924-8e7a-5cbbe33cfacd`
+* For one stream: `./gen-events.py --steam=SPLASHI`
+* For one event: `./gen-events.py --stream=SPLASHI --event=5d1aeb28-75c6-4924-8e7a-5cbbe33cfacd`
 
 Generate fillers:
 
 * For all streams: `./gen-fillers.py`
-* For one stream: `./gen-fillers.py --stream=OOPSLA`
-* For one break: `./gen-fillers.py --stream=OOPSLA --time=16:30`
+* For one stream: `./gen-fillers.py --stream=SPLASHI`
+* For one break: `./gen-fillers.py --stream=SPLASHI --time=16:30`
 
 # Outout
 
