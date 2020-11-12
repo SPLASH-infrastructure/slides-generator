@@ -11,7 +11,7 @@ def htmlToPNG(html, png, env):
     template = templateEnv.get_template(os.path.basename(html))
     with open('./slides/.temp.html', 'w') as out_file:
         out_file.write(template.render(**env))
-    os.system(f'xvfb-run -a -s "-screen 0 1960x1080x16" wkhtmltoimage --enable-local-file-access --height 1080 --width 1960 ./slides/.temp.html {png}')
+    os.system(f'xvfb-run -a -s "-screen 0 1920x1080x16" wkhtmltoimage --enable-local-file-access --height 1080 --width 1920 ./slides/.temp.html {png}')
     assert os.path.exists(png)
     return png
 
