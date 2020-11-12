@@ -8,14 +8,14 @@
     border-collapse: collapse;
     border-spacing: 0;
     font-weight: 700;
-    width: 1350px;
+    width: 1300px;
     /* left: 250px; */
-    left: 200px;
+    left: 350px;
     top: 1em;
 }
 .clocks td {
-    width: 120px;
-    padding: 8px;
+    width: 100px;
+    padding: 4px;
     text-align: center;
 }
 
@@ -32,6 +32,17 @@
     background: black;
     opacity: 0.5;
     z-index: 100000000;
+}
+
+.room {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+}
+
+.room-inactive {
+    opacity: 0.5;
 }
 </style>
 
@@ -60,6 +71,25 @@
 </div>
 
 <!-- Three rooms at the left top corner  -->
+
+{% if stream is defined %}
+<table style="position: absolute; top: 10px; left: 10px; width: 300px;">
+    <tr>
+        <td style="position: relative">
+            <img src="./splash-I.png" class="room {% if stream.stream_id != 'SPLASHI' %}room-inactive{% endif %}">
+            <!-- <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">OOPSLA</p> -->
+        </td>
+        <td style="position: relative">
+            <img src="./splash-II.png" class="room {% if stream.stream_id != 'SPLASHII' %}room-inactive{% endif %}">
+            <!-- <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">Rebase</p> -->
+        </td>
+        <td style="position: relative">
+            <img src="./splash-III.png" class="room {% if stream.stream_id != 'SPLASHIII' %}room-inactive{% endif %}">
+            <!-- <p style="text-align: center; font-size: 20px; margin: 0; margin-top: -10px; color: white;">SPLASH</p> -->
+        </td>
+    </tr>
+</table>
+{% endif %}
 
 <!-- Scheduled again in 12 hours -->
 
