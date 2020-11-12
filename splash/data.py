@@ -132,10 +132,11 @@ class Event:
     recorded: Optional[str]
     recorded_duration: float
     authors: str
+    has_transition: bool
 
     @property
     def is_prerecorded_talk(self) -> bool:
-        return self.recorded is not None
+        return self.has_transition
 
     @property
     def is_live_talk(self) -> bool:
@@ -153,7 +154,14 @@ class Event:
     @property
     def is_last_event_before_break(self) -> bool:
         time = self.start.time_display
-        return time in config.START_TIME_OF_LAST_EVENT_BEFORE_BREAK
+        if time in config.START_TIME_OF_LAST_EVENT_BEFORE_BREAK: return True
+        global BREAKS
+        if BREAKS is None:
+            BREAKS = loadAllBreaks('data/breaks.json')
+        for b in BREAKS:
+            if b.stream.stream_id == self.stream.stream_id and self.end.time == b.start.time:
+                return True
+        return False
 
     @staticmethod
     def load(data) -> 'Event':
@@ -166,6 +174,7 @@ class Event:
             recorded = data['recorded_duration'] < 0,
             recorded_duration = data['recorded_duration'],
             authors = data['authors'],
+            has_transition = data['has_transition'],
         )
 
 def loadAllEvents(json_file: str) -> List[Event]:
@@ -191,7 +200,7 @@ class Break:
     end: CurrentTime
     stream: Stream
 
-
+BREAKS = None
 
 def loadAllBreaks(json_file: str) -> List[Break]:
     with open(json_file) as f:

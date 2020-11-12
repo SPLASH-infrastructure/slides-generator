@@ -3,6 +3,7 @@
 import splash
 from splash.data import Stream
 import argparse
+from datetime import datetime
 
 
 parser = argparse.ArgumentParser(description='Generate all filler videos')
@@ -29,12 +30,12 @@ if args.time is not None:
 if args.start is not None:
     start = datetime.strptime(args.start, '%y-%m-%d-%H:%M')
     # Generate videos for the given event id
-    events = [ b for b in breaks if b.start.time >= start ]
+    breaks = [ b for b in breaks if b.start.time >= start ]
 if args.end is not None:
     end = datetime.strptime(args.end, '%y-%m-%d-%H:%M')
     # for e in events: print(e.start.time)
     # Generate videos for the given event id
-    events = [ b for b in breaks if b.start.time < end ]
+    breaks = [ b for b in breaks if b.start.time < end ]
 
 breaks = {
     f'{b.start.time_display} {b.end.time_display} {b.stream.stream_id}': b for b in breaks
