@@ -110,17 +110,10 @@ class Stream:
 
     @property
     def name(self) -> str:
-        if self.stream_id == 'SPLASHI': return 'OOPSLA'
-        if self.stream_id == 'SPLASHII': return 'Rebase'
-        if self.stream_id == 'SPLASHIII': return 'SPLASH'
+        if self.stream_id == 'SPLASHI': return 'SPLASH-I'
+        if self.stream_id == 'SPLASHII': return 'SPLASH-II'
+        if self.stream_id == 'SPLASHIII': return 'SPLASH-III'
         assert False, f'Invalid steam: {self.stream_id}'
-
-    @staticmethod
-    def from_name(name: str) -> 'Stream':
-        if name == 'OOPSLA': return Stream(stream_id='SPLASHI')
-        if name == 'Rebase': return Stream(stream_id='SPLASHII')
-        if name == 'SPLASH': return Stream(stream_id='SPLASHIII')
-        assert False, f'Invalid name: {name}'
 
 @dataclass
 class Event:
