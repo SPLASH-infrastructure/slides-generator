@@ -184,12 +184,20 @@ def loadAllEvents(json_file: str) -> List[Event]:
         for e in data:
             event = Event.load(e)
             results.append(event)
-            if event.stream.stream_id != 'SPLASHII':
-                event = copy.deepcopy(event)
-                event.start -= timedelta(hours=12)
-                event.end -= timedelta(hours=12)
-                assert event.first_round
-                results.append(event)
+            # if event.stream.stream_id != 'SPLASHII':
+            if True:
+                if event.first_round:
+                    event = copy.deepcopy(event)
+                    event.start += timedelta(hours=12)
+                    event.end += timedelta(hours=12)
+                    assert not event.first_round
+                    results.append(event)
+                else:
+                    event = copy.deepcopy(event)
+                    event.start -= timedelta(hours=12)
+                    event.end -= timedelta(hours=12)
+                    assert event.first_round
+                    results.append(event)
         return results
 
 
