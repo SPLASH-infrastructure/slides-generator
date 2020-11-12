@@ -2,4 +2,6 @@ slides/.temp.html
 out/
 __pycache__/
 .DS_Store
+log
 *.log
+_*
