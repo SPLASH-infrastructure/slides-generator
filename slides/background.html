@@ -1,2 +1,6 @@
-<img src="./backgrounds/{{time.background_image}}.png" class="background">
+{% if time is defined %}
+    <img src="./backgrounds/{{time.background_image}}.png" class="background">
+{% else %}
+    <img src="./backgrounds/breakfast-in-chicago.png" class="background">
+{% endif %}
 <div class="translucent-layer"></div>
