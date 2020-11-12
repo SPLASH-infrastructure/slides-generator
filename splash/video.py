@@ -19,11 +19,15 @@ def generateFromKeyFrames(frames: List[KeyFrame], video: str):
     with open(ffconcat, 'w') as f:
         f.write(ffconcat_content)
     os.system(f'ffmpeg -y -safe 0 -i {ffconcat} -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -af "aresample=async=1:min_hard_comp=0.100000:first_pts=0" -g 60 -c:v libx264 -r 30 -t {duration} -pix_fmt yuv420p {video}')
+    assert os.path.exists(video)
 
 
 def __renderKeyFramesAndGenVideo(template: str, outdir: str, basename: str, duration: int, start_time: CurrentTime, env):
     frames = []
     counter = 0
+    if config.SKIP_EXISTING and os.path.exists(f'{outdir}/{basename}.mp4'):
+        print(f'Skip: {outdir}/{basename}.mp4')
+        return
     for i in range(0, duration, 60):
         time = start_time + timedelta(seconds=i)
         env['time'] = time
@@ -62,6 +66,9 @@ def generateVideoForEvent(event: Event):
 def generateFillerVideoForBreak(b: Break):
     stream = b.stream
     start_time = b.start
+    if config.SKIP_EXISTING and os.path.exists(f'./out/{stream.stream_id}/fillers/static-{start_time.time_display}.mp4'):
+        print(f'Skip: {stream.stream_id}/fillers/static-{start_time.time_display}.mp4')
+        return
     minutes = int((b.end.time - start_time.time).total_seconds() / 60)
     # A minute of clock-enabled frame for each 5 minutes
     for i in range(0, minutes, 5):

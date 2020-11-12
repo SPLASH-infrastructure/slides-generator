@@ -1,6 +1,7 @@
 import os
 
 GENERATE_IMAGE_ONLY = os.getenv('IMAGE_ONLY') is not None
+SKIP_EXISTING = os.getenv('SKIP_EXISTING') is not None
 
 INTRO_SECONDS = 5
 QA_TRANSITION_SECONDS = 5
