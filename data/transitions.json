@@ -2,7 +2,7 @@
     {
         "recorded_duration": 941.84,
         "track": "ECOOP 2020",
-        "tend": 1605502800,
+        "tend": 1605504000,
         "closing_video": "51bcdb71-4f23-4307-a4b8-8565ca1fb7ab-closing.mp4",
         "transition_video": "51bcdb71-4f23-4307-a4b8-8565ca1fb7ab-transition.mp4",
         "id": "51bcdb71-4f23-4307-a4b8-8565ca1fb7ab",
@@ -16,11 +16,12 @@
     {
         "recorded_duration": 2144.48,
         "track": "REBASE",
-        "tend": 1605603600,
+        "tend": 1605606000,
         "closing_video": "8875d96d-01cb-41f7-bb72-48ddc6799c32-closing.mp4",
+        "transition_video": "8875d96d-01cb-41f7-bb72-48ddc6799c32-transition.mp4",
         "id": "8875d96d-01cb-41f7-bb72-48ddc6799c32",
         "opening_video": "8875d96d-01cb-41f7-bb72-48ddc6799c32-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605603600,
         "title": "SQLancer: Automatically Finding Bugs in Databases",
         "authors": "Manuel Rigger",
@@ -29,7 +30,7 @@
     {
         "recorded_duration": 959.013333,
         "track": "ECOOP 2020",
-        "tend": 1605597600,
+        "tend": 1605598800,
         "closing_video": "0e16ed75-4dc8-4d08-a503-c23f55e52859-closing.mp4",
         "transition_video": "0e16ed75-4dc8-4d08-a503-c23f55e52859-transition.mp4",
         "id": "0e16ed75-4dc8-4d08-a503-c23f55e52859",
@@ -43,7 +44,7 @@
     {
         "recorded_duration": 919.366667,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605590400,
+        "tend": 1605591600,
         "closing_video": "96904519-a65b-454a-beea-44c4b59c05c4-closing.mp4",
         "transition_video": "96904519-a65b-454a-beea-44c4b59c05c4-transition.mp4",
         "id": "96904519-a65b-454a-beea-44c4b59c05c4",
@@ -57,7 +58,7 @@
     {
         "recorded_duration": 958.56,
         "track": "ECOOP 2020",
-        "tend": 1605505200,
+        "tend": 1605506400,
         "closing_video": "fca401c6-2be9-4344-9688-7495c67214c0-closing.mp4",
         "transition_video": "fca401c6-2be9-4344-9688-7495c67214c0-transition.mp4",
         "id": "fca401c6-2be9-4344-9688-7495c67214c0",
@@ -71,7 +72,7 @@
     {
         "recorded_duration": 938.24,
         "track": "OOPSLA",
-        "tend": 1605669600,
+        "tend": 1605670800,
         "closing_video": "93f41bfd-9988-4002-8de8-22ce8bf00c55-closing.mp4",
         "transition_video": "93f41bfd-9988-4002-8de8-22ce8bf00c55-transition.mp4",
         "id": "93f41bfd-9988-4002-8de8-22ce8bf00c55",
@@ -85,7 +86,7 @@
     {
         "recorded_duration": 878.856667,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605513600,
+        "tend": 1605514800,
         "closing_video": "77baa9ff-0f71-458a-b6de-9cff6f8a7642-closing.mp4",
         "transition_video": "77baa9ff-0f71-458a-b6de-9cff6f8a7642-transition.mp4",
         "id": "77baa9ff-0f71-458a-b6de-9cff6f8a7642",
@@ -99,7 +100,7 @@
     {
         "recorded_duration": 893.6928,
         "track": "OOPSLA",
-        "tend": 1605780000,
+        "tend": 1605781200,
         "closing_video": "3861b0b2-0efa-45db-a79a-416ae2de5a28-closing.mp4",
         "transition_video": "3861b0b2-0efa-45db-a79a-416ae2de5a28-transition.mp4",
         "id": "3861b0b2-0efa-45db-a79a-416ae2de5a28",
@@ -113,7 +114,7 @@
     {
         "recorded_duration": 827.12,
         "track": "OOPSLA",
-        "tend": 1605856800,
+        "tend": 1605858000,
         "closing_video": "0484f76d-7e8f-42de-be40-69afe1f78f7d-closing.mp4",
         "transition_video": "0484f76d-7e8f-42de-be40-69afe1f78f7d-transition.mp4",
         "id": "0484f76d-7e8f-42de-be40-69afe1f78f7d",
@@ -127,7 +128,7 @@
     {
         "recorded_duration": 921.966667,
         "track": "OOPSLA",
-        "tend": 1605855600,
+        "tend": 1605856800,
         "closing_video": "c500592f-2d9a-4056-99b3-b5e5865667b4-closing.mp4",
         "transition_video": "c500592f-2d9a-4056-99b3-b5e5865667b4-transition.mp4",
         "id": "c500592f-2d9a-4056-99b3-b5e5865667b4",
@@ -141,7 +142,7 @@
     {
         "recorded_duration": 975.333333,
         "track": "OOPSLA",
-        "tend": 1605920400,
+        "tend": 1605921600,
         "closing_video": "fd3d1690-7023-4d0a-a100-6ba2b8f4497c-closing.mp4",
         "transition_video": "fd3d1690-7023-4d0a-a100-6ba2b8f4497c-transition.mp4",
         "id": "fd3d1690-7023-4d0a-a100-6ba2b8f4497c",
@@ -155,7 +156,7 @@
     {
         "recorded_duration": 968.253968,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605592800,
+        "tend": 1605594000,
         "closing_video": "8418bc21-ddd2-4ae2-aef7-57450c6d8922-closing.mp4",
         "transition_video": "8418bc21-ddd2-4ae2-aef7-57450c6d8922-transition.mp4",
         "id": "8418bc21-ddd2-4ae2-aef7-57450c6d8922",
@@ -169,7 +170,7 @@
     {
         "recorded_duration": 878.04,
         "track": "OOPSLA",
-        "tend": 1605928800,
+        "tend": 1605930000,
         "closing_video": "7907d076-ba43-4ab2-87fb-41a41db9c572-closing.mp4",
         "transition_video": "7907d076-ba43-4ab2-87fb-41a41db9c572-transition.mp4",
         "id": "7907d076-ba43-4ab2-87fb-41a41db9c572",
@@ -183,7 +184,7 @@
     {
         "recorded_duration": 1150.7,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605783600,
+        "tend": 1605784800,
         "closing_video": "890ea906-b119-4828-8f45-d132f9c38082-closing.mp4",
         "transition_video": "890ea906-b119-4828-8f45-d132f9c38082-transition.mp4",
         "id": "890ea906-b119-4828-8f45-d132f9c38082",
@@ -197,11 +198,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605625200,
+        "tend": 1605627600,
         "closing_video": "05a740f8-7a2d-42bb-a92d-7cfa31345b5f-closing.mp4",
+        "transition_video": "05a740f8-7a2d-42bb-a92d-7cfa31345b5f-transition.mp4",
         "id": "05a740f8-7a2d-42bb-a92d-7cfa31345b5f",
         "opening_video": "05a740f8-7a2d-42bb-a92d-7cfa31345b5f-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605625200,
         "title": "Gillian: a Multi-language Platform for Compositional Symbolic Analysis",
         "authors": "Philippa Gardner",
@@ -210,11 +212,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605589200,
+        "tend": 1605591600,
         "closing_video": "9909752f-2f85-4ed3-abab-a13ebbc9e912-closing.mp4",
+        "transition_video": "9909752f-2f85-4ed3-abab-a13ebbc9e912-transition.mp4",
         "id": "9909752f-2f85-4ed3-abab-a13ebbc9e912",
         "opening_video": "9909752f-2f85-4ed3-abab-a13ebbc9e912-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605589200,
         "title": "Herding Nulls in Dart",
         "authors": "Erik Ernst",
@@ -223,7 +226,7 @@
     {
         "recorded_duration": 891.8,
         "track": "ECOOP 2020",
-        "tend": 1605495600,
+        "tend": 1605496800,
         "closing_video": "e5b5bb01-82ec-490b-a4e5-e62389f99279-closing.mp4",
         "transition_video": "e5b5bb01-82ec-490b-a4e5-e62389f99279-transition.mp4",
         "id": "e5b5bb01-82ec-490b-a4e5-e62389f99279",
@@ -237,7 +240,7 @@
     {
         "recorded_duration": 926.4,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605598800,
+        "tend": 1605600000,
         "closing_video": "b729c3ab-2dd0-40dc-a295-f2f0e47d41fa-closing.mp4",
         "transition_video": "b729c3ab-2dd0-40dc-a295-f2f0e47d41fa-transition.mp4",
         "id": "b729c3ab-2dd0-40dc-a295-f2f0e47d41fa",
@@ -251,7 +254,7 @@
     {
         "recorded_duration": 900.76,
         "track": "OOPSLA",
-        "tend": 1605770400,
+        "tend": 1605771600,
         "closing_video": "c3abeda5-100d-409c-8506-b3ec6c6db79f-closing.mp4",
         "transition_video": "c3abeda5-100d-409c-8506-b3ec6c6db79f-transition.mp4",
         "id": "c3abeda5-100d-409c-8506-b3ec6c6db79f",
@@ -265,7 +268,7 @@
     {
         "recorded_duration": 907.5066,
         "track": "OOPSLA",
-        "tend": 1605670800,
+        "tend": 1605672000,
         "closing_video": "bf240e74-90f0-407b-8552-d2d71c9c86e4-closing.mp4",
         "transition_video": "bf240e74-90f0-407b-8552-d2d71c9c86e4-transition.mp4",
         "id": "bf240e74-90f0-407b-8552-d2d71c9c86e4",
@@ -279,7 +282,7 @@
     {
         "recorded_duration": 948.566667,
         "track": "OOPSLA",
-        "tend": 1605921600,
+        "tend": 1605922800,
         "closing_video": "a96ad696-c68c-417e-8be4-411ad8b965f2-closing.mp4",
         "transition_video": "a96ad696-c68c-417e-8be4-411ad8b965f2-transition.mp4",
         "id": "a96ad696-c68c-417e-8be4-411ad8b965f2",
@@ -293,7 +296,7 @@
     {
         "recorded_duration": 916.476916,
         "track": "OOPSLA",
-        "tend": 1605675600,
+        "tend": 1605676800,
         "closing_video": "b926e1ec-10a6-4b30-9b63-77836ac884b7-closing.mp4",
         "transition_video": "b926e1ec-10a6-4b30-9b63-77836ac884b7-transition.mp4",
         "id": "b926e1ec-10a6-4b30-9b63-77836ac884b7",
@@ -307,7 +310,7 @@
     {
         "recorded_duration": 904.036467,
         "track": "OOPSLA",
-        "tend": 1605668400,
+        "tend": 1605669600,
         "closing_video": "5d1aeb28-75c6-4924-8e7a-5cbbe33cfacd-closing.mp4",
         "transition_video": "5d1aeb28-75c6-4924-8e7a-5cbbe33cfacd-transition.mp4",
         "id": "5d1aeb28-75c6-4924-8e7a-5cbbe33cfacd",
@@ -321,7 +324,7 @@
     {
         "recorded_duration": 901.233333,
         "track": "OOPSLA",
-        "tend": 1605862800,
+        "tend": 1605864000,
         "closing_video": "762acf95-3734-44cf-94f3-333cf54f7969-closing.mp4",
         "transition_video": "762acf95-3734-44cf-94f3-333cf54f7969-transition.mp4",
         "id": "762acf95-3734-44cf-94f3-333cf54f7969",
@@ -335,7 +338,7 @@
     {
         "recorded_duration": 872.9,
         "track": "OOPSLA",
-        "tend": 1605936000,
+        "tend": 1605937200,
         "closing_video": "275f97bd-396a-4f74-95be-90160be2ffc2-closing.mp4",
         "transition_video": "275f97bd-396a-4f74-95be-90160be2ffc2-transition.mp4",
         "id": "275f97bd-396a-4f74-95be-90160be2ffc2",
@@ -349,11 +352,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605510000,
+        "tend": 1605512400,
         "closing_video": "9ca583dd-05ba-44fc-b913-6a78719ea4e0-closing.mp4",
+        "transition_video": "9ca583dd-05ba-44fc-b913-6a78719ea4e0-transition.mp4",
         "id": "9ca583dd-05ba-44fc-b913-6a78719ea4e0",
         "opening_video": "9ca583dd-05ba-44fc-b913-6a78719ea4e0-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605510000,
         "title": "A Ray of Hope: Array Programming for the 21st Century",
         "authors": "Gilad Bracha",
@@ -362,7 +366,7 @@
     {
         "recorded_duration": 917.664918,
         "track": "OOPSLA",
-        "tend": 1605676800,
+        "tend": 1605678000,
         "closing_video": "7425f134-286b-4c4d-998b-71b90c993ce0-closing.mp4",
         "transition_video": "7425f134-286b-4c4d-998b-71b90c993ce0-transition.mp4",
         "id": "7425f134-286b-4c4d-998b-71b90c993ce0",
@@ -376,7 +380,7 @@
     {
         "recorded_duration": 897.866667,
         "track": "OOPSLA",
-        "tend": 1605942000,
+        "tend": 1605943200,
         "closing_video": "74c28b24-629b-4e90-837d-28d2c9d362d6-closing.mp4",
         "transition_video": "74c28b24-629b-4e90-837d-28d2c9d362d6-transition.mp4",
         "id": "74c28b24-629b-4e90-837d-28d2c9d362d6",
@@ -390,7 +394,7 @@
     {
         "recorded_duration": 918.636872,
         "track": "OOPSLA",
-        "tend": 1605951600,
+        "tend": 1605952800,
         "closing_video": "67d39e09-ddf4-4c9d-8d1b-b8dffa795e2f-closing.mp4",
         "transition_video": "67d39e09-ddf4-4c9d-8d1b-b8dffa795e2f-transition.mp4",
         "id": "67d39e09-ddf4-4c9d-8d1b-b8dffa795e2f",
@@ -404,7 +408,7 @@
     {
         "recorded_duration": 877.5,
         "track": "Onward! Essays",
-        "tend": 1605670800,
+        "tend": 1605672000,
         "closing_video": "61a0b3ff-079e-4f32-b965-6212b38b01cc-closing.mp4",
         "transition_video": "61a0b3ff-079e-4f32-b965-6212b38b01cc-transition.mp4",
         "id": "61a0b3ff-079e-4f32-b965-6212b38b01cc",
@@ -418,7 +422,7 @@
     {
         "recorded_duration": 942.166667,
         "track": "OOPSLA",
-        "tend": 1605776400,
+        "tend": 1605777600,
         "closing_video": "b766280d-c659-44b7-ad70-289237a4edcc-closing.mp4",
         "transition_video": "b766280d-c659-44b7-ad70-289237a4edcc-transition.mp4",
         "id": "b766280d-c659-44b7-ad70-289237a4edcc",
@@ -432,7 +436,7 @@
     {
         "recorded_duration": 814.9,
         "track": "OOPSLA",
-        "tend": 1605950400,
+        "tend": 1605951600,
         "closing_video": "88644c6c-8c4f-495f-859b-174d3c0ad26b-closing.mp4",
         "transition_video": "88644c6c-8c4f-495f-859b-174d3c0ad26b-transition.mp4",
         "id": "88644c6c-8c4f-495f-859b-174d3c0ad26b",
@@ -446,7 +450,7 @@
     {
         "recorded_duration": 902.8,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605591600,
+        "tend": 1605592800,
         "closing_video": "0579642d-68a8-476d-85c0-4a8d1667dd31-closing.mp4",
         "transition_video": "0579642d-68a8-476d-85c0-4a8d1667dd31-transition.mp4",
         "id": "0579642d-68a8-476d-85c0-4a8d1667dd31",
@@ -460,7 +464,7 @@
     {
         "recorded_duration": 900.233333,
         "track": "Onward! Papers",
-        "tend": 1605692400,
+        "tend": 1605693600,
         "closing_video": "c542014b-18d7-4287-87c7-d9a630060cef-closing.mp4",
         "transition_video": "c542014b-18d7-4287-87c7-d9a630060cef-transition.mp4",
         "id": "c542014b-18d7-4287-87c7-d9a630060cef",
@@ -474,7 +478,7 @@
     {
         "recorded_duration": 917.36,
         "track": "Onward! Essays",
-        "tend": 1605678000,
+        "tend": 1605679200,
         "closing_video": "c7a92e3e-e35f-4c15-9cd3-ea11f7016ac0-closing.mp4",
         "transition_video": "c7a92e3e-e35f-4c15-9cd3-ea11f7016ac0-transition.mp4",
         "id": "c7a92e3e-e35f-4c15-9cd3-ea11f7016ac0",
@@ -488,11 +492,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605934800,
+        "tend": 1605937200,
         "closing_video": "0b5c7264-a9ac-43c5-b25b-baff765650af-closing.mp4",
+        "transition_video": "0b5c7264-a9ac-43c5-b25b-baff765650af-transition.mp4",
         "id": "0b5c7264-a9ac-43c5-b25b-baff765650af",
         "opening_video": "0b5c7264-a9ac-43c5-b25b-baff765650af-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605934800,
         "title": "Co-Design for High-Performance Computing Software Systems",
         "authors": "Min Si",
@@ -501,7 +506,7 @@
     {
         "recorded_duration": -1.0,
         "track": "Keynotes",
-        "tend": 1605754800,
+        "tend": 1605759600,
         "closing_video": "524d2a59-9a05-498f-879b-750d10430c79-closing.mp4",
         "transition_video": "524d2a59-9a05-498f-879b-750d10430c79-transition.mp4",
         "id": "524d2a59-9a05-498f-879b-750d10430c79",
@@ -515,7 +520,7 @@
     {
         "recorded_duration": 821.533333,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605596400,
+        "tend": 1605597600,
         "closing_video": "bee221c2-518e-4f38-a9b4-996285b8693f-closing.mp4",
         "transition_video": "bee221c2-518e-4f38-a9b4-996285b8693f-transition.mp4",
         "id": "bee221c2-518e-4f38-a9b4-996285b8693f",
@@ -529,7 +534,7 @@
     {
         "recorded_duration": 893.211893,
         "track": "OOPSLA",
-        "tend": 1605700800,
+        "tend": 1605702000,
         "closing_video": "71956917-c601-44ae-8f7c-0e7327f4fa45-closing.mp4",
         "transition_video": "71956917-c601-44ae-8f7c-0e7327f4fa45-transition.mp4",
         "id": "71956917-c601-44ae-8f7c-0e7327f4fa45",
@@ -543,7 +548,7 @@
     {
         "recorded_duration": 890.033333,
         "track": "OOPSLA",
-        "tend": 1605603600,
+        "tend": 1605604800,
         "closing_video": "f94ed25c-81d9-4aad-b499-42ebb3391f9d-closing.mp4",
         "transition_video": "f94ed25c-81d9-4aad-b499-42ebb3391f9d-transition.mp4",
         "id": "f94ed25c-81d9-4aad-b499-42ebb3391f9d",
@@ -557,7 +562,7 @@
     {
         "recorded_duration": 950.2,
         "track": "ECOOP 2020",
-        "tend": 1605591600,
+        "tend": 1605592800,
         "closing_video": "2d767f19-3b2e-4257-94c7-e2f1d09b2a18-closing.mp4",
         "transition_video": "2d767f19-3b2e-4257-94c7-e2f1d09b2a18-transition.mp4",
         "id": "2d767f19-3b2e-4257-94c7-e2f1d09b2a18",
@@ -571,7 +576,7 @@
     {
         "recorded_duration": 857.366667,
         "track": "ECOOP 2020",
-        "tend": 1605524400,
+        "tend": 1605525600,
         "closing_video": "3198f204-28c6-492a-8457-c51ebcc772f0-closing.mp4",
         "transition_video": "3198f204-28c6-492a-8457-c51ebcc772f0-transition.mp4",
         "id": "3198f204-28c6-492a-8457-c51ebcc772f0",
@@ -585,7 +590,7 @@
     {
         "recorded_duration": 1000.957001,
         "track": "ECOOP 2020",
-        "tend": 1605510000,
+        "tend": 1605511200,
         "closing_video": "5fd7f5f9-a5c0-4369-8869-a0e5cfc60db7-closing.mp4",
         "transition_video": "5fd7f5f9-a5c0-4369-8869-a0e5cfc60db7-transition.mp4",
         "id": "5fd7f5f9-a5c0-4369-8869-a0e5cfc60db7",
@@ -599,7 +604,7 @@
     {
         "recorded_duration": 1019.48,
         "track": "Dynamic Languages Symposium",
-        "tend": 1605852000,
+        "tend": 1605853200,
         "closing_video": "d282d18e-5f62-43fb-b68c-eb3bf99afa68-closing.mp4",
         "transition_video": "d282d18e-5f62-43fb-b68c-eb3bf99afa68-transition.mp4",
         "id": "d282d18e-5f62-43fb-b68c-eb3bf99afa68",
@@ -613,7 +618,7 @@
     {
         "recorded_duration": 905.166667,
         "track": "OOPSLA",
-        "tend": 1605769200,
+        "tend": 1605770400,
         "closing_video": "589e08b8-be04-449c-9c40-7dc3797f2c0b-closing.mp4",
         "transition_video": "589e08b8-be04-449c-9c40-7dc3797f2c0b-transition.mp4",
         "id": "589e08b8-be04-449c-9c40-7dc3797f2c0b",
@@ -627,7 +632,7 @@
     {
         "recorded_duration": 966.32,
         "track": "OOPSLA",
-        "tend": 1605777600,
+        "tend": 1605778800,
         "closing_video": "fb1f6365-ed4d-47f7-b0d5-c96755f131af-closing.mp4",
         "transition_video": "fb1f6365-ed4d-47f7-b0d5-c96755f131af-transition.mp4",
         "id": "fb1f6365-ed4d-47f7-b0d5-c96755f131af",
@@ -641,7 +646,7 @@
     {
         "recorded_duration": 879.97888,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605597600,
+        "tend": 1605598800,
         "closing_video": "01e48462-0a2e-4222-8656-48d10e93dac1-closing.mp4",
         "transition_video": "01e48462-0a2e-4222-8656-48d10e93dac1-transition.mp4",
         "id": "01e48462-0a2e-4222-8656-48d10e93dac1",
@@ -655,7 +660,7 @@
     {
         "recorded_duration": 941.066667,
         "track": "OOPSLA",
-        "tend": 1605604800,
+        "tend": 1605606000,
         "closing_video": "d3521f08-1659-438b-8e27-401ba4d8046c-closing.mp4",
         "transition_video": "d3521f08-1659-438b-8e27-401ba4d8046c-transition.mp4",
         "id": "d3521f08-1659-438b-8e27-401ba4d8046c",
@@ -669,7 +674,7 @@
     {
         "recorded_duration": 965.184965,
         "track": "OOPSLA",
-        "tend": 1605679200,
+        "tend": 1605680400,
         "closing_video": "72a7c48b-8eba-4f07-b5bc-03af82474540-closing.mp4",
         "transition_video": "72a7c48b-8eba-4f07-b5bc-03af82474540-transition.mp4",
         "id": "72a7c48b-8eba-4f07-b5bc-03af82474540",
@@ -683,7 +688,7 @@
     {
         "recorded_duration": 967.033333,
         "track": "Dynamic Languages Symposium",
-        "tend": 1605787200,
+        "tend": 1605788400,
         "closing_video": "5013f5f6-0c92-406c-b516-126cc1c9f16c-closing.mp4",
         "transition_video": "5013f5f6-0c92-406c-b516-126cc1c9f16c-transition.mp4",
         "id": "5013f5f6-0c92-406c-b516-126cc1c9f16c",
@@ -697,7 +702,7 @@
     {
         "recorded_duration": 949.481867,
         "track": "OOPSLA",
-        "tend": 1605920400,
+        "tend": 1605921600,
         "closing_video": "3cd8b177-a095-4aa3-b2fb-63a917807035-closing.mp4",
         "transition_video": "3cd8b177-a095-4aa3-b2fb-63a917807035-transition.mp4",
         "id": "3cd8b177-a095-4aa3-b2fb-63a917807035",
@@ -711,11 +716,12 @@
     {
         "recorded_duration": 2777.766667,
         "track": "REBASE",
-        "tend": 1605546000,
+        "tend": 1605548400,
         "closing_video": "0afb2ceb-8556-4b8b-a17f-1c5eb0d00ffc-closing.mp4",
+        "transition_video": "0afb2ceb-8556-4b8b-a17f-1c5eb0d00ffc-transition.mp4",
         "id": "0afb2ceb-8556-4b8b-a17f-1c5eb0d00ffc",
         "opening_video": "0afb2ceb-8556-4b8b-a17f-1c5eb0d00ffc-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605546000,
         "title": "Paparazzi, an open source UAV for research",
         "authors": "Gautier Hattenberger",
@@ -724,7 +730,7 @@
     {
         "recorded_duration": 838.101838,
         "track": "OOPSLA",
-        "tend": 1605938400,
+        "tend": 1605939600,
         "closing_video": "1191b34c-6380-48db-9c47-b8e642e28ee2-closing.mp4",
         "transition_video": "1191b34c-6380-48db-9c47-b8e642e28ee2-transition.mp4",
         "id": "1191b34c-6380-48db-9c47-b8e642e28ee2",
@@ -738,7 +744,7 @@
     {
         "recorded_duration": 1132.366667,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605750000,
+        "tend": 1605751200,
         "closing_video": "96776028-772c-4c12-bdda-eb5721127c2c-closing.mp4",
         "transition_video": "96776028-772c-4c12-bdda-eb5721127c2c-transition.mp4",
         "id": "96776028-772c-4c12-bdda-eb5721127c2c",
@@ -752,7 +758,7 @@
     {
         "recorded_duration": 964.1,
         "track": "OOPSLA",
-        "tend": 1605938400,
+        "tend": 1605939600,
         "closing_video": "50c0fcb1-ef71-4df6-9d10-ebeddb89add2-closing.mp4",
         "transition_video": "50c0fcb1-ef71-4df6-9d10-ebeddb89add2-transition.mp4",
         "id": "50c0fcb1-ef71-4df6-9d10-ebeddb89add2",
@@ -766,7 +772,7 @@
     {
         "recorded_duration": 744.034958,
         "track": "OOPSLA",
-        "tend": 1605870000,
+        "tend": 1605871200,
         "closing_video": "2abee499-a6aa-4ad2-9126-979e3981f059-closing.mp4",
         "transition_video": "2abee499-a6aa-4ad2-9126-979e3981f059-transition.mp4",
         "id": "2abee499-a6aa-4ad2-9126-979e3981f059",
@@ -780,7 +786,7 @@
     {
         "recorded_duration": 877.52,
         "track": "ECOOP 2020",
-        "tend": 1605517200,
+        "tend": 1605518400,
         "closing_video": "4bcfde8b-6df2-40b4-9db4-798cf823616a-closing.mp4",
         "transition_video": "4bcfde8b-6df2-40b4-9db4-798cf823616a-transition.mp4",
         "id": "4bcfde8b-6df2-40b4-9db4-798cf823616a",
@@ -794,11 +800,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605942000,
+        "tend": 1605944400,
         "closing_video": "31254170-da2a-4537-8030-95b74ed3df9d-closing.mp4",
+        "transition_video": "31254170-da2a-4537-8030-95b74ed3df9d-transition.mp4",
         "id": "31254170-da2a-4537-8030-95b74ed3df9d",
         "opening_video": "31254170-da2a-4537-8030-95b74ed3df9d-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605942000,
         "title": "Variant analysis",
         "authors": "Oege de Moor",
@@ -807,7 +814,7 @@
     {
         "recorded_duration": 986.8,
         "track": "OOPSLA",
-        "tend": 1605614400,
+        "tend": 1605615600,
         "closing_video": "f6dc9ecd-0036-4c59-8d53-f697d30259d2-closing.mp4",
         "transition_video": "f6dc9ecd-0036-4c59-8d53-f697d30259d2-transition.mp4",
         "id": "f6dc9ecd-0036-4c59-8d53-f697d30259d2",
@@ -821,7 +828,7 @@
     {
         "recorded_duration": 891.165891,
         "track": "ECOOP 2020",
-        "tend": 1605526800,
+        "tend": 1605528000,
         "closing_video": "d4d20ec5-085d-4a47-b76e-d1155d4f08c5-closing.mp4",
         "transition_video": "d4d20ec5-085d-4a47-b76e-d1155d4f08c5-transition.mp4",
         "id": "d4d20ec5-085d-4a47-b76e-d1155d4f08c5",
@@ -835,7 +842,7 @@
     {
         "recorded_duration": 734.967567,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605518400,
+        "tend": 1605519600,
         "closing_video": "72c19935-2e93-485f-b44c-07eaf52f87ca-closing.mp4",
         "transition_video": "72c19935-2e93-485f-b44c-07eaf52f87ca-transition.mp4",
         "id": "72c19935-2e93-485f-b44c-07eaf52f87ca",
@@ -849,7 +856,7 @@
     {
         "recorded_duration": 921.76,
         "track": "OOPSLA",
-        "tend": 1605678000,
+        "tend": 1605679200,
         "closing_video": "de7d97dc-0089-49e1-bfce-2e7b14b648ee-closing.mp4",
         "transition_video": "de7d97dc-0089-49e1-bfce-2e7b14b648ee-transition.mp4",
         "id": "de7d97dc-0089-49e1-bfce-2e7b14b648ee",
@@ -863,7 +870,7 @@
     {
         "recorded_duration": 643.875,
         "track": "Onward! Essays",
-        "tend": 1605676800,
+        "tend": 1605678000,
         "closing_video": "734f329a-291e-4cc1-aee1-a79175158f11-closing.mp4",
         "transition_video": "734f329a-291e-4cc1-aee1-a79175158f11-transition.mp4",
         "id": "734f329a-291e-4cc1-aee1-a79175158f11",
@@ -877,7 +884,7 @@
     {
         "recorded_duration": 973.405767,
         "track": "Onward! Papers",
-        "tend": 1605684000,
+        "tend": 1605685200,
         "closing_video": "185d56d8-71e8-445f-8ca3-ecfe421bd8c0-closing.mp4",
         "transition_video": "185d56d8-71e8-445f-8ca3-ecfe421bd8c0-transition.mp4",
         "id": "185d56d8-71e8-445f-8ca3-ecfe421bd8c0",
@@ -891,7 +898,7 @@
     {
         "recorded_duration": -1.0,
         "track": "Opening",
-        "tend": 1605488400,
+        "tend": 1605489600,
         "closing_video": "e341c0d1-a77b-4aa1-ae9b-83ec123e28da-closing.mp4",
         "id": "e341c0d1-a77b-4aa1-ae9b-83ec123e28da",
         "opening_video": "e341c0d1-a77b-4aa1-ae9b-83ec123e28da-opening.mp4",
@@ -904,7 +911,7 @@
     {
         "recorded_duration": 917.631918,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605512400,
+        "tend": 1605513600,
         "closing_video": "2959d666-0f62-48cd-88fd-eb2adec902b9-closing.mp4",
         "transition_video": "2959d666-0f62-48cd-88fd-eb2adec902b9-transition.mp4",
         "id": "2959d666-0f62-48cd-88fd-eb2adec902b9",
@@ -918,7 +925,7 @@
     {
         "recorded_duration": 780.566667,
         "track": "OOPSLA",
-        "tend": 1605682800,
+        "tend": 1605684000,
         "closing_video": "b4bfae0b-6b5f-4ee8-9432-65f91d8c51a9-closing.mp4",
         "transition_video": "b4bfae0b-6b5f-4ee8-9432-65f91d8c51a9-transition.mp4",
         "id": "b4bfae0b-6b5f-4ee8-9432-65f91d8c51a9",
@@ -932,7 +939,7 @@
     {
         "recorded_duration": -1.0,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605870000,
+        "tend": 1605871200,
         "closing_video": "887f15df-4810-48ff-86b1-91907513cccf-closing.mp4",
         "transition_video": "887f15df-4810-48ff-86b1-91907513cccf-transition.mp4",
         "id": "887f15df-4810-48ff-86b1-91907513cccf",
@@ -946,7 +953,7 @@
     {
         "recorded_duration": 960.092467,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605776400,
+        "tend": 1605777600,
         "closing_video": "60869a0f-9da8-4a93-9b8e-4d4adbc8ef13-closing.mp4",
         "transition_video": "60869a0f-9da8-4a93-9b8e-4d4adbc8ef13-transition.mp4",
         "id": "60869a0f-9da8-4a93-9b8e-4d4adbc8ef13",
@@ -960,7 +967,7 @@
     {
         "recorded_duration": 882.2,
         "track": "ECOOP 2020",
-        "tend": 1605520800,
+        "tend": 1605522000,
         "closing_video": "a0edda4b-941b-497b-904d-4736318de222-closing.mp4",
         "transition_video": "a0edda4b-941b-497b-904d-4736318de222-transition.mp4",
         "id": "a0edda4b-941b-497b-904d-4736318de222",
@@ -974,7 +981,7 @@
     {
         "recorded_duration": 973.3724,
         "track": "Onward! Essays",
-        "tend": 1605690000,
+        "tend": 1605691200,
         "closing_video": "bd1659e4-ca0c-498d-a2c0-478c6c8c8f1d-closing.mp4",
         "transition_video": "bd1659e4-ca0c-498d-a2c0-478c6c8c8f1d-transition.mp4",
         "id": "bd1659e4-ca0c-498d-a2c0-478c6c8c8f1d",
@@ -988,7 +995,7 @@
     {
         "recorded_duration": 787.153033,
         "track": "OOPSLA",
-        "tend": 1605783600,
+        "tend": 1605784800,
         "closing_video": "1ba9a54b-ae12-41da-8d16-8c37c6ab299d-closing.mp4",
         "transition_video": "1ba9a54b-ae12-41da-8d16-8c37c6ab299d-transition.mp4",
         "id": "1ba9a54b-ae12-41da-8d16-8c37c6ab299d",
@@ -1002,7 +1009,7 @@
     {
         "recorded_duration": 917.533333,
         "track": "OOPSLA",
-        "tend": 1605864000,
+        "tend": 1605865200,
         "closing_video": "d6245b1d-c06a-4095-a451-8337b829c6c7-closing.mp4",
         "transition_video": "d6245b1d-c06a-4095-a451-8337b829c6c7-transition.mp4",
         "id": "d6245b1d-c06a-4095-a451-8337b829c6c7",
@@ -1016,11 +1023,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605927600,
+        "tend": 1605930000,
         "closing_video": "fbb11428-c9f3-4c7b-8395-2c4f79d8f397-closing.mp4",
+        "transition_video": "fbb11428-c9f3-4c7b-8395-2c4f79d8f397-transition.mp4",
         "id": "fbb11428-c9f3-4c7b-8395-2c4f79d8f397",
         "opening_video": "fbb11428-c9f3-4c7b-8395-2c4f79d8f397-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605927600,
         "title": "Performance Really Matters",
         "authors": "Emery Berger",
@@ -1029,11 +1037,12 @@
     {
         "recorded_duration": 2574.113208,
         "track": "REBASE",
-        "tend": 1605718800,
+        "tend": 1605721200,
         "closing_video": "737532d5-e146-4b76-8463-400864a7a121-closing.mp4",
+        "transition_video": "737532d5-e146-4b76-8463-400864a7a121-transition.mp4",
         "id": "737532d5-e146-4b76-8463-400864a7a121",
         "opening_video": "737532d5-e146-4b76-8463-400864a7a121-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605718800,
         "title": "Paradigms Without Progress: Kuhnian Reflections on Programming Practice",
         "authors": "Jimmy Miller",
@@ -1042,11 +1051,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605870000,
+        "tend": 1605872400,
         "closing_video": "eb49d071-bd76-4216-8ac6-0fc3cf3a7f99-closing.mp4",
+        "transition_video": "eb49d071-bd76-4216-8ac6-0fc3cf3a7f99-transition.mp4",
         "id": "eb49d071-bd76-4216-8ac6-0fc3cf3a7f99",
         "opening_video": "eb49d071-bd76-4216-8ac6-0fc3cf3a7f99-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605870000,
         "title": "Enterprise-scale static analysis: A Pinpoint experience",
         "authors": "Charles Zhang",
@@ -1055,7 +1065,7 @@
     {
         "recorded_duration": 951.52,
         "track": "OOPSLA",
-        "tend": 1605934800,
+        "tend": 1605936000,
         "closing_video": "8cf8faa8-1f32-4ec8-b6ba-b5a6fc13efef-closing.mp4",
         "transition_video": "8cf8faa8-1f32-4ec8-b6ba-b5a6fc13efef-transition.mp4",
         "id": "8cf8faa8-1f32-4ec8-b6ba-b5a6fc13efef",
@@ -1069,7 +1079,7 @@
     {
         "recorded_duration": 916.633333,
         "track": "ECOOP 2020",
-        "tend": 1605589200,
+        "tend": 1605590400,
         "closing_video": "4bf0a52b-ba6b-417a-97bb-1a2326f941ab-closing.mp4",
         "transition_video": "4bf0a52b-ba6b-417a-97bb-1a2326f941ab-transition.mp4",
         "id": "4bf0a52b-ba6b-417a-97bb-1a2326f941ab",
@@ -1083,11 +1093,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605690000,
+        "tend": 1605692400,
         "closing_video": "3915f558-1e15-450f-b38f-222ffd9da8ca-closing.mp4",
+        "transition_video": "3915f558-1e15-450f-b38f-222ffd9da8ca-transition.mp4",
         "id": "3915f558-1e15-450f-b38f-222ffd9da8ca",
         "opening_video": "3915f558-1e15-450f-b38f-222ffd9da8ca-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605690000,
         "title": "Quantitative Types in Idris 2",
         "authors": "Edwin Brady",
@@ -1096,7 +1107,7 @@
     {
         "recorded_duration": 985.033333,
         "track": "Onward! Essays",
-        "tend": 1605675600,
+        "tend": 1605676800,
         "closing_video": "538dbb83-bda8-4f57-a308-5f47c726d7b8-closing.mp4",
         "transition_video": "538dbb83-bda8-4f57-a308-5f47c726d7b8-transition.mp4",
         "id": "538dbb83-bda8-4f57-a308-5f47c726d7b8",
@@ -1110,11 +1121,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605812400,
+        "tend": 1605814800,
         "closing_video": "be69fb05-2d8f-41eb-9a0b-aa5c1cb43a59-closing.mp4",
+        "transition_video": "be69fb05-2d8f-41eb-9a0b-aa5c1cb43a59-transition.mp4",
         "id": "be69fb05-2d8f-41eb-9a0b-aa5c1cb43a59",
         "opening_video": "be69fb05-2d8f-41eb-9a0b-aa5c1cb43a59-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605812400,
         "title": "JAX: accelerated machine learning research via composable function transformations in Python",
         "authors": "Matthew Johnson",
@@ -1123,7 +1135,7 @@
     {
         "recorded_duration": 952.8519,
         "track": "OOPSLA",
-        "tend": 1605945600,
+        "tend": 1605946800,
         "closing_video": "cb73d5d3-92d2-4ee8-bb13-8a1b4731e3a3-closing.mp4",
         "transition_video": "cb73d5d3-92d2-4ee8-bb13-8a1b4731e3a3-transition.mp4",
         "id": "cb73d5d3-92d2-4ee8-bb13-8a1b4731e3a3",
@@ -1137,7 +1149,7 @@
     {
         "recorded_duration": 1011.979012,
         "track": "OOPSLA",
-        "tend": 1605787200,
+        "tend": 1605788400,
         "closing_video": "5ded2007-1aa2-4b18-800b-2c660a495cca-closing.mp4",
         "transition_video": "5ded2007-1aa2-4b18-800b-2c660a495cca-transition.mp4",
         "id": "5ded2007-1aa2-4b18-800b-2c660a495cca",
@@ -1151,7 +1163,7 @@
     {
         "recorded_duration": 925.833333,
         "track": "OOPSLA",
-        "tend": 1605610800,
+        "tend": 1605612000,
         "closing_video": "c241afa2-8ebc-4091-ba8b-11b2acfe950d-closing.mp4",
         "transition_video": "c241afa2-8ebc-4091-ba8b-11b2acfe950d-transition.mp4",
         "id": "c241afa2-8ebc-4091-ba8b-11b2acfe950d",
@@ -1165,7 +1177,7 @@
     {
         "recorded_duration": 872.833333,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605502800,
+        "tend": 1605504000,
         "closing_video": "677f497e-d633-4e7c-9fa6-3eb6bdc8a827-closing.mp4",
         "transition_video": "677f497e-d633-4e7c-9fa6-3eb6bdc8a827-transition.mp4",
         "id": "677f497e-d633-4e7c-9fa6-3eb6bdc8a827",
@@ -1179,7 +1191,7 @@
     {
         "recorded_duration": 980.463333,
         "track": "OOPSLA",
-        "tend": 1605699600,
+        "tend": 1605700800,
         "closing_video": "970b6051-9a69-4c86-97a5-c53ea48536a0-closing.mp4",
         "transition_video": "970b6051-9a69-4c86-97a5-c53ea48536a0-transition.mp4",
         "id": "970b6051-9a69-4c86-97a5-c53ea48536a0",
@@ -1193,7 +1205,7 @@
     {
         "recorded_duration": 839.533333,
         "track": "ECOOP 2020",
-        "tend": 1605496800,
+        "tend": 1605498000,
         "closing_video": "7a123832-31e7-4cda-8509-cfeef5dacfe3-closing.mp4",
         "transition_video": "7a123832-31e7-4cda-8509-cfeef5dacfe3-transition.mp4",
         "id": "7a123832-31e7-4cda-8509-cfeef5dacfe3",
@@ -1207,7 +1219,7 @@
     {
         "recorded_duration": 1009.541867,
         "track": "OOPSLA",
-        "tend": 1605927600,
+        "tend": 1605928800,
         "closing_video": "834d57b9-2ff5-4c19-86bb-2d5b6188d63e-closing.mp4",
         "transition_video": "834d57b9-2ff5-4c19-86bb-2d5b6188d63e-transition.mp4",
         "id": "834d57b9-2ff5-4c19-86bb-2d5b6188d63e",
@@ -1221,7 +1233,7 @@
     {
         "recorded_duration": 888.7,
         "track": "OOPSLA",
-        "tend": 1605922800,
+        "tend": 1605924000,
         "closing_video": "29356edb-fec4-4b97-9278-0bf447a06e5d-closing.mp4",
         "transition_video": "29356edb-fec4-4b97-9278-0bf447a06e5d-transition.mp4",
         "id": "29356edb-fec4-4b97-9278-0bf447a06e5d",
@@ -1235,7 +1247,7 @@
     {
         "recorded_duration": 818.365,
         "track": "OOPSLA",
-        "tend": 1605748800,
+        "tend": 1605750000,
         "closing_video": "68a84a17-ccd2-48b6-9085-63301738428f-closing.mp4",
         "transition_video": "68a84a17-ccd2-48b6-9085-63301738428f-transition.mp4",
         "id": "68a84a17-ccd2-48b6-9085-63301738428f",
@@ -1249,7 +1261,7 @@
     {
         "recorded_duration": -1.0,
         "track": "Keynotes",
-        "tend": 1605956400,
+        "tend": 1605961200,
         "closing_video": "82b7b87c-7cf9-4eb4-b576-e5df43418f5e-closing.mp4",
         "transition_video": "82b7b87c-7cf9-4eb4-b576-e5df43418f5e-transition.mp4",
         "id": "82b7b87c-7cf9-4eb4-b576-e5df43418f5e",
@@ -1263,7 +1275,7 @@
     {
         "recorded_duration": -1.0,
         "track": "Dynamic Languages Symposium",
-        "tend": 1605764400,
+        "tend": 1605766800,
         "closing_video": "9dacd93d-13cf-4a2c-9a12-ef5b3d814e72-closing.mp4",
         "transition_video": "9dacd93d-13cf-4a2c-9a12-ef5b3d814e72-transition.mp4",
         "id": "9dacd93d-13cf-4a2c-9a12-ef5b3d814e72",
@@ -1277,7 +1289,7 @@
     {
         "recorded_duration": 549.666667,
         "track": "OOPSLA",
-        "tend": 1605764400,
+        "tend": 1605765600,
         "closing_video": "a67c5220-155d-4d8b-af2a-ba2543bafbfa-closing.mp4",
         "transition_video": "a67c5220-155d-4d8b-af2a-ba2543bafbfa-transition.mp4",
         "id": "a67c5220-155d-4d8b-af2a-ba2543bafbfa",
@@ -1291,7 +1303,7 @@
     {
         "recorded_duration": 1212.4,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605855600,
+        "tend": 1605856800,
         "closing_video": "43e38930-e679-4381-b5e9-f606f58d5550-closing.mp4",
         "transition_video": "43e38930-e679-4381-b5e9-f606f58d5550-transition.mp4",
         "id": "43e38930-e679-4381-b5e9-f606f58d5550",
@@ -1305,7 +1317,7 @@
     {
         "recorded_duration": 911.5,
         "track": "OOPSLA",
-        "tend": 1605944400,
+        "tend": 1605945600,
         "closing_video": "535250d1-14d9-4fb4-b418-2ad1ae511d91-closing.mp4",
         "transition_video": "535250d1-14d9-4fb4-b418-2ad1ae511d91-transition.mp4",
         "id": "535250d1-14d9-4fb4-b418-2ad1ae511d91",
@@ -1319,7 +1331,7 @@
     {
         "recorded_duration": 2403.366667,
         "track": "Keynotes",
-        "tend": 1605582000,
+        "tend": 1605586800,
         "closing_video": "48b85f95-7161-4225-83e8-da63006ee69c-closing.mp4",
         "transition_video": "48b85f95-7161-4225-83e8-da63006ee69c-transition.mp4",
         "id": "48b85f95-7161-4225-83e8-da63006ee69c",
@@ -1333,7 +1345,7 @@
     {
         "recorded_duration": 719.59872,
         "track": "OOPSLA",
-        "tend": 1605763200,
+        "tend": 1605764400,
         "closing_video": "dc2c4321-bace-402b-a2d9-f08a7830e7e5-closing.mp4",
         "transition_video": "dc2c4321-bace-402b-a2d9-f08a7830e7e5-transition.mp4",
         "id": "dc2c4321-bace-402b-a2d9-f08a7830e7e5",
@@ -1347,7 +1359,7 @@
     {
         "recorded_duration": 894.966667,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605528000,
+        "tend": 1605529200,
         "closing_video": "36eaec1d-fd68-4a11-9fa8-9e7691962e35-closing.mp4",
         "transition_video": "36eaec1d-fd68-4a11-9fa8-9e7691962e35-transition.mp4",
         "id": "36eaec1d-fd68-4a11-9fa8-9e7691962e35",
@@ -1361,7 +1373,7 @@
     {
         "recorded_duration": 981.8809,
         "track": "Dynamic Languages Symposium",
-        "tend": 1605858000,
+        "tend": 1605860400,
         "closing_video": "3faff150-5135-4eb3-affb-a5bfe3c3fe17-closing.mp4",
         "transition_video": "3faff150-5135-4eb3-affb-a5bfe3c3fe17-transition.mp4",
         "id": "3faff150-5135-4eb3-affb-a5bfe3c3fe17",
@@ -1375,7 +1387,7 @@
     {
         "recorded_duration": 2401.966667,
         "track": "Keynotes",
-        "tend": 1605489600,
+        "tend": 1605493200,
         "closing_video": "a5f428b0-d93e-412f-a7d4-36adba3203c1-closing.mp4",
         "transition_video": "a5f428b0-d93e-412f-a7d4-36adba3203c1-transition.mp4",
         "id": "a5f428b0-d93e-412f-a7d4-36adba3203c1",
@@ -1389,7 +1401,7 @@
     {
         "recorded_duration": 782.033333,
         "track": "OOPSLA",
-        "tend": 1605866400,
+        "tend": 1605867600,
         "closing_video": "e19d9707-bf19-4fc6-a3cd-80b6c920be7f-closing.mp4",
         "transition_video": "e19d9707-bf19-4fc6-a3cd-80b6c920be7f-transition.mp4",
         "id": "e19d9707-bf19-4fc6-a3cd-80b6c920be7f",
@@ -1403,7 +1415,7 @@
     {
         "recorded_duration": 603.836567,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605576000,
+        "tend": 1605577200,
         "closing_video": "bf859d8b-5d82-4d81-92fe-9bffb332dc89-closing.mp4",
         "transition_video": "bf859d8b-5d82-4d81-92fe-9bffb332dc89-transition.mp4",
         "id": "bf859d8b-5d82-4d81-92fe-9bffb332dc89",
@@ -1417,7 +1429,7 @@
     {
         "recorded_duration": 945.48,
         "track": "OOPSLA",
-        "tend": 1605849600,
+        "tend": 1605850800,
         "closing_video": "b9042a01-7709-4b12-9a6d-e627f04668a5-closing.mp4",
         "transition_video": "b9042a01-7709-4b12-9a6d-e627f04668a5-transition.mp4",
         "id": "b9042a01-7709-4b12-9a6d-e627f04668a5",
@@ -1431,7 +1443,7 @@
     {
         "recorded_duration": 916.433333,
         "track": "Dynamic Languages Symposium",
-        "tend": 1605780000,
+        "tend": 1605781200,
         "closing_video": "b5f8101e-f7bf-45b0-98cf-165cd7531f05-closing.mp4",
         "transition_video": "b5f8101e-f7bf-45b0-98cf-165cd7531f05-transition.mp4",
         "id": "b5f8101e-f7bf-45b0-98cf-165cd7531f05",
@@ -1445,7 +1457,7 @@
     {
         "recorded_duration": 922.7218,
         "track": "OOPSLA",
-        "tend": 1605850800,
+        "tend": 1605852000,
         "closing_video": "5b2281e0-6ffc-4b3a-976f-ae840b9db5fd-closing.mp4",
         "transition_video": "5b2281e0-6ffc-4b3a-976f-ae840b9db5fd-transition.mp4",
         "id": "5b2281e0-6ffc-4b3a-976f-ae840b9db5fd",
@@ -1459,7 +1471,7 @@
     {
         "recorded_duration": 781.0,
         "track": "OOPSLA",
-        "tend": 1605859200,
+        "tend": 1605860400,
         "closing_video": "f2d61eb0-5d2c-45d9-81c7-1137a585afca-closing.mp4",
         "transition_video": "f2d61eb0-5d2c-45d9-81c7-1137a585afca-transition.mp4",
         "id": "f2d61eb0-5d2c-45d9-81c7-1137a585afca",
@@ -1473,11 +1485,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605502800,
+        "tend": 1605505200,
         "closing_video": "bc103573-47f7-44f0-b8e7-b629c50d6e17-closing.mp4",
+        "transition_video": "bc103573-47f7-44f0-b8e7-b629c50d6e17-transition.mp4",
         "id": "bc103573-47f7-44f0-b8e7-b629c50d6e17",
         "opening_video": "bc103573-47f7-44f0-b8e7-b629c50d6e17-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605502800,
         "title": "Probabilistic Programming: The What, Why and How",
         "authors": "Maria I. Gorinova",
@@ -1486,7 +1499,7 @@
     {
         "recorded_duration": 897.366667,
         "track": "OOPSLA",
-        "tend": 1605924000,
+        "tend": 1605925200,
         "closing_video": "3b3961c4-c2ea-4595-931e-44ad2b54fd4e-closing.mp4",
         "transition_video": "3b3961c4-c2ea-4595-931e-44ad2b54fd4e-transition.mp4",
         "id": "3b3961c4-c2ea-4595-931e-44ad2b54fd4e",
@@ -1500,7 +1513,7 @@
     {
         "recorded_duration": 1098.076098,
         "track": "OOPSLA",
-        "tend": 1605690000,
+        "tend": 1605691200,
         "closing_video": "5566f7eb-c8ea-4651-9ed7-30715f447f33-closing.mp4",
         "transition_video": "5566f7eb-c8ea-4651-9ed7-30715f447f33-transition.mp4",
         "id": "5566f7eb-c8ea-4651-9ed7-30715f447f33",
@@ -1514,7 +1527,7 @@
     {
         "recorded_duration": 897.865,
         "track": "OOPSLA",
-        "tend": 1605698400,
+        "tend": 1605699600,
         "closing_video": "a1340467-2468-4939-918c-5b03056c26fd-closing.mp4",
         "transition_video": "a1340467-2468-4939-918c-5b03056c26fd-transition.mp4",
         "id": "a1340467-2468-4939-918c-5b03056c26fd",
@@ -1528,7 +1541,7 @@
     {
         "recorded_duration": 744.766667,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605600000,
+        "tend": 1605601200,
         "closing_video": "4e74b197-d3c2-4abe-92e1-faaed4180310-closing.mp4",
         "transition_video": "4e74b197-d3c2-4abe-92e1-faaed4180310-transition.mp4",
         "id": "4e74b197-d3c2-4abe-92e1-faaed4180310",
@@ -1542,7 +1555,7 @@
     {
         "recorded_duration": 902.266667,
         "track": "ECOOP 2020",
-        "tend": 1605513600,
+        "tend": 1605514800,
         "closing_video": "c2888fc6-1e65-49f3-89af-b42b99ffa7d1-closing.mp4",
         "transition_video": "c2888fc6-1e65-49f3-89af-b42b99ffa7d1-transition.mp4",
         "id": "c2888fc6-1e65-49f3-89af-b42b99ffa7d1",
@@ -1556,7 +1569,7 @@
     {
         "recorded_duration": 1916.4,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605841200,
+        "tend": 1605843600,
         "closing_video": "fa77e119-6a7c-478d-a301-745160397e38-closing.mp4",
         "transition_video": "fa77e119-6a7c-478d-a301-745160397e38-transition.mp4",
         "id": "fa77e119-6a7c-478d-a301-745160397e38",
@@ -1570,7 +1583,7 @@
     {
         "recorded_duration": 966.88,
         "track": "OOPSLA",
-        "tend": 1605786000,
+        "tend": 1605787200,
         "closing_video": "4d0f5a86-a761-438e-b9c1-1c44f16d89f9-closing.mp4",
         "transition_video": "4d0f5a86-a761-438e-b9c1-1c44f16d89f9-transition.mp4",
         "id": "4d0f5a86-a761-438e-b9c1-1c44f16d89f9",
@@ -1584,7 +1597,7 @@
     {
         "recorded_duration": 763.066667,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605506400,
+        "tend": 1605507600,
         "closing_video": "c32f3297-945e-48d1-95da-9f3daec1ec11-closing.mp4",
         "transition_video": "c32f3297-945e-48d1-95da-9f3daec1ec11-transition.mp4",
         "id": "c32f3297-945e-48d1-95da-9f3daec1ec11",
@@ -1598,7 +1611,7 @@
     {
         "recorded_duration": 902.48,
         "track": "ECOOP 2020",
-        "tend": 1605600000,
+        "tend": 1605601200,
         "closing_video": "fc6c077e-91cb-4f4f-89be-ffca400b2979-closing.mp4",
         "transition_video": "fc6c077e-91cb-4f4f-89be-ffca400b2979-transition.mp4",
         "id": "fc6c077e-91cb-4f4f-89be-ffca400b2979",
@@ -1612,7 +1625,7 @@
     {
         "recorded_duration": 1018.951267,
         "track": "ECOOP 2020",
-        "tend": 1605596400,
+        "tend": 1605597600,
         "closing_video": "97ef5573-0f58-46e1-9fe7-f39f45954cbf-closing.mp4",
         "transition_video": "97ef5573-0f58-46e1-9fe7-f39f45954cbf-transition.mp4",
         "id": "97ef5573-0f58-46e1-9fe7-f39f45954cbf",
@@ -1626,11 +1639,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605920400,
+        "tend": 1605922800,
         "closing_video": "59a73831-882e-4229-b00a-9f8b357d17b3-closing.mp4",
+        "transition_video": "59a73831-882e-4229-b00a-9f8b357d17b3-transition.mp4",
         "id": "59a73831-882e-4229-b00a-9f8b357d17b3",
         "opening_video": "59a73831-882e-4229-b00a-9f8b357d17b3-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605920400,
         "title": "PL and HCI: Better Together",
         "authors": "Elena Glassman",
@@ -1639,7 +1653,7 @@
     {
         "recorded_duration": 798.92,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605519600,
+        "tend": 1605520800,
         "closing_video": "a26c3bc5-002a-4c10-8600-68b7c2ad453c-closing.mp4",
         "transition_video": "a26c3bc5-002a-4c10-8600-68b7c2ad453c-transition.mp4",
         "id": "a26c3bc5-002a-4c10-8600-68b7c2ad453c",
@@ -1653,7 +1667,7 @@
     {
         "recorded_duration": 828.833333,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605526800,
+        "tend": 1605528000,
         "closing_video": "134617c3-cba5-44b3-9faf-25e0db401d75-closing.mp4",
         "transition_video": "134617c3-cba5-44b3-9faf-25e0db401d75-transition.mp4",
         "id": "134617c3-cba5-44b3-9faf-25e0db401d75",
@@ -1667,7 +1681,7 @@
     {
         "recorded_duration": 994.7,
         "track": "Onward! Essays",
-        "tend": 1605682800,
+        "tend": 1605684000,
         "closing_video": "de7f53dd-f844-4b70-b3c5-5ce2c614266b-closing.mp4",
         "transition_video": "de7f53dd-f844-4b70-b3c5-5ce2c614266b-transition.mp4",
         "id": "de7f53dd-f844-4b70-b3c5-5ce2c614266b",
@@ -1681,7 +1695,7 @@
     {
         "recorded_duration": 959.28,
         "track": "OOPSLA",
-        "tend": 1605934800,
+        "tend": 1605936000,
         "closing_video": "6a3ae3f8-1ca4-44df-b6b1-bb4756927885-closing.mp4",
         "transition_video": "6a3ae3f8-1ca4-44df-b6b1-bb4756927885-transition.mp4",
         "id": "6a3ae3f8-1ca4-44df-b6b1-bb4756927885",
@@ -1695,7 +1709,7 @@
     {
         "recorded_duration": 913.433333,
         "track": "OOPSLA",
-        "tend": 1605842400,
+        "tend": 1605843600,
         "closing_video": "7f5b0b0c-f047-4936-8287-c85d0bbd3581-closing.mp4",
         "transition_video": "7f5b0b0c-f047-4936-8287-c85d0bbd3581-transition.mp4",
         "id": "7f5b0b0c-f047-4936-8287-c85d0bbd3581",
@@ -1709,7 +1723,7 @@
     {
         "recorded_duration": 949.866667,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605578400,
+        "tend": 1605579600,
         "closing_video": "c3bbe292-ed84-4022-87c1-1c8489a199ff-closing.mp4",
         "transition_video": "c3bbe292-ed84-4022-87c1-1c8489a199ff-transition.mp4",
         "id": "c3bbe292-ed84-4022-87c1-1c8489a199ff",
@@ -1723,7 +1737,7 @@
     {
         "recorded_duration": 997.262933,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605498000,
+        "tend": 1605499200,
         "closing_video": "db2ef237-4d82-43ee-ae90-0249136f777e-closing.mp4",
         "transition_video": "db2ef237-4d82-43ee-ae90-0249136f777e-transition.mp4",
         "id": "db2ef237-4d82-43ee-ae90-0249136f777e",
@@ -1737,11 +1751,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605747600,
+        "tend": 1605750000,
         "closing_video": "f8bcf094-fae6-48e2-b07b-243759ea945b-closing.mp4",
+        "transition_video": "f8bcf094-fae6-48e2-b07b-243759ea945b-transition.mp4",
         "id": "f8bcf094-fae6-48e2-b07b-243759ea945b",
         "opening_video": "f8bcf094-fae6-48e2-b07b-243759ea945b-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605747600,
         "title": "Miniaturize All States!",
         "authors": "Mathieu Boespflug",
@@ -1750,7 +1765,7 @@
     {
         "recorded_duration": 940.56,
         "track": "OOPSLA",
-        "tend": 1605943200,
+        "tend": 1605944400,
         "closing_video": "e202e9a0-8e64-4364-82a0-a1d2b41e4b74-closing.mp4",
         "transition_video": "e202e9a0-8e64-4364-82a0-a1d2b41e4b74-transition.mp4",
         "id": "e202e9a0-8e64-4364-82a0-a1d2b41e4b74",
@@ -1764,7 +1779,7 @@
     {
         "recorded_duration": 960.225933,
         "track": "OOPSLA",
-        "tend": 1605945600,
+        "tend": 1605946800,
         "closing_video": "b9adaa2c-cdbd-450c-bb15-daa638849bd3-closing.mp4",
         "transition_video": "b9adaa2c-cdbd-450c-bb15-daa638849bd3-transition.mp4",
         "id": "b9adaa2c-cdbd-450c-bb15-daa638849bd3",
@@ -1778,7 +1793,7 @@
     {
         "recorded_duration": 904.666667,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605525600,
+        "tend": 1605526800,
         "closing_video": "78bc2344-dbc5-4255-89ef-7567e0b7e707-closing.mp4",
         "transition_video": "78bc2344-dbc5-4255-89ef-7567e0b7e707-transition.mp4",
         "id": "78bc2344-dbc5-4255-89ef-7567e0b7e707",
@@ -1792,7 +1807,7 @@
     {
         "recorded_duration": 924.8,
         "track": "Onward! Papers",
-        "tend": 1605685200,
+        "tend": 1605686400,
         "closing_video": "2f305d32-0104-451e-9df8-c32c270e49fd-closing.mp4",
         "transition_video": "2f305d32-0104-451e-9df8-c32c270e49fd-transition.mp4",
         "id": "2f305d32-0104-451e-9df8-c32c270e49fd",
@@ -1806,11 +1821,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605726000,
+        "tend": 1605728400,
         "closing_video": "a1270bf8-34d0-477b-b540-3c525ff165fa-closing.mp4",
+        "transition_video": "a1270bf8-34d0-477b-b540-3c525ff165fa-transition.mp4",
         "id": "a1270bf8-34d0-477b-b540-3c525ff165fa",
         "opening_video": "a1270bf8-34d0-477b-b540-3c525ff165fa-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605726000,
         "title": "Inside Every Calculus Is A Little Algebra Waiting To Get Out",
         "authors": "Erik Meijer",
@@ -1819,7 +1835,7 @@
     {
         "recorded_duration": 727.727,
         "track": "OOPSLA",
-        "tend": 1605771600,
+        "tend": 1605772800,
         "closing_video": "9609351d-7346-41c3-a781-926327d9a68c-closing.mp4",
         "transition_video": "9609351d-7346-41c3-a781-926327d9a68c-transition.mp4",
         "id": "9609351d-7346-41c3-a781-926327d9a68c",
@@ -1833,7 +1849,7 @@
     {
         "recorded_duration": 1173.533333,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605848400,
+        "tend": 1605849600,
         "closing_video": "932e180e-dfa8-48ee-bea1-99cedf469770-closing.mp4",
         "transition_video": "932e180e-dfa8-48ee-bea1-99cedf469770-transition.mp4",
         "id": "932e180e-dfa8-48ee-bea1-99cedf469770",
@@ -1847,11 +1863,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605574800,
+        "tend": 1605577200,
         "closing_video": "f62da32e-6fe2-4aae-a89f-747447ef4bac-closing.mp4",
+        "transition_video": "f62da32e-6fe2-4aae-a89f-747447ef4bac-transition.mp4",
         "id": "f62da32e-6fe2-4aae-a89f-747447ef4bac",
         "opening_video": "f62da32e-6fe2-4aae-a89f-747447ef4bac-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605574800,
         "title": "Reliable Stack Traces, the Reality of Myth",
         "authors": "Francesco Zappa Nardelli",
@@ -1860,7 +1877,7 @@
     {
         "recorded_duration": 904.068904,
         "track": "OOPSLA",
-        "tend": 1605922800,
+        "tend": 1605924000,
         "closing_video": "3f5436ba-b7cb-4e49-a7d9-a11c2a16b38a-closing.mp4",
         "transition_video": "3f5436ba-b7cb-4e49-a7d9-a11c2a16b38a-transition.mp4",
         "id": "3f5436ba-b7cb-4e49-a7d9-a11c2a16b38a",
@@ -1874,7 +1891,7 @@
     {
         "recorded_duration": 891.231891,
         "track": "OOPSLA",
-        "tend": 1605844800,
+        "tend": 1605846000,
         "closing_video": "9796e9aa-1b8d-46b7-8c85-2c6427f306de-closing.mp4",
         "transition_video": "9796e9aa-1b8d-46b7-8c85-2c6427f306de-transition.mp4",
         "id": "9796e9aa-1b8d-46b7-8c85-2c6427f306de",
@@ -1888,7 +1905,7 @@
     {
         "recorded_duration": 977.2,
         "track": "ECOOP 2020",
-        "tend": 1605610800,
+        "tend": 1605612000,
         "closing_video": "b5cd4295-3dae-4811-a9a2-cd69e93f5866-closing.mp4",
         "transition_video": "b5cd4295-3dae-4811-a9a2-cd69e93f5866-transition.mp4",
         "id": "b5cd4295-3dae-4811-a9a2-cd69e93f5866",
@@ -1902,7 +1919,7 @@
     {
         "recorded_duration": 942.711943,
         "track": "OOPSLA",
-        "tend": 1605927600,
+        "tend": 1605928800,
         "closing_video": "cd599ff5-f878-4129-adc0-ffafc2709664-closing.mp4",
         "transition_video": "cd599ff5-f878-4129-adc0-ffafc2709664-transition.mp4",
         "id": "cd599ff5-f878-4129-adc0-ffafc2709664",
@@ -1916,11 +1933,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605697200,
+        "tend": 1605699600,
         "closing_video": "a89b8a71-8095-4032-a94a-5405a58da74b-closing.mp4",
+        "transition_video": "a89b8a71-8095-4032-a94a-5405a58da74b-transition.mp4",
         "id": "a89b8a71-8095-4032-a94a-5405a58da74b",
         "opening_video": "a89b8a71-8095-4032-a94a-5405a58da74b-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605697200,
         "title": "Technology Today: A Paucity of Integrity and Imagination",
         "authors": "Robert Grimm",
@@ -1929,7 +1947,7 @@
     {
         "recorded_duration": 917.149567,
         "track": "OOPSLA",
-        "tend": 1605698400,
+        "tend": 1605699600,
         "closing_video": "df17fa6a-2bc8-41ee-8c02-85f4a68c1db1-closing.mp4",
         "transition_video": "df17fa6a-2bc8-41ee-8c02-85f4a68c1db1-transition.mp4",
         "id": "df17fa6a-2bc8-41ee-8c02-85f4a68c1db1",
@@ -1943,7 +1961,7 @@
     {
         "recorded_duration": 982.179982,
         "track": "ECOOP 2020",
-        "tend": 1605574800,
+        "tend": 1605576000,
         "closing_video": "fa9502c6-8ae7-4b07-8206-b46b73a9a756-closing.mp4",
         "transition_video": "fa9502c6-8ae7-4b07-8206-b46b73a9a756-transition.mp4",
         "id": "fa9502c6-8ae7-4b07-8206-b46b73a9a756",
@@ -1957,7 +1975,7 @@
     {
         "recorded_duration": 977.733333,
         "track": "ECOOP 2020",
-        "tend": 1605504000,
+        "tend": 1605505200,
         "closing_video": "a6b2d038-de0e-4dba-afec-21ca56a42e47-closing.mp4",
         "transition_video": "a6b2d038-de0e-4dba-afec-21ca56a42e47-transition.mp4",
         "id": "a6b2d038-de0e-4dba-afec-21ca56a42e47",
@@ -1971,7 +1989,7 @@
     {
         "recorded_duration": 980.913267,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605511200,
+        "tend": 1605512400,
         "closing_video": "0547992f-d9b7-49e0-b616-0dc25b5ef4a9-closing.mp4",
         "transition_video": "0547992f-d9b7-49e0-b616-0dc25b5ef4a9-transition.mp4",
         "id": "0547992f-d9b7-49e0-b616-0dc25b5ef4a9",
@@ -1985,11 +2003,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605819600,
+        "tend": 1605822000,
         "closing_video": "e57184bb-0544-49be-bf26-5c1369670c39-closing.mp4",
+        "transition_video": "e57184bb-0544-49be-bf26-5c1369670c39-transition.mp4",
         "id": "e57184bb-0544-49be-bf26-5c1369670c39",
         "opening_video": "e57184bb-0544-49be-bf26-5c1369670c39-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605819600,
         "title": "On the Future of Flight Software",
         "authors": "Kristin Yvonne Rozier",
@@ -1998,7 +2017,7 @@
     {
         "recorded_duration": 973.566667,
         "track": "ECOOP 2020",
-        "tend": 1605576000,
+        "tend": 1605577200,
         "closing_video": "d20598bd-55e0-4d3d-9727-0b7b671dbce0-closing.mp4",
         "transition_video": "d20598bd-55e0-4d3d-9727-0b7b671dbce0-transition.mp4",
         "id": "d20598bd-55e0-4d3d-9727-0b7b671dbce0",
@@ -2012,7 +2031,7 @@
     {
         "recorded_duration": 950.433333,
         "track": "OOPSLA",
-        "tend": 1605686400,
+        "tend": 1605687600,
         "closing_video": "64606eb7-ae14-4006-a27c-2e3b6b5b5c6c-closing.mp4",
         "transition_video": "64606eb7-ae14-4006-a27c-2e3b6b5b5c6c-transition.mp4",
         "id": "64606eb7-ae14-4006-a27c-2e3b6b5b5c6c",
@@ -2026,7 +2045,7 @@
     {
         "recorded_duration": 963.3624,
         "track": "OOPSLA",
-        "tend": 1605613200,
+        "tend": 1605614400,
         "closing_video": "19e7c385-f2f5-47e8-97a6-7a2e9e7afb77-closing.mp4",
         "transition_video": "19e7c385-f2f5-47e8-97a6-7a2e9e7afb77-transition.mp4",
         "id": "19e7c385-f2f5-47e8-97a6-7a2e9e7afb77",
@@ -2040,7 +2059,7 @@
     {
         "recorded_duration": -1.0,
         "track": "Awards",
-        "tend": 1605752400,
+        "tend": 1605754800,
         "closing_video": "c0fd419e-0940-4fad-8e84-7f72a9339b79-closing.mp4",
         "id": "c0fd419e-0940-4fad-8e84-7f72a9339b79",
         "opening_video": "c0fd419e-0940-4fad-8e84-7f72a9339b79-opening.mp4",
@@ -2053,7 +2072,7 @@
     {
         "recorded_duration": 807.5067,
         "track": "OOPSLA",
-        "tend": 1605607200,
+        "tend": 1605608400,
         "closing_video": "8ec74bdb-391c-4417-a0de-3cfe60039dfb-closing.mp4",
         "transition_video": "8ec74bdb-391c-4417-a0de-3cfe60039dfb-transition.mp4",
         "id": "8ec74bdb-391c-4417-a0de-3cfe60039dfb",
@@ -2067,7 +2086,7 @@
     {
         "recorded_duration": 1166.466667,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605843600,
+        "tend": 1605844800,
         "closing_video": "187c6e5a-f0c2-4d97-b61b-97cf948fa0e3-closing.mp4",
         "transition_video": "187c6e5a-f0c2-4d97-b61b-97cf948fa0e3-transition.mp4",
         "id": "187c6e5a-f0c2-4d97-b61b-97cf948fa0e3",
@@ -2081,7 +2100,7 @@
     {
         "recorded_duration": 892.433333,
         "track": "OOPSLA",
-        "tend": 1605950400,
+        "tend": 1605951600,
         "closing_video": "3f3bef96-f531-418a-9389-fe359db5c7a1-closing.mp4",
         "transition_video": "3f3bef96-f531-418a-9389-fe359db5c7a1-transition.mp4",
         "id": "3f3bef96-f531-418a-9389-fe359db5c7a1",
@@ -2095,7 +2114,7 @@
     {
         "recorded_duration": -1.0,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605747600,
+        "tend": 1605750000,
         "closing_video": "ae38a637-3b97-4277-a496-2c1f2d2c6a6b-closing.mp4",
         "transition_video": "ae38a637-3b97-4277-a496-2c1f2d2c6a6b-transition.mp4",
         "id": "ae38a637-3b97-4277-a496-2c1f2d2c6a6b",
@@ -2109,7 +2128,7 @@
     {
         "recorded_duration": 1151.7,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605786000,
+        "tend": 1605787200,
         "closing_video": "5360324a-7234-4b20-95d8-80639f65ad7a-closing.mp4",
         "transition_video": "5360324a-7234-4b20-95d8-80639f65ad7a-transition.mp4",
         "id": "5360324a-7234-4b20-95d8-80639f65ad7a",
@@ -2123,7 +2142,7 @@
     {
         "recorded_duration": -1.0,
         "track": "OOPSLA",
-        "tend": 1605949200,
+        "tend": 1605950400,
         "closing_video": "193eb222-e5b0-4ec0-88fe-28f689c66880-closing.mp4",
         "transition_video": "193eb222-e5b0-4ec0-88fe-28f689c66880-transition.mp4",
         "id": "193eb222-e5b0-4ec0-88fe-28f689c66880",
@@ -2137,7 +2156,7 @@
     {
         "recorded_duration": 994.159833,
         "track": "OOPSLA",
-        "tend": 1605684000,
+        "tend": 1605685200,
         "closing_video": "a4f48195-d136-4257-a4b0-1e97c5e1b2b3-closing.mp4",
         "transition_video": "a4f48195-d136-4257-a4b0-1e97c5e1b2b3-transition.mp4",
         "id": "a4f48195-d136-4257-a4b0-1e97c5e1b2b3",
@@ -2151,7 +2170,7 @@
     {
         "recorded_duration": 884.333333,
         "track": "Dynamic Languages Symposium",
-        "tend": 1605784800,
+        "tend": 1605786000,
         "closing_video": "179704f8-cb35-4d44-8ef9-ea437c436204-closing.mp4",
         "transition_video": "179704f8-cb35-4d44-8ef9-ea437c436204-transition.mp4",
         "id": "179704f8-cb35-4d44-8ef9-ea437c436204",
@@ -2165,7 +2184,7 @@
     {
         "recorded_duration": 884.8,
         "track": "Onward! Papers",
-        "tend": 1605669600,
+        "tend": 1605670800,
         "closing_video": "71f0486c-4cb8-4129-bf78-31b62f01a30a-closing.mp4",
         "transition_video": "71f0486c-4cb8-4129-bf78-31b62f01a30a-transition.mp4",
         "id": "71f0486c-4cb8-4129-bf78-31b62f01a30a",
@@ -2179,11 +2198,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605906000,
+        "tend": 1605908400,
         "closing_video": "039345f2-202a-48a0-a868-2c9d3ff80808-closing.mp4",
+        "transition_video": "039345f2-202a-48a0-a868-2c9d3ff80808-transition.mp4",
         "id": "039345f2-202a-48a0-a868-2c9d3ff80808",
         "opening_video": "039345f2-202a-48a0-a868-2c9d3ff80808-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605906000,
         "title": "The impact of differentiable programming: how ∂P is enabling new science in Julia",
         "authors": "Matt Bauman",
@@ -2192,7 +2212,7 @@
     {
         "recorded_duration": 884.44,
         "track": "OOPSLA",
-        "tend": 1605772800,
+        "tend": 1605774000,
         "closing_video": "dba90368-d2da-4b07-8bd6-dc1e3f236813-closing.mp4",
         "transition_video": "dba90368-d2da-4b07-8bd6-dc1e3f236813-transition.mp4",
         "id": "dba90368-d2da-4b07-8bd6-dc1e3f236813",
@@ -2206,7 +2226,7 @@
     {
         "recorded_duration": 976.8,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605524400,
+        "tend": 1605525600,
         "closing_video": "741d1273-956c-4747-a5a6-305b9f8931c5-closing.mp4",
         "transition_video": "741d1273-956c-4747-a5a6-305b9f8931c5-transition.mp4",
         "id": "741d1273-956c-4747-a5a6-305b9f8931c5",
@@ -2220,7 +2240,7 @@
     {
         "recorded_duration": 940.733333,
         "track": "OOPSLA",
-        "tend": 1605750000,
+        "tend": 1605751200,
         "closing_video": "fcd71652-1e16-475e-bda3-bcb0432637a2-closing.mp4",
         "transition_video": "fcd71652-1e16-475e-bda3-bcb0432637a2-transition.mp4",
         "id": "fcd71652-1e16-475e-bda3-bcb0432637a2",
@@ -2234,7 +2254,7 @@
     {
         "recorded_duration": 886.033333,
         "track": "OOPSLA",
-        "tend": 1605930000,
+        "tend": 1605931200,
         "closing_video": "3d4eac8d-6c79-48a8-b5ab-8b400d1a80ee-closing.mp4",
         "transition_video": "3d4eac8d-6c79-48a8-b5ab-8b400d1a80ee-transition.mp4",
         "id": "3d4eac8d-6c79-48a8-b5ab-8b400d1a80ee",
@@ -2248,7 +2268,7 @@
     {
         "recorded_duration": 952.433333,
         "track": "OOPSLA",
-        "tend": 1605691200,
+        "tend": 1605692400,
         "closing_video": "d0b39515-659e-4855-a1b2-516ee32b0539-closing.mp4",
         "transition_video": "d0b39515-659e-4855-a1b2-516ee32b0539-transition.mp4",
         "id": "d0b39515-659e-4855-a1b2-516ee32b0539",
@@ -2262,7 +2282,7 @@
     {
         "recorded_duration": 938.733333,
         "track": "OOPSLA",
-        "tend": 1605843600,
+        "tend": 1605844800,
         "closing_video": "85b0bc7f-a107-41e9-9836-f25f8409f19f-closing.mp4",
         "transition_video": "85b0bc7f-a107-41e9-9836-f25f8409f19f-transition.mp4",
         "id": "85b0bc7f-a107-41e9-9836-f25f8409f19f",
@@ -2276,7 +2296,7 @@
     {
         "recorded_duration": 1179.0,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605771600,
+        "tend": 1605772800,
         "closing_video": "d008d8aa-e072-4ded-bb28-92df9b4a75ab-closing.mp4",
         "transition_video": "d008d8aa-e072-4ded-bb28-92df9b4a75ab-transition.mp4",
         "id": "d008d8aa-e072-4ded-bb28-92df9b4a75ab",
@@ -2290,7 +2310,7 @@
     {
         "recorded_duration": 1077.1,
         "track": "Onward! Essays",
-        "tend": 1605691200,
+        "tend": 1605692400,
         "closing_video": "c93c5c4d-1a3f-4cef-b393-3e7e6bd8b067-closing.mp4",
         "transition_video": "c93c5c4d-1a3f-4cef-b393-3e7e6bd8b067-transition.mp4",
         "id": "c93c5c4d-1a3f-4cef-b393-3e7e6bd8b067",
@@ -2304,7 +2324,7 @@
     {
         "recorded_duration": 947.9,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605499200,
+        "tend": 1605500400,
         "closing_video": "4609d389-c96c-41b0-9d37-2e67d40eb626-closing.mp4",
         "transition_video": "4609d389-c96c-41b0-9d37-2e67d40eb626-transition.mp4",
         "id": "4609d389-c96c-41b0-9d37-2e67d40eb626",
@@ -2318,7 +2338,7 @@
     {
         "recorded_duration": 877.3765,
         "track": "OOPSLA",
-        "tend": 1605921600,
+        "tend": 1605922800,
         "closing_video": "8068ce72-3e63-4d39-8209-298d9b3bc05d-closing.mp4",
         "transition_video": "8068ce72-3e63-4d39-8209-298d9b3bc05d-transition.mp4",
         "id": "8068ce72-3e63-4d39-8209-298d9b3bc05d",
@@ -2332,7 +2352,7 @@
     {
         "recorded_duration": 833.208333,
         "track": "OOPSLA",
-        "tend": 1605699600,
+        "tend": 1605700800,
         "closing_video": "d9f820f7-6c4c-4457-bbf2-f791d2e1d42d-closing.mp4",
         "transition_video": "d9f820f7-6c4c-4457-bbf2-f791d2e1d42d-transition.mp4",
         "id": "d9f820f7-6c4c-4457-bbf2-f791d2e1d42d",
@@ -2346,7 +2366,7 @@
     {
         "recorded_duration": 1147.84,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605865200,
+        "tend": 1605866400,
         "closing_video": "826b72b5-8d2a-4c83-b0c8-2893d66b8ea5-closing.mp4",
         "transition_video": "826b72b5-8d2a-4c83-b0c8-2893d66b8ea5-transition.mp4",
         "id": "826b72b5-8d2a-4c83-b0c8-2893d66b8ea5",
@@ -2360,7 +2380,7 @@
     {
         "recorded_duration": 890.16,
         "track": "OOPSLA",
-        "tend": 1605931200,
+        "tend": 1605932400,
         "closing_video": "fc13e2b3-604c-4954-9997-35f41f87ef1f-closing.mp4",
         "transition_video": "fc13e2b3-604c-4954-9997-35f41f87ef1f-transition.mp4",
         "id": "fc13e2b3-604c-4954-9997-35f41f87ef1f",
@@ -2374,7 +2394,7 @@
     {
         "recorded_duration": 857.9,
         "track": "OOPSLA",
-        "tend": 1605693600,
+        "tend": 1605694800,
         "closing_video": "b7403f22-9ce1-4712-b204-3d56213b53b9-closing.mp4",
         "transition_video": "b7403f22-9ce1-4712-b204-3d56213b53b9-transition.mp4",
         "id": "b7403f22-9ce1-4712-b204-3d56213b53b9",
@@ -2388,7 +2408,7 @@
     {
         "recorded_duration": -1.0,
         "track": "Closing",
-        "tend": 1605961200,
+        "tend": 1605963600,
         "closing_video": "92603177-a865-4385-bf31-8163713f6a01-closing.mp4",
         "id": "92603177-a865-4385-bf31-8163713f6a01",
         "opening_video": "92603177-a865-4385-bf31-8163713f6a01-opening.mp4",
@@ -2401,7 +2421,7 @@
     {
         "recorded_duration": 921.033333,
         "track": "ECOOP 2020",
-        "tend": 1605577200,
+        "tend": 1605578400,
         "closing_video": "1afda63b-ac13-4748-afb4-ec818eef4cfe-closing.mp4",
         "transition_video": "1afda63b-ac13-4748-afb4-ec818eef4cfe-transition.mp4",
         "id": "1afda63b-ac13-4748-afb4-ec818eef4cfe",
@@ -2415,7 +2435,7 @@
     {
         "recorded_duration": 954.76,
         "track": "OOPSLA",
-        "tend": 1605848400,
+        "tend": 1605849600,
         "closing_video": "a3ab81c8-640a-4a08-9893-24582fac04f3-closing.mp4",
         "transition_video": "a3ab81c8-640a-4a08-9893-24582fac04f3-transition.mp4",
         "id": "a3ab81c8-640a-4a08-9893-24582fac04f3",
@@ -2429,7 +2449,7 @@
     {
         "recorded_duration": 893.6,
         "track": "ECOOP 2020",
-        "tend": 1605519600,
+        "tend": 1605520800,
         "closing_video": "e3347e1a-7339-425c-a4dd-24bd3b8bcf82-closing.mp4",
         "transition_video": "e3347e1a-7339-425c-a4dd-24bd3b8bcf82-transition.mp4",
         "id": "e3347e1a-7339-425c-a4dd-24bd3b8bcf82",
@@ -2443,11 +2463,12 @@
     {
         "recorded_duration": 1330.4,
         "track": "REBASE",
-        "tend": 1605783600,
+        "tend": 1605786000,
         "closing_video": "4b457c84-3b99-44ca-afaa-f1811e462b6e-closing.mp4",
+        "transition_video": "4b457c84-3b99-44ca-afaa-f1811e462b6e-transition.mp4",
         "id": "4b457c84-3b99-44ca-afaa-f1811e462b6e",
         "opening_video": "4b457c84-3b99-44ca-afaa-f1811e462b6e-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605783600,
         "title": "Tales from the Frontlines: Startup War Stories",
         "authors": "Cliff Click",
@@ -2456,7 +2477,7 @@
     {
         "recorded_duration": 1182.514667,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605862800,
+        "tend": 1605864000,
         "closing_video": "b673ae70-f50a-4531-b748-2fe1a22e890b-closing.mp4",
         "transition_video": "b673ae70-f50a-4531-b748-2fe1a22e890b-transition.mp4",
         "id": "b673ae70-f50a-4531-b748-2fe1a22e890b",
@@ -2470,7 +2491,7 @@
     {
         "recorded_duration": 833.465967,
         "track": "OOPSLA",
-        "tend": 1605606000,
+        "tend": 1605607200,
         "closing_video": "41308516-fe76-4573-a027-84e9a6af5694-closing.mp4",
         "transition_video": "41308516-fe76-4573-a027-84e9a6af5694-transition.mp4",
         "id": "41308516-fe76-4573-a027-84e9a6af5694",
@@ -2484,7 +2505,7 @@
     {
         "recorded_duration": 1016.733333,
         "track": "ECOOP 2020",
-        "tend": 1605528000,
+        "tend": 1605529200,
         "closing_video": "30a683a6-c04e-4827-bf2a-38cbfe60cc03-closing.mp4",
         "transition_video": "30a683a6-c04e-4827-bf2a-38cbfe60cc03-transition.mp4",
         "id": "30a683a6-c04e-4827-bf2a-38cbfe60cc03",
@@ -2498,7 +2519,7 @@
     {
         "recorded_duration": 817.666667,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605577200,
+        "tend": 1605578400,
         "closing_video": "e4746088-06d2-4fa5-811e-53df9aff9450-closing.mp4",
         "transition_video": "e4746088-06d2-4fa5-811e-53df9aff9450-transition.mp4",
         "id": "e4746088-06d2-4fa5-811e-53df9aff9450",
@@ -2512,7 +2533,7 @@
     {
         "recorded_duration": 956.133333,
         "track": "Dynamic Languages Symposium",
-        "tend": 1605849600,
+        "tend": 1605850800,
         "closing_video": "76914a82-f0e1-4d78-8093-7ea5ce50bb37-closing.mp4",
         "transition_video": "76914a82-f0e1-4d78-8093-7ea5ce50bb37-transition.mp4",
         "id": "76914a82-f0e1-4d78-8093-7ea5ce50bb37",
@@ -2526,7 +2547,7 @@
     {
         "recorded_duration": 843.509333,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605510000,
+        "tend": 1605511200,
         "closing_video": "4752652a-8405-4b5e-90da-50c7de7fada9-closing.mp4",
         "transition_video": "4752652a-8405-4b5e-90da-50c7de7fada9-transition.mp4",
         "id": "4752652a-8405-4b5e-90da-50c7de7fada9",
@@ -2540,7 +2561,7 @@
     {
         "recorded_duration": 900.933367,
         "track": "OOPSLA",
-        "tend": 1605697200,
+        "tend": 1605698400,
         "closing_video": "bebba2c1-25ac-4031-96fd-49f091a06a15-closing.mp4",
         "transition_video": "bebba2c1-25ac-4031-96fd-49f091a06a15-transition.mp4",
         "id": "bebba2c1-25ac-4031-96fd-49f091a06a15",
@@ -2554,7 +2575,7 @@
     {
         "recorded_duration": -1.0,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605495600,
+        "tend": 1605498000,
         "closing_video": "bb9db12e-2afb-4297-aede-22b724436e5a-closing.mp4",
         "transition_video": "bb9db12e-2afb-4297-aede-22b724436e5a-transition.mp4",
         "id": "bb9db12e-2afb-4297-aede-22b724436e5a",
@@ -2568,7 +2589,7 @@
     {
         "recorded_duration": 947.123862,
         "track": "ECOOP 2020",
-        "tend": 1605598800,
+        "tend": 1605600000,
         "closing_video": "075e145e-0c8a-47bf-97d2-fd7ed28f0228-closing.mp4",
         "transition_video": "075e145e-0c8a-47bf-97d2-fd7ed28f0228-transition.mp4",
         "id": "075e145e-0c8a-47bf-97d2-fd7ed28f0228",
@@ -2582,11 +2603,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605560400,
+        "tend": 1605562800,
         "closing_video": "d0422a7b-b071-4c38-901b-e817df74486e-closing.mp4",
+        "transition_video": "d0422a7b-b071-4c38-901b-e817df74486e-transition.mp4",
         "id": "d0422a7b-b071-4c38-901b-e817df74486e",
         "opening_video": "d0422a7b-b071-4c38-901b-e817df74486e-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605560400,
         "title": "Non-local compiler transformations in the presence of dynamic dispatch",
         "authors": "Keno Fischer",
@@ -2595,11 +2617,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605769200,
+        "tend": 1605771600,
         "closing_video": "903e6b1f-a35a-40b8-a306-8d3a5bde3b5e-closing.mp4",
+        "transition_video": "903e6b1f-a35a-40b8-a306-8d3a5bde3b5e-transition.mp4",
         "id": "903e6b1f-a35a-40b8-a306-8d3a5bde3b5e",
         "opening_video": "903e6b1f-a35a-40b8-a306-8d3a5bde3b5e-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605769200,
         "title": "Towards the tower of Babel: a Polyglot Language VM in Java",
         "authors": "Christian Humer",
@@ -2608,7 +2631,7 @@
     {
         "recorded_duration": 1067.466667,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605769200,
+        "tend": 1605770400,
         "closing_video": "74b4eec7-f45e-46a4-915c-a2812474e966-closing.mp4",
         "transition_video": "74b4eec7-f45e-46a4-915c-a2812474e966-transition.mp4",
         "id": "74b4eec7-f45e-46a4-915c-a2812474e966",
@@ -2622,11 +2645,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605841200,
+        "tend": 1605843600,
         "closing_video": "03ce757b-14f2-4cff-96de-d52eb26aa2bf-closing.mp4",
+        "transition_video": "03ce757b-14f2-4cff-96de-d52eb26aa2bf-transition.mp4",
         "id": "03ce757b-14f2-4cff-96de-d52eb26aa2bf",
         "opening_video": "03ce757b-14f2-4cff-96de-d52eb26aa2bf-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605841200,
         "title": "Relational Reasoning in Object-based Programs",
         "authors": "Anindya Banerjee",
@@ -2635,7 +2659,7 @@
     {
         "recorded_duration": 1200.0,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605850800,
+        "tend": 1605852000,
         "closing_video": "e3e14325-c529-4426-a059-6ef122bc4c43-closing.mp4",
         "transition_video": "e3e14325-c529-4426-a059-6ef122bc4c43-transition.mp4",
         "id": "e3e14325-c529-4426-a059-6ef122bc4c43",
@@ -2649,7 +2673,7 @@
     {
         "recorded_duration": 952.133333,
         "track": "OOPSLA",
-        "tend": 1605747600,
+        "tend": 1605748800,
         "closing_video": "ab26b4f9-908b-48a6-88f1-36f0a94e32cc-closing.mp4",
         "transition_video": "ab26b4f9-908b-48a6-88f1-36f0a94e32cc-transition.mp4",
         "id": "ab26b4f9-908b-48a6-88f1-36f0a94e32cc",
@@ -2663,7 +2687,7 @@
     {
         "recorded_duration": 976.533333,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605604800,
+        "tend": 1605606000,
         "closing_video": "404708eb-bcbb-481f-b5ef-b48d662575be-closing.mp4",
         "transition_video": "404708eb-bcbb-481f-b5ef-b48d662575be-transition.mp4",
         "id": "404708eb-bcbb-481f-b5ef-b48d662575be",
@@ -2677,7 +2701,7 @@
     {
         "recorded_duration": 926.566667,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605574800,
+        "tend": 1605576000,
         "closing_video": "c70da96c-88b3-41a8-acaf-9b1776c8dd25-closing.mp4",
         "transition_video": "c70da96c-88b3-41a8-acaf-9b1776c8dd25-transition.mp4",
         "id": "c70da96c-88b3-41a8-acaf-9b1776c8dd25",
@@ -2691,7 +2715,7 @@
     {
         "recorded_duration": 891.561667,
         "track": "OOPSLA",
-        "tend": 1605872400,
+        "tend": 1605873600,
         "closing_video": "0ec91bc5-4e13-4f05-907b-344b042b9659-closing.mp4",
         "transition_video": "0ec91bc5-4e13-4f05-907b-344b042b9659-transition.mp4",
         "id": "0ec91bc5-4e13-4f05-907b-344b042b9659",
@@ -2705,7 +2729,7 @@
     {
         "recorded_duration": 781.902782,
         "track": "OOPSLA",
-        "tend": 1605751200,
+        "tend": 1605752400,
         "closing_video": "15674d02-5f12-493f-b843-8068fb89ee09-closing.mp4",
         "transition_video": "15674d02-5f12-493f-b843-8068fb89ee09-transition.mp4",
         "id": "15674d02-5f12-493f-b843-8068fb89ee09",
@@ -2719,7 +2743,7 @@
     {
         "recorded_duration": 896.0,
         "track": "ECOOP 2020",
-        "tend": 1605518400,
+        "tend": 1605519600,
         "closing_video": "91001d71-626c-479e-b98d-9569a3dda1f7-closing.mp4",
         "transition_video": "91001d71-626c-479e-b98d-9569a3dda1f7-transition.mp4",
         "id": "91001d71-626c-479e-b98d-9569a3dda1f7",
@@ -2733,7 +2757,7 @@
     {
         "recorded_duration": 920.733333,
         "track": "OOPSLA",
-        "tend": 1605841200,
+        "tend": 1605842400,
         "closing_video": "90cce21d-a854-4f50-b7f1-09a1af23e318-closing.mp4",
         "transition_video": "90cce21d-a854-4f50-b7f1-09a1af23e318-transition.mp4",
         "id": "90cce21d-a854-4f50-b7f1-09a1af23e318",
@@ -2747,7 +2771,7 @@
     {
         "recorded_duration": 915.766667,
         "track": "OOPSLA",
-        "tend": 1605778800,
+        "tend": 1605780000,
         "closing_video": "c5a30df7-cf14-473f-9641-714eedc28464-closing.mp4",
         "transition_video": "c5a30df7-cf14-473f-9641-714eedc28464-transition.mp4",
         "id": "c5a30df7-cf14-473f-9641-714eedc28464",
@@ -2761,7 +2785,7 @@
     {
         "recorded_duration": 909.94291,
         "track": "OOPSLA",
-        "tend": 1605865200,
+        "tend": 1605866400,
         "closing_video": "8f64a7c7-6637-4768-a862-bef448adb89f-closing.mp4",
         "transition_video": "8f64a7c7-6637-4768-a862-bef448adb89f-transition.mp4",
         "id": "8f64a7c7-6637-4768-a862-bef448adb89f",
@@ -2775,7 +2799,7 @@
     {
         "recorded_duration": 899.2,
         "track": "OOPSLA",
-        "tend": 1605942000,
+        "tend": 1605943200,
         "closing_video": "607946f8-4df3-4340-83bb-3317adc76c7a-closing.mp4",
         "transition_video": "607946f8-4df3-4340-83bb-3317adc76c7a-transition.mp4",
         "id": "607946f8-4df3-4340-83bb-3317adc76c7a",
@@ -2789,7 +2813,7 @@
     {
         "recorded_duration": 972.866667,
         "track": "Dynamic Languages Symposium",
-        "tend": 1605777600,
+        "tend": 1605778800,
         "closing_video": "ce3e05fe-bed4-4c6e-8f2f-3ec96e59bf13-closing.mp4",
         "transition_video": "ce3e05fe-bed4-4c6e-8f2f-3ec96e59bf13-transition.mp4",
         "id": "ce3e05fe-bed4-4c6e-8f2f-3ec96e59bf13",
@@ -2803,7 +2827,7 @@
     {
         "recorded_duration": 804.833333,
         "track": "ECOOP 2020",
-        "tend": 1605592800,
+        "tend": 1605594000,
         "closing_video": "c6bed3b0-d795-4378-9f4f-f3f70ea00ede-closing.mp4",
         "transition_video": "c6bed3b0-d795-4378-9f4f-f3f70ea00ede-transition.mp4",
         "id": "c6bed3b0-d795-4378-9f4f-f3f70ea00ede",
@@ -2817,7 +2841,7 @@
     {
         "recorded_duration": 964.964,
         "track": "OOPSLA",
-        "tend": 1605784800,
+        "tend": 1605786000,
         "closing_video": "7d597c02-ff5f-4db1-a3f8-2f251a9ca0a5-closing.mp4",
         "transition_video": "7d597c02-ff5f-4db1-a3f8-2f251a9ca0a5-transition.mp4",
         "id": "7d597c02-ff5f-4db1-a3f8-2f251a9ca0a5",
@@ -2831,7 +2855,7 @@
     {
         "recorded_duration": 918.333333,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605505200,
+        "tend": 1605506400,
         "closing_video": "404bc9e9-77ae-4014-95e6-150008d75fce-closing.mp4",
         "transition_video": "404bc9e9-77ae-4014-95e6-150008d75fce-transition.mp4",
         "id": "404bc9e9-77ae-4014-95e6-150008d75fce",
@@ -2845,7 +2869,7 @@
     {
         "recorded_duration": 853.12,
         "track": "OOPSLA",
-        "tend": 1605931200,
+        "tend": 1605932400,
         "closing_video": "9759a59c-e7fe-44ff-91d0-9250476fa15d-closing.mp4",
         "transition_video": "9759a59c-e7fe-44ff-91d0-9250476fa15d-transition.mp4",
         "id": "9759a59c-e7fe-44ff-91d0-9250476fa15d",
@@ -2859,7 +2883,7 @@
     {
         "recorded_duration": 1015.6146,
         "track": "ECOOP 2020",
-        "tend": 1605590400,
+        "tend": 1605591600,
         "closing_video": "19f2611f-fa87-46d5-b52e-767476c387fb-closing.mp4",
         "transition_video": "19f2611f-fa87-46d5-b52e-767476c387fb-transition.mp4",
         "id": "19f2611f-fa87-46d5-b52e-767476c387fb",
@@ -2873,7 +2897,7 @@
     {
         "recorded_duration": 981.766667,
         "track": "ECOOP 2020",
-        "tend": 1605498000,
+        "tend": 1605499200,
         "closing_video": "b1086991-0f35-4b4b-b7a4-78b902ec9ab5-closing.mp4",
         "transition_video": "b1086991-0f35-4b4b-b7a4-78b902ec9ab5-transition.mp4",
         "id": "b1086991-0f35-4b4b-b7a4-78b902ec9ab5",
@@ -2887,11 +2911,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605459600,
+        "tend": 1605462000,
         "closing_video": "4e833098-9571-41d8-9ce8-db793ded3069-closing.mp4",
+        "transition_video": "4e833098-9571-41d8-9ce8-db793ded3069-transition.mp4",
         "id": "4e833098-9571-41d8-9ce8-db793ded3069",
         "opening_video": "4e833098-9571-41d8-9ce8-db793ded3069-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605459600,
         "title": "Back to the Future! A History of UIs through Trends and Mass Culture",
         "authors": "Paola Bisogno",
@@ -2900,7 +2925,7 @@
     {
         "recorded_duration": 875.0,
         "track": "OOPSLA",
-        "tend": 1605692400,
+        "tend": 1605693600,
         "closing_video": "52f9bfff-ac06-47f4-98ba-4a5085ecbf7b-closing.mp4",
         "transition_video": "52f9bfff-ac06-47f4-98ba-4a5085ecbf7b-transition.mp4",
         "id": "52f9bfff-ac06-47f4-98ba-4a5085ecbf7b",
@@ -2914,7 +2939,7 @@
     {
         "recorded_duration": 1152.9518,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605856800,
+        "tend": 1605858000,
         "closing_video": "4fd50d6f-63a1-4bda-a578-b90810c55019-closing.mp4",
         "transition_video": "4fd50d6f-63a1-4bda-a578-b90810c55019-transition.mp4",
         "id": "4fd50d6f-63a1-4bda-a578-b90810c55019",
@@ -2928,11 +2953,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605524400,
+        "tend": 1605526800,
         "closing_video": "04f10f98-8485-40ec-8ac4-3c6c4925b7b5-closing.mp4",
+        "transition_video": "04f10f98-8485-40ec-8ac4-3c6c4925b7b5-transition.mp4",
         "id": "04f10f98-8485-40ec-8ac4-3c6c4925b7b5",
         "opening_video": "04f10f98-8485-40ec-8ac4-3c6c4925b7b5-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605524400,
         "title": "APIs are Illness and Cure: The Software Heterogeneity Problem in Web Programming",
         "authors": "Jean Yang",
@@ -2941,11 +2967,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605596400,
+        "tend": 1605598800,
         "closing_video": "dbb6bee0-b4d0-48fe-aa57-9d19010b0d78-closing.mp4",
+        "transition_video": "dbb6bee0-b4d0-48fe-aa57-9d19010b0d78-transition.mp4",
         "id": "dbb6bee0-b4d0-48fe-aa57-9d19010b0d78",
         "opening_video": "dbb6bee0-b4d0-48fe-aa57-9d19010b0d78-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605596400,
         "title": "Lies we tell ourselves about developer infrastructure",
         "authors": "Joe Pamer",
@@ -2954,7 +2981,7 @@
     {
         "recorded_duration": 922.68,
         "track": "OOPSLA",
-        "tend": 1605685200,
+        "tend": 1605686400,
         "closing_video": "4a70ed09-84fe-4afe-8c78-338a350d3ab8-closing.mp4",
         "transition_video": "4a70ed09-84fe-4afe-8c78-338a350d3ab8-transition.mp4",
         "id": "4a70ed09-84fe-4afe-8c78-338a350d3ab8",
@@ -2968,7 +2995,7 @@
     {
         "recorded_duration": 935.4,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605589200,
+        "tend": 1605590400,
         "closing_video": "606ec49c-4792-4253-89ec-4010e21d70de-closing.mp4",
         "transition_video": "606ec49c-4792-4253-89ec-4010e21d70de-transition.mp4",
         "id": "606ec49c-4792-4253-89ec-4010e21d70de",
@@ -2982,7 +3009,7 @@
     {
         "recorded_duration": 1013.479133,
         "track": "Dynamic Languages Symposium",
-        "tend": 1605772800,
+        "tend": 1605774000,
         "closing_video": "e665af34-4eeb-4601-96fd-e5aa138a4c64-closing.mp4",
         "transition_video": "e665af34-4eeb-4601-96fd-e5aa138a4c64-transition.mp4",
         "id": "e665af34-4eeb-4601-96fd-e5aa138a4c64",
@@ -2996,7 +3023,7 @@
     {
         "recorded_duration": 982.6,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605520800,
+        "tend": 1605522000,
         "closing_video": "7d0ca593-ff13-49f0-9525-bf519bd5fda8-closing.mp4",
         "transition_video": "7d0ca593-ff13-49f0-9525-bf519bd5fda8-transition.mp4",
         "id": "7d0ca593-ff13-49f0-9525-bf519bd5fda8",
@@ -3010,7 +3037,7 @@
     {
         "recorded_duration": 770.703267,
         "track": "ECOOP 2020",
-        "tend": 1605499200,
+        "tend": 1605500400,
         "closing_video": "938f9252-3dc5-4325-a133-eb25a1ebd488-closing.mp4",
         "transition_video": "938f9252-3dc5-4325-a133-eb25a1ebd488-transition.mp4",
         "id": "938f9252-3dc5-4325-a133-eb25a1ebd488",
@@ -3024,7 +3051,7 @@
     {
         "recorded_duration": 911.68,
         "track": "OOPSLA",
-        "tend": 1605612000,
+        "tend": 1605613200,
         "closing_video": "0cc82840-fb71-4f1f-a4cb-a199c7956974-closing.mp4",
         "transition_video": "0cc82840-fb71-4f1f-a4cb-a199c7956974-transition.mp4",
         "id": "0cc82840-fb71-4f1f-a4cb-a199c7956974",
@@ -3038,7 +3065,7 @@
     {
         "recorded_duration": 881.8,
         "track": "OOPSLA",
-        "tend": 1605762000,
+        "tend": 1605763200,
         "closing_video": "36a05e0f-c662-4f1b-b7fa-748674279502-closing.mp4",
         "transition_video": "36a05e0f-c662-4f1b-b7fa-748674279502-transition.mp4",
         "id": "36a05e0f-c662-4f1b-b7fa-748674279502",
@@ -3052,7 +3079,7 @@
     {
         "recorded_duration": 815.533333,
         "track": "OOPSLA",
-        "tend": 1605871200,
+        "tend": 1605872400,
         "closing_video": "46ea216e-db41-4d72-adfd-3e70848f065e-closing.mp4",
         "transition_video": "46ea216e-db41-4d72-adfd-3e70848f065e-transition.mp4",
         "id": "46ea216e-db41-4d72-adfd-3e70848f065e",
@@ -3066,7 +3093,7 @@
     {
         "recorded_duration": 910.276033,
         "track": "OOPSLA",
-        "tend": 1605949200,
+        "tend": 1605950400,
         "closing_video": "d2aab79b-b621-41d8-b67d-1273235197f3-closing.mp4",
         "transition_video": "d2aab79b-b621-41d8-b67d-1273235197f3-transition.mp4",
         "id": "d2aab79b-b621-41d8-b67d-1273235197f3",
@@ -3080,7 +3107,7 @@
     {
         "recorded_duration": 898.76,
         "track": "ECOOP 2020",
-        "tend": 1605506400,
+        "tend": 1605507600,
         "closing_video": "b3bfaad5-f792-4abe-beec-b2c3543839eb-closing.mp4",
         "transition_video": "b3bfaad5-f792-4abe-beec-b2c3543839eb-transition.mp4",
         "id": "b3bfaad5-f792-4abe-beec-b2c3543839eb",
@@ -3094,7 +3121,7 @@
     {
         "recorded_duration": 856.6,
         "track": "OOPSLA",
-        "tend": 1605930000,
+        "tend": 1605931200,
         "closing_video": "0cd262dc-3c5c-498c-814d-952a4abeecf6-closing.mp4",
         "transition_video": "0cd262dc-3c5c-498c-814d-952a4abeecf6-transition.mp4",
         "id": "0cd262dc-3c5c-498c-814d-952a4abeecf6",
@@ -3108,7 +3135,7 @@
     {
         "recorded_duration": 1007.172833,
         "track": "OOPSLA",
-        "tend": 1605924000,
+        "tend": 1605925200,
         "closing_video": "256ca32c-494b-45db-903d-d2bbabbfbd1b-closing.mp4",
         "transition_video": "256ca32c-494b-45db-903d-d2bbabbfbd1b-transition.mp4",
         "id": "256ca32c-494b-45db-903d-d2bbabbfbd1b",
@@ -3122,11 +3149,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605452400,
+        "tend": 1605454800,
         "closing_video": "910bd8ae-8e1b-40c6-af3c-b39c2bf4431b-closing.mp4",
+        "transition_video": "910bd8ae-8e1b-40c6-af3c-b39c2bf4431b-transition.mp4",
         "id": "910bd8ae-8e1b-40c6-af3c-b39c2bf4431b",
         "opening_video": "910bd8ae-8e1b-40c6-af3c-b39c2bf4431b-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605452400,
         "title": "Move Semantics for Nim",
         "authors": "Andreas Rumpf",
@@ -3135,7 +3163,7 @@
     {
         "recorded_duration": 908.733333,
         "track": "OOPSLA",
-        "tend": 1605852000,
+        "tend": 1605853200,
         "closing_video": "fcea71f9-9bb0-4209-a01f-13ad1fb54e32-closing.mp4",
         "transition_video": "fcea71f9-9bb0-4209-a01f-13ad1fb54e32-transition.mp4",
         "id": "fcea71f9-9bb0-4209-a01f-13ad1fb54e32",
@@ -3149,7 +3177,7 @@
     {
         "recorded_duration": 885.32,
         "track": "ECOOP 2020",
-        "tend": 1605525600,
+        "tend": 1605526800,
         "closing_video": "08eaa378-f2f5-4c5f-b1a8-e9c754b3d384-closing.mp4",
         "transition_video": "08eaa378-f2f5-4c5f-b1a8-e9c754b3d384-transition.mp4",
         "id": "08eaa378-f2f5-4c5f-b1a8-e9c754b3d384",
@@ -3163,7 +3191,7 @@
     {
         "recorded_duration": 805.36,
         "track": "OOPSLA",
-        "tend": 1605697200,
+        "tend": 1605698400,
         "closing_video": "9d2e80dd-45d0-4797-be3b-2ed373dc14dd-closing.mp4",
         "transition_video": "9d2e80dd-45d0-4797-be3b-2ed373dc14dd-transition.mp4",
         "id": "9d2e80dd-45d0-4797-be3b-2ed373dc14dd",
@@ -3177,7 +3205,7 @@
     {
         "recorded_duration": 635.8352,
         "track": "OOPSLA",
-        "tend": 1605937200,
+        "tend": 1605938400,
         "closing_video": "49e4b00a-5555-4c4e-8eca-5628b4a98878-closing.mp4",
         "transition_video": "49e4b00a-5555-4c4e-8eca-5628b4a98878-transition.mp4",
         "id": "49e4b00a-5555-4c4e-8eca-5628b4a98878",
@@ -3191,7 +3219,7 @@
     {
         "recorded_duration": 948.614333,
         "track": "Onward! Papers",
-        "tend": 1605679200,
+        "tend": 1605680400,
         "closing_video": "49dcbe04-cb78-487b-8021-c2b2cca6e30e-closing.mp4",
         "transition_video": "49dcbe04-cb78-487b-8021-c2b2cca6e30e-transition.mp4",
         "id": "49dcbe04-cb78-487b-8021-c2b2cca6e30e",
@@ -3205,7 +3233,7 @@
     {
         "recorded_duration": 866.6,
         "track": "OOPSLA",
-        "tend": 1605944400,
+        "tend": 1605945600,
         "closing_video": "88401ded-3b58-4749-8aef-7b24b61ab09f-closing.mp4",
         "transition_video": "88401ded-3b58-4749-8aef-7b24b61ab09f-transition.mp4",
         "id": "88401ded-3b58-4749-8aef-7b24b61ab09f",
@@ -3219,11 +3247,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605776400,
+        "tend": 1605778800,
         "closing_video": "f3ec9a74-d5ee-4008-9430-ff52af55c713-closing.mp4",
+        "transition_video": "f3ec9a74-d5ee-4008-9430-ff52af55c713-transition.mp4",
         "id": "f3ec9a74-d5ee-4008-9430-ff52af55c713",
         "opening_video": "f3ec9a74-d5ee-4008-9430-ff52af55c713-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605776400,
         "title": "Speculation in Smart Contracts",
         "authors": "Maurice Herlihy",
@@ -3232,7 +3261,7 @@
     {
         "recorded_duration": 767.547768,
         "track": "Dynamic Languages Symposium",
-        "tend": 1605770400,
+        "tend": 1605771600,
         "closing_video": "3935655d-f3ff-4f44-8de9-a461cc25e8d1-closing.mp4",
         "transition_video": "3935655d-f3ff-4f44-8de9-a461cc25e8d1-transition.mp4",
         "id": "3935655d-f3ff-4f44-8de9-a461cc25e8d1",
@@ -3246,7 +3275,7 @@
     {
         "recorded_duration": 845.033333,
         "track": "Onward! Papers",
-        "tend": 1605668400,
+        "tend": 1605669600,
         "closing_video": "6cc1e9be-46b1-4962-9d3d-2920b847aea7-closing.mp4",
         "transition_video": "6cc1e9be-46b1-4962-9d3d-2920b847aea7-transition.mp4",
         "id": "6cc1e9be-46b1-4962-9d3d-2920b847aea7",
@@ -3260,7 +3289,7 @@
     {
         "recorded_duration": -1.0,
         "track": "Keynotes",
-        "tend": 1605834000,
+        "tend": 1605838800,
         "closing_video": "f92281cc-89bc-4c25-a94f-18dd4bb6f87f-closing.mp4",
         "transition_video": "f92281cc-89bc-4c25-a94f-18dd4bb6f87f-transition.mp4",
         "id": "f92281cc-89bc-4c25-a94f-18dd4bb6f87f",
@@ -3274,7 +3303,7 @@
     {
         "recorded_duration": 1035.475035,
         "track": "OOPSLA",
-        "tend": 1605936000,
+        "tend": 1605937200,
         "closing_video": "8d09d351-1484-4e6f-a97b-31fc3a8589f5-closing.mp4",
         "transition_video": "8d09d351-1484-4e6f-a97b-31fc3a8589f5-transition.mp4",
         "id": "8d09d351-1484-4e6f-a97b-31fc3a8589f5",
@@ -3288,7 +3317,7 @@
     {
         "recorded_duration": 1016.28,
         "track": "OOPSLA",
-        "tend": 1605765600,
+        "tend": 1605766800,
         "closing_video": "9b43b518-879b-4aa7-b841-9f12dc9bcf2a-closing.mp4",
         "transition_video": "9b43b518-879b-4aa7-b841-9f12dc9bcf2a-transition.mp4",
         "id": "9b43b518-879b-4aa7-b841-9f12dc9bcf2a",
@@ -3302,7 +3331,7 @@
     {
         "recorded_duration": 813.066667,
         "track": "ECOOP 2020",
-        "tend": 1605578400,
+        "tend": 1605579600,
         "closing_video": "c8f92227-97e4-4cd4-97f8-0dbfb0f80f62-closing.mp4",
         "transition_video": "c8f92227-97e4-4cd4-97f8-0dbfb0f80f62-transition.mp4",
         "id": "c8f92227-97e4-4cd4-97f8-0dbfb0f80f62",
@@ -3316,7 +3345,7 @@
     {
         "recorded_duration": 932.766667,
         "track": "OOPSLA",
-        "tend": 1605943200,
+        "tend": 1605944400,
         "closing_video": "ec90eddc-d967-43e8-8847-c0b006802b6a-closing.mp4",
         "transition_video": "ec90eddc-d967-43e8-8847-c0b006802b6a-transition.mp4",
         "id": "ec90eddc-d967-43e8-8847-c0b006802b6a",
@@ -3330,11 +3359,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605805200,
+        "tend": 1605807600,
         "closing_video": "dc0729ca-9f38-4990-9628-8170b60af78e-closing.mp4",
+        "transition_video": "dc0729ca-9f38-4990-9628-8170b60af78e-transition.mp4",
         "id": "dc0729ca-9f38-4990-9628-8170b60af78e",
         "opening_video": "dc0729ca-9f38-4990-9628-8170b60af78e-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605805200,
         "title": "Intermittent Computer Systems on Earth and in Space",
         "authors": "Brandon Lucia",
@@ -3343,7 +3373,7 @@
     {
         "recorded_duration": 890.633333,
         "track": "GPCE 2020 - 19th International Conference on Generative Programming: Concepts & Experiences",
-        "tend": 1605517200,
+        "tend": 1605518400,
         "closing_video": "01597700-9cb9-405f-8faa-012932634461-closing.mp4",
         "transition_video": "01597700-9cb9-405f-8faa-012932634461-transition.mp4",
         "id": "01597700-9cb9-405f-8faa-012932634461",
@@ -3357,7 +3387,7 @@
     {
         "recorded_duration": 1000.033333,
         "track": "OOPSLA",
-        "tend": 1605873600,
+        "tend": 1605874800,
         "closing_video": "19758c97-2c7a-4f32-bfb9-cb729a2cc3b8-closing.mp4",
         "transition_video": "19758c97-2c7a-4f32-bfb9-cb729a2cc3b8-transition.mp4",
         "id": "19758c97-2c7a-4f32-bfb9-cb729a2cc3b8",
@@ -3371,7 +3401,7 @@
     {
         "recorded_duration": 888.4,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605603600,
+        "tend": 1605604800,
         "closing_video": "1e1d3614-e96a-428d-afe4-b54c8c8e1473-closing.mp4",
         "transition_video": "1e1d3614-e96a-428d-afe4-b54c8c8e1473-transition.mp4",
         "id": "1e1d3614-e96a-428d-afe4-b54c8c8e1473",
@@ -3385,7 +3415,7 @@
     {
         "recorded_duration": 968.766667,
         "track": "Onward! Papers",
-        "tend": 1605672000,
+        "tend": 1605673200,
         "closing_video": "f5df0dfc-f912-43a8-ab3d-e57ff4e3846c-closing.mp4",
         "transition_video": "f5df0dfc-f912-43a8-ab3d-e57ff4e3846c-transition.mp4",
         "id": "f5df0dfc-f912-43a8-ab3d-e57ff4e3846c",
@@ -3399,7 +3429,7 @@
     {
         "recorded_duration": 883.0,
         "track": "ECOOP 2020",
-        "tend": 1605511200,
+        "tend": 1605512400,
         "closing_video": "f09653ca-5d68-454b-9a7a-970d4ca62a1a-closing.mp4",
         "transition_video": "f09653ca-5d68-454b-9a7a-970d4ca62a1a-transition.mp4",
         "id": "f09653ca-5d68-454b-9a7a-970d4ca62a1a",
@@ -3413,7 +3443,7 @@
     {
         "recorded_duration": 957.08,
         "track": "OOPSLA",
-        "tend": 1605928800,
+        "tend": 1605930000,
         "closing_video": "aed381e3-4082-4aea-8916-ec4572cabcbf-closing.mp4",
         "transition_video": "aed381e3-4082-4aea-8916-ec4572cabcbf-transition.mp4",
         "id": "aed381e3-4082-4aea-8916-ec4572cabcbf",
@@ -3427,7 +3457,7 @@
     {
         "recorded_duration": 999.633333,
         "track": "ECOOP 2020",
-        "tend": 1605512400,
+        "tend": 1605513600,
         "closing_video": "4706f63e-dc56-4e40-bee4-0b030f2b0fcb-closing.mp4",
         "transition_video": "4706f63e-dc56-4e40-bee4-0b030f2b0fcb-transition.mp4",
         "id": "4706f63e-dc56-4e40-bee4-0b030f2b0fcb",
@@ -3441,7 +3471,7 @@
     {
         "recorded_duration": 750.8,
         "track": "OOPSLA",
-        "tend": 1605672000,
+        "tend": 1605673200,
         "closing_video": "b5281650-dcac-4963-b682-1fed545a5e0a-closing.mp4",
         "transition_video": "b5281650-dcac-4963-b682-1fed545a5e0a-transition.mp4",
         "id": "b5281650-dcac-4963-b682-1fed545a5e0a",
@@ -3455,7 +3485,7 @@
     {
         "recorded_duration": 989.72,
         "track": "OOPSLA",
-        "tend": 1605858000,
+        "tend": 1605859200,
         "closing_video": "e9ae4c19-f50c-4f0d-b1e6-3e733890b7c4-closing.mp4",
         "transition_video": "e9ae4c19-f50c-4f0d-b1e6-3e733890b7c4-transition.mp4",
         "id": "e9ae4c19-f50c-4f0d-b1e6-3e733890b7c4",
@@ -3469,7 +3499,7 @@
     {
         "recorded_duration": 949.6,
         "track": "SLE (Software Language Engineering) 2020",
-        "tend": 1605504000,
+        "tend": 1605505200,
         "closing_video": "0634bf8c-79e0-4f7f-afaa-210b311fcbf3-closing.mp4",
         "transition_video": "0634bf8c-79e0-4f7f-afaa-210b311fcbf3-transition.mp4",
         "id": "0634bf8c-79e0-4f7f-afaa-210b311fcbf3",
@@ -3483,7 +3513,7 @@
     {
         "recorded_duration": 1509.266667,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605762000,
+        "tend": 1605764400,
         "closing_video": "a314d207-12a7-4384-9f2a-43bf0cacd948-closing.mp4",
         "transition_video": "a314d207-12a7-4384-9f2a-43bf0cacd948-transition.mp4",
         "id": "a314d207-12a7-4384-9f2a-43bf0cacd948",
@@ -3497,7 +3527,7 @@
     {
         "recorded_duration": 1202.96,
         "track": "SAS 2020 - 27th Static Analysis Symposium",
-        "tend": 1605778800,
+        "tend": 1605780000,
         "closing_video": "5e5d5e27-4f5e-4ec9-be96-5f1f0a5bfe96-closing.mp4",
         "transition_video": "5e5d5e27-4f5e-4ec9-be96-5f1f0a5bfe96-transition.mp4",
         "id": "5e5d5e27-4f5e-4ec9-be96-5f1f0a5bfe96",
@@ -3511,7 +3541,7 @@
     {
         "recorded_duration": 927.68,
         "track": "OOPSLA",
-        "tend": 1605937200,
+        "tend": 1605938400,
         "closing_video": "c3da127b-d137-44d6-888b-a9da4ddc54a5-closing.mp4",
         "transition_video": "c3da127b-d137-44d6-888b-a9da4ddc54a5-transition.mp4",
         "id": "c3da127b-d137-44d6-888b-a9da4ddc54a5",
@@ -3525,11 +3555,12 @@
     {
         "recorded_duration": -1.0,
         "track": "REBASE",
-        "tend": 1605682800,
+        "tend": 1605685200,
         "closing_video": "e076a4e6-6258-4908-8dc8-3802e89a0f59-closing.mp4",
+        "transition_video": "e076a4e6-6258-4908-8dc8-3802e89a0f59-transition.mp4",
         "id": "e076a4e6-6258-4908-8dc8-3802e89a0f59",
         "opening_video": "e076a4e6-6258-4908-8dc8-3802e89a0f59-opening.mp4",
-        "has_transition": false,
+        "has_transition": true,
         "tstart": 1605682800,
         "title": "Developing the Wolfram Language Compiler",
         "authors": "Tom Wickham-Jones",
@@ -3538,7 +3569,7 @@
     {
         "recorded_duration": 931.6307,
         "track": "OOPSLA",
-        "tend": 1605700800,
+        "tend": 1605702000,
         "closing_video": "c46ee935-d61f-4ade-a84a-9db9d88c737e-closing.mp4",
         "transition_video": "c46ee935-d61f-4ade-a84a-9db9d88c737e-transition.mp4",
         "id": "c46ee935-d61f-4ade-a84a-9db9d88c737e",
@@ -3552,7 +3583,7 @@
     {
         "recorded_duration": -1.0,
         "track": "Keynotes",
-        "tend": 1605661200,
+        "tend": 1605666000,
         "closing_video": "d9dc8414-a9f1-4c0d-8f5f-a8619dba3298-closing.mp4",
         "transition_video": "d9dc8414-a9f1-4c0d-8f5f-a8619dba3298-transition.mp4",
         "id": "d9dc8414-a9f1-4c0d-8f5f-a8619dba3298",
