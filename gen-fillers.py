@@ -19,6 +19,12 @@ args = parser.parse_args()
 
 breaks = splash.data.loadAllBreaks('./data/breaks.json')
 
+for b in breaks:
+    if b.is_coffee_break:
+        assert len([x for x in breaks if x.start.time == b.start.time and x.stream.stream_id == 'SPLASHI']) == 1
+        assert len([x for x in breaks if x.start.time == b.start.time and x.stream.stream_id == 'SPLASHII']) == 1
+        assert len([x for x in breaks if x.start.time == b.start.time and x.stream.stream_id == 'SPLASHIII']) == 1
+
 # Filter events by arguments
 
 if args.stream is not None:
