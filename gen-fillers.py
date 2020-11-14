@@ -46,5 +46,5 @@ breaks = [ v for v in breaks.values() ]
 breaks = sorted(breaks, key=lambda e: e.start.time)
 
 for b in breaks:
-    print(b.start.time)
+    print(b.start.time, b.original_time_range, b.stream.stream_id)
     splash.video.generateFillerVideoForBreak(b)

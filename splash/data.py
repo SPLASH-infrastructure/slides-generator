@@ -200,6 +200,7 @@ class Break:
     start: CurrentTime
     end: CurrentTime
     stream: Stream
+    original_time_range: Tuple[int, int] = (0, 0)
 
 BREAKS = None
 
@@ -217,6 +218,7 @@ def loadAllBreaks(json_file: str) -> List[Break]:
                 results.append(Break(
                     start=start,
                     end=end,
-                    stream=Stream(stream_id=s)
+                    stream=Stream(stream_id=s),
+                    original_time_range=(a[0], a[1]),
                 ))
         return results
