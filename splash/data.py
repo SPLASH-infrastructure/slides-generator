@@ -85,7 +85,7 @@ class CurrentTime:
 
     @property
     def datetime_display(self) -> str:
-        return self.time.strftime('%m-%d-%H:%M')
+        return self.time.strftime('%m-%d-%H_%M')
 
     @property
     def local_times(self) -> List[LocalTime]:
