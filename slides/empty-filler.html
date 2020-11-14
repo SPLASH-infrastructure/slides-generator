@@ -31,6 +31,7 @@
             <div style="margin: 10rem 5rem; font-weight: 100; color: white;">
                 <h1 style="font-size: 3em; font-weight: 100">Meet the Speakers</h1>
                 <p style="font-size: 1.5em; font-weight: 100"><i>During the break, you are encouraged to meet the speakers in the previous talks.</i></p>
+                <p style="font-size: 1.5em; font-weight: 100"><i>Please go to breakout rooms on CLOWDR.</i></p>
                 <ul style="font-size: 1.7em;">
                     {% for e in brk.session_before_break %}
                         <li style="margin: 0; padding: 0">{{e.authors}}</li>
@@ -41,18 +42,20 @@
 
         <!-- PL Mentoring Workshop (PLMW) -->
         {% if brk is defined and brk.is_coffee_break and brk.break_kind == 'PL Mentoring Workshop (PLMW)' %}
-            <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 25%;">Ask Me Anything</h1>
-            <h3 style="font-size: 3em; font-weight: 100; color: white; text-align: center;">Amal Ahmed</h3>
+            <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 23%;">Ask Me Anything</h1>
+            <h3 style="font-size: 3em; font-weight: 100; color: white; text-align: center;"><i>Please go to PLMW room on Zoom.</i></h3>
         {% endif %}
 
         <!-- Student Research Competition -->
         {% if brk is defined and brk.is_coffee_break and brk.break_kind == 'Student Research Competition' %}
             <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 25%;">Student Research Competition</h1>
+            <h3 style="font-size: 3em; font-weight: 100; color: white; text-align: center;"><i>Please go to Exhibition room on CLOWDR.</i></h3>
         {% endif %}
 
         <!-- Posters -->
         {% if brk is defined and brk.is_coffee_break and brk.break_kind == 'Posters' %}
             <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 25%;">Posters Session</h1>
+            <h3 style="font-size: 3em; font-weight: 100; color: white; text-align: center;"><i>Please go to Exhibition room on CLOWDR.</i></h3>
         {% endif %}
 
         <!-- Other cases -->
