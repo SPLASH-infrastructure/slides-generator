@@ -215,6 +215,10 @@ class Break:
     @property
     def message(self) -> Optional[str]:
         return None
+        # return '''
+        #     <h1>Note:</h1>
+        #     <p>Some announcements here, or some explanations/notifications on demand.</p>
+        # '''
 
     @property
     def is_coffee_break(self) -> bool:
