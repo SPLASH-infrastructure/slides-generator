@@ -70,16 +70,18 @@ def generateFillerVideoForBreak(b: Break):
     # A minute of clock-enabled frame for each 5 minutes
     for i in range(0, minutes, 5):
         time = start_time + timedelta(minutes=i)
-        frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.stream_id}/fillers/clock-{time.time_display}.png', 5, env={
+        frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.stream_id}/fillers/clock-{time.datetime_display}.png', 1, env={
             'stream': stream,
+            'brk': b,
             'time': time
         })
         if not config.GENERATE_IMAGE_ONLY:
-            generateFromKeyFrames(frames=[frame], video=f'./out/{stream.stream_id}/fillers/clock-{time.time_display}.mp4')
+            generateFromKeyFrames(frames=[frame], video=f'./out/{stream.stream_id}/fillers/clock-{time.datetime_display}.mp4')
     # One still image video
-    frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.stream_id}/fillers/static-{start_time.time_display}.png', 5, env={
+    frame = KeyFrame.render_from_template('./slides/empty-filler.html', f'./out/{stream.stream_id}/fillers/static-{start_time.datetime_display}.png', 1, env={
         'stream': stream,
         'time': start_time,
+        'brk': b,
         'no_clock': True,
     })
     if not config.GENERATE_IMAGE_ONLY:

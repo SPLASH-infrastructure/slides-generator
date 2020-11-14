@@ -80,6 +80,10 @@ class CurrentTime:
         return self.time.strftime('%H:%M')
 
     @property
+    def datetime_display(self) -> str:
+        return self.time.strftime('%m-%d-%H:%M')
+
+    @property
     def local_times(self) -> List[LocalTime]:
         return [
             LocalTime(name="SFO", time=self.time + timedelta(hours=-2)),
@@ -170,7 +174,13 @@ class Event:
             has_transition = data['has_transition'],
         )
 
-def loadAllEvents(json_file: str) -> List[Event]:
+EVENTS = None
+
+def loadAllEvents(json_file: str = './data/transitions.json') -> List[Event]:
+    assert json_file.endswith('transitions.json')
+    global EVENTS
+    if EVENTS is not None:
+        return EVENTS
     with open(json_file) as f:
         data = json.load(f)
         results = []
@@ -191,9 +201,8 @@ def loadAllEvents(json_file: str) -> List[Event]:
                     event.end -= timedelta(hours=12)
                     assert event.first_round
                     results.append(event)
+        EVENTS = results
         return results
-
-
 
 @dataclass
 class Break:
@@ -201,6 +210,35 @@ class Break:
     end: CurrentTime
     stream: Stream
     original_time_range: Tuple[int, int] = (0, 0)
+
+    @property
+    def message(self) -> Optional[str]:
+        return None
+
+    @property
+    def is_coffee_break(self) -> bool:
+        return self.start.time_display in config.BREAKS
+
+    @property
+    def session_before_break(self) -> [Event]:
+        assert self.is_coffee_break
+        global EVENTS
+        if EVENTS is None: loadAllEvents()
+        assert EVENTS is not None
+        session_start = self.start.time - timedelta(minutes=80)
+        session_end = self.start.time
+        results = [e for e in EVENTS if e.start.time >= session_start and e.start.time < session_end]
+        return results
+
+    @property
+    def session_after_break(self) -> [Event]:
+        assert self.is_coffee_break
+        global EVENTS
+        if EVENTS is None: loadAllEvents()
+        assert EVENTS is not None
+        session_start = self.end.time
+        session_end = self.end.time + timedelta(minutes=80)
+        return [e for e in EVENTS if e.start.time >= session_start and e.start.time < session_end]
 
 BREAKS = None
 

@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <style>
+        .messages h1 {
+            font-size: 3em;
+            font-weight: 100;
+        }
+        .messages p {
+            font-size: 1.5em;
+            font-weight: 100;
+        }
+        .messages ul {
+            font-size: 1.7em;
+            font-weight: 100;
+        }
+    </style>
 </head>
 <body>
     <div class="bounds">
@@ -12,7 +26,29 @@
 
         {% include 'clocks.html' %}
 
-        <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 25%;">This is room {{stream.name}}</h1>
+        <!-- Meet the authors -->
+        {% if brk is defined and brk.is_coffee_break %}
+            <div style="margin: 10rem 5rem; font-weight: 100; color: white;">
+                <h1 style="font-size: 3em; font-weight: 100">Meet the Speakers</h1>
+                <p style="font-size: 1.5em; font-weight: 100"><i>During the break, you are encouraged to meet the speakers in the previous talks.</i></p>
+                <ul style="font-size: 1.7em;">
+                    {% for e in brk.session_before_break %}
+                        <li style="margin: 0; padding: 0">{{e.authors}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+
+        {% if brk is not defined %}
+            <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 25%;">This is room {{stream.name}}</h1>
+        {% endif %}
+
+        <!-- Other Messages -->
+        {% if brk is defined and brk.message is not none %}
+            <div class="messages" style="position: absolute; bottom: 10rem; left: 5rem; right: 5rem; font-weight: 100; color: white; background-color: red;">
+                {{ brk.message }}
+            </div>
+        {% endif %}
 
         {% include 'sponsors.html' %}
     </div>
