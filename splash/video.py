@@ -13,12 +13,9 @@ def generateFromKeyFrames(frames: List[KeyFrame], video: str):
     ffconcat = os.path.join(dirname, 'in.ffconcat')
     ffconcat_content = 'ffconcat version 1.0\n'
     duration = 0
-    for f in frames:
-        duration += f.duration
-        ffconcat_content += f'file {f.image}\nduration {f.duration}.0\n'
-    with open(ffconcat, 'w') as f:
-        f.write(ffconcat_content)
-    os.system(f'ffmpeg -y -safe 0 -i {ffconcat} -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -af "aresample=async=1:min_hard_comp=0.100000:first_pts=0" -g 60 -c:v libx264 -r 30 -t {duration} -pix_fmt yuv420p {video}')
+    assert len(frames) == 1
+    f = frames[0]
+    os.system(f'ffmpeg -y -loop 1 -framerate 30 -i {f.image} -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -af "aresample=async=1:min_hard_comp=0.100000:first_pts=0" -g 60 -c:v libx264 -r 30 -t {f.duration} -pix_fmt yuv420p {video}')
     assert os.path.exists(video)
 
 
