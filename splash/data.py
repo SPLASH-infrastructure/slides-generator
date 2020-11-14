@@ -44,18 +44,18 @@ class CurrentTime:
     @property
     def background_city(self) -> str:
         t = (self.time.hour, self.time.minute)
-        if ( 7, 0) <= t and t < ( 9, 0): return 'Chicago'
-        if ( 9, 0) <= t and t < (11, 0): return 'Seattle'
-        if (11, 0) <= t and t < (13, 0): return 'Wellington'
-        if (13, 0) <= t and t < (15, 0): return 'Paris'
-        if (15, 0) <= t and t < (17, 0): return 'Seoul'
-        if (17, 0) <= t and t < (19, 0): return 'Rio'
-        if (19, 0) <= t and t < (21, 0): return 'New York'
-        if (21, 0) <= t and t < (23, 0): return 'Tokyo'
-        if (23, 0) <= t or  t < ( 1, 0): return 'Paris'
-        if ( 1, 0) <= t and t < ( 3, 0): return 'Sydney'
-        if ( 3, 0) <= t and t < ( 5, 0): return 'Beijing'
-        if ( 5, 0) <= t and t < ( 7, 0): return 'Delhi'
+        if ( 7, 0) <= t and t < ( 9, 0): return 'Breakfast in Chicago'
+        if ( 9, 0) <= t and t < (11, 0): return 'Breakfast in Seattle'
+        if (11, 0) <= t and t < (13, 0): return 'Breakfast in Wellington'
+        if (13, 0) <= t and t < (15, 0): return 'Cocktails in Paris'
+        if (15, 0) <= t and t < (17, 0): return 'Breakfast in Seoul'
+        if (17, 0) <= t and t < (19, 0): return 'Cocktails in Rio'
+        if (19, 0) <= t and t < (21, 0): return 'Cocktails in New York'
+        if (21, 0) <= t and t < (23, 0): return 'Lunch in Tokyo'
+        if (23, 0) <= t or  t < ( 1, 0): return 'Breakfast in Paris'
+        if ( 1, 0) <= t and t < ( 3, 0): return 'Cocktails in Sydney'
+        if ( 3, 0) <= t and t < ( 5, 0): return 'Dinner in Beijing'
+        if ( 5, 0) <= t and t < ( 7, 0): return 'Dinner in Delhi'
         assert False, "Unreachable"
 
     @property
