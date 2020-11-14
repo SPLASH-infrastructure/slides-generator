@@ -4,7 +4,7 @@ import os
 from . import config
 from datetime import timedelta
 from .data import CurrentTime, Stream, Event, Break
-
+import copy
 
 
 def generateFromKeyFrames(frames: List[KeyFrame], video: str):
@@ -52,12 +52,15 @@ def generateVideoForEvent(event: Event):
     if event.is_prerecorded_talk:
         print(f">>> Pre-recorded Talk {event.event_id} " + event.start.time_display + " " + event.end.time_display)
         __renderKeyFramesAndGenVideo('./slides/intro-template.html', out, f'{event.event_id}-{stream_round}-opening', config.INTRO_SECONDS, start_time=event.start, env=env)
-        __renderKeyFramesAndGenVideo('./slides/qa-template.html', out, f'{event.event_id}-{stream_round}-transition', config.QA_TRANSITION_SECONDS, start_time=event.start + timedelta(seconds=event.recorded_duration), env=env)
-        __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-closing', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
+        __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-closing', config.OUTRO_SECONDS, start_time=event.end - timedelta(seconds=config.OUTRO_SECONDS), env=env)
+        env2 = copy.deepcopy(env)
+        if event.is_prerecorded_talk and not event.prerecorded_talk_has_valid_duration:
+            env2['no_clock'] = True
+        __renderKeyFramesAndGenVideo('./slides/qa-template.html', out, f'{event.event_id}-{stream_round}-transition', config.QA_TRANSITION_SECONDS, start_time=event.start + timedelta(seconds=event.recorded_duration), env=env2)
     else:
         print(f">>> Live Talk or KeyNotes {event.event_id} " + event.start.time_display + " " + event.end.time_display)
         __renderKeyFramesAndGenVideo('./slides/intro-template.html', out, f'{event.event_id}-{stream_round}-opening', config.INTRO_SECONDS, start_time=event.start, env=env)
-        __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-closing', config.OUTRO_SECONDS, start_time=event.start - timedelta(seconds=config.OUTRO_SECONDS), env=env)
+        __renderKeyFramesAndGenVideo('./slides/outro-template.html', out, f'{event.event_id}-{stream_round}-closing', config.OUTRO_SECONDS, start_time=event.end - timedelta(seconds=config.OUTRO_SECONDS), env=env)
 
 
 def generateFillerVideoForBreak(b: Break):

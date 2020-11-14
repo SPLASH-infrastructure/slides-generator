@@ -5,6 +5,9 @@ import json
 from . import config
 from . import lookup_breaks
 import copy
+import xml.etree.ElementTree as ET
+
+SCHEDULE_XML = ET.parse('./data/splash-schedule.xml')
 
 # Local time for each local timezone
 @dataclass
@@ -137,6 +140,10 @@ class Event:
         return self.has_transition
 
     @property
+    def prerecorded_talk_has_valid_duration(self) -> bool:
+        return self.recorded_duration > 0
+
+    @property
     def is_live_talk(self) -> bool:
         return not self.is_prerecorded_talk
 
@@ -162,18 +169,31 @@ class Event:
         return False
 
     @staticmethod
-    def load(data) -> 'Event':
-        return Event(
+    def load(data) -> List['Event']:
+        e1 = Event(
             name = data['title'],
             event_id = data['id'],
             stream = Stream(stream_id=data['room'][9:].replace('-', '')),
             start = CurrentTime.from_unix_timestamp(data['tstart'], timedelta(hours=-6)),
             end = CurrentTime.from_unix_timestamp(data['tend'], timedelta(hours=-6)),
-            recorded = data['recorded_duration'] < 0,
+            recorded = data['has_transition'],
             recorded_duration = data['recorded_duration'],
             authors = data['authors'],
             has_transition = data['has_transition'],
         )
+        events = [ e1 ]
+        for slot in SCHEDULE_XML.findall(f'*/timeslot'):
+            eid = slot.find('event_id')
+            if eid is not None and eid.text == e1.event_id:
+                if slot.find('start_time').text != e1.start.time_display:
+                    start = datetime.strptime(slot.find('date').text + ' ' + slot.find('start_time').text, '%Y/%m/%d %H:%M')
+                    end = datetime.strptime(slot.find('end_date').text + ' ' + slot.find('end_time').text, '%Y/%m/%d %H:%M')
+                    e2 = copy.deepcopy(e1)
+                    e2.start.time = start
+                    e2.end.time = end
+                    events.append(e2)
+        assert len(events) <= 2, events
+        return events
 
 EVENTS = None
 
@@ -186,22 +206,7 @@ def loadAllEvents(json_file: str = './data/transitions.json') -> List[Event]:
         data = json.load(f)
         results = []
         for e in data:
-            event = Event.load(e)
-            results.append(event)
-            # if event.stream.stream_id != 'SPLASHII':
-            if True:
-                if event.first_round:
-                    event = copy.deepcopy(event)
-                    event.start += timedelta(hours=12)
-                    event.end += timedelta(hours=12)
-                    assert not event.first_round
-                    results.append(event)
-                else:
-                    event = copy.deepcopy(event)
-                    event.start -= timedelta(hours=12)
-                    event.end -= timedelta(hours=12)
-                    assert event.first_round
-                    results.append(event)
+            results += Event.load(e)
         EVENTS = results
         return results
 
