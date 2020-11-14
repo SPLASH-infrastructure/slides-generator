@@ -3,6 +3,7 @@ from typing import List, Tuple, Optional
 from datetime import datetime, timedelta
 import json
 from . import config
+from . import lookup_breaks
 import copy
 
 # Local time for each local timezone
@@ -220,6 +221,10 @@ class Break:
         return self.start.time_display in config.BREAKS
 
     @property
+    def break_kind(self) -> str:
+        return lookup_breaks.BREAKS[self.start.time]
+
+    @property
     def session_before_break(self) -> [Event]:
         assert self.is_coffee_break
         global EVENTS
@@ -250,7 +255,7 @@ def loadAllBreaks(json_file: str) -> List[Break]:
             start = CurrentTime.from_unix_timestamp(a[0], timedelta(hours=-6))
             end = CurrentTime.from_unix_timestamp(a[1], timedelta(hours=-6))
             streams = ['SPLASHI', 'SPLASHII', 'SPLASHIII']
-            for e in a[2]:
+            for e in a[3]:
                 streams = [s for s in streams if s != e['stream']]
             for s in streams:
                 results.append(Break(
