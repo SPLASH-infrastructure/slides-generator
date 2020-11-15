@@ -219,11 +219,13 @@ class Break:
 
     @property
     def message(self) -> Optional[str]:
-        return None
-        # return '''
-        #     <h1>Note:</h1>
-        #     <p>Some announcements here, or some explanations/notifications on demand.</p>
-        # '''
+        if self.start.time_display not in config.BREAKS_WITH_ANNOUNCEMENTS:
+            return None
+        # return None
+        return '''
+            <h1>Announcements:</h1>
+            <p>SIGPLAN CARES is a SIGPLAN committee composed of people for listening and helping to anyone who experiences or witnesses discrimination, harassment, or other ethical policy violations at SIGPLAN events or in the SIGPLAN publication process. The committee members may be sounding board for your and may provide advice on the steps necessary to have the matter further investigated by ACM. If you would like to learn more about CARES, chat about our mission, or ask questions about harassment, discrimination and related topics, please join us at one of three sessions at SPLASH. If you would like to speak privately to a CARES member, please feel free to email whomever you feel most comfortable communicating with. Our email addresses are listed on the CARES web page.</p>
+        '''
 
     @property
     def is_coffee_break(self) -> bool:
