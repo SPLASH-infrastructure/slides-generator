@@ -38,28 +38,24 @@
                     {% endfor %}
                 </ul>
             </div>
-        {% endif %}
 
         <!-- PL Mentoring Workshop (PLMW) -->
-        {% if brk is defined and brk.is_coffee_break and brk.break_kind == 'PL Mentoring Workshop (PLMW)' %}
+        {% elif brk is defined and brk.is_coffee_break and brk.break_kind == 'PL Mentoring Workshop (PLMW)' %}
             <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 20%;">Ask Me Anything</h1>
             <h3 style="font-size: 3em; font-weight: 100; color: white; text-align: center;"><i>Please go to PLMW room on Zoom.</i></h3>
-        {% endif %}
 
         <!-- Student Research Competition -->
-        {% if brk is defined and brk.is_coffee_break and brk.break_kind == 'Student Research Competition' %}
+        {% elif brk is defined and brk.is_coffee_break and brk.break_kind == 'Student Research Competition' %}
             <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 20%;">Student Research Competition</h1>
             <h3 style="font-size: 3em; font-weight: 100; color: white; text-align: center;"><i>Please go to Exhibition room on CLOWDR.</i></h3>
-        {% endif %}
 
         <!-- Posters -->
-        {% if brk is defined and brk.is_coffee_break and brk.break_kind == 'Posters' %}
+        {% elif brk is defined and brk.is_coffee_break and brk.break_kind == 'Posters' %}
             <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 20%;">Posters Session</h1>
             <h3 style="font-size: 3em; font-weight: 100; color: white; text-align: center;"><i>Please go to Exhibition room on CLOWDR.</i></h3>
-        {% endif %}
 
         <!-- Other cases -->
-        {% if brk is not defined %}
+        {% else %}
             <h1 style="font-size: 5em; font-weight: 100; color: white; text-align: center; margin-top: 25%;">This is room {{stream.name}}</h1>
         {% endif %}
 

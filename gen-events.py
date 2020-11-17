@@ -42,6 +42,6 @@ events = sorted(events, key=lambda e: e.start.time)
 # Generate
 # print(events)
 for e in events:
-    print(f"========== {e.start.time} - {e.end.time} : {e.name} ({e.first_round}) ==========")
+    print(f"========== {e.start.time} - {e.end.time} : {e.name} ({e.first_round}) {e.stream.stream_id} ==========")
     splash.video.generateVideoForEvent(e)
 

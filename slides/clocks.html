@@ -117,16 +117,16 @@
     }
 </style>
 
-{% if event is defined and event.stream.stream_id != 'OOPSLAII' %}
+{% if event is defined and event.stream.stream_id != 'SPLASHII' %}
 
 {% if time.first_round_of_streaming %}
     <table class="schedule-clock schedule-clock-right" style="position: absolute; right: 0; top: 50%;">
         <tr>
             <td>
-                <!-- <p class="text">Scheduled again in 12 hours</p> -->
+                <p class="text">Scheduled again in 12 hours</p>
             </td>
             <td>
-                <!-- <img src="./scheduled-again.png" class="image"> -->
+                <img src="./scheduled-again.png" class="image">
             </td>
         </tr>
     </table>
@@ -138,10 +138,10 @@
     <table class="schedule-clock schedule-clock-left" style="position: absolute; right: 0; top: 50%;">
         <tr>
             <td>
-                <!-- <img src="./presented-previously.png" class="image"> -->
+                <img src="./presented-previously.png" class="image">
             </td>
             <td>
-                <!-- <p class="text">Presented previously 12 hours ago</p> -->
+                <p class="text">Presented previously 12 hours ago</p>
             </td>
         </tr>
     </table>
