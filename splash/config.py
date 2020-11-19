@@ -10,9 +10,14 @@ INTRO_SECONDS = 10
 QA_TRANSITION_SECONDS = 10
 OUTRO_SECONDS = 1
 
+# CARES = '''
+#     <h1>Announcements:</h1>
+#     <p>SIGPLAN CARES is a SIGPLAN committee composed of people for listening and helping to anyone who experiences or witnesses discrimination, harassment, or other ethical policy violations at SIGPLAN events or in the SIGPLAN publication process. The committee members may be sounding board for your and may provide advice on the steps necessary to have the matter further investigated by ACM. If you would like to learn more about CARES, chat about our mission, or ask questions about harassment, discrimination and related topics, please join us at one of three sessions at SPLASH. If you would like to speak privately to a CARES member, please feel free to email whomever you feel most comfortable communicating with. Our email addresses are listed on the CARES web page.</p>
+# '''
+
 CARES = '''
     <h1>Announcements:</h1>
-    <p>SIGPLAN CARES is a SIGPLAN committee composed of people for listening and helping to anyone who experiences or witnesses discrimination, harassment, or other ethical policy violations at SIGPLAN events or in the SIGPLAN publication process. The committee members may be sounding board for your and may provide advice on the steps necessary to have the matter further investigated by ACM. If you would like to learn more about CARES, chat about our mission, or ask questions about harassment, discrimination and related topics, please join us at one of three sessions at SPLASH. If you would like to speak privately to a CARES member, please feel free to email whomever you feel most comfortable communicating with. Our email addresses are listed on the CARES web page.</p>
+    <p style="font-size: 2.5em;"><b>SIGPLAN CARES will be held in SPLASH VI, to join the conversation click on the join Zoom link in Clowdr.</b></p>
 '''
 
 TUTORIAL = '''
@@ -25,6 +30,10 @@ ANNOUNCEMENTS = {
     '08:20': CARES,
     '14:20': CARES,
     '20:20': CARES,
+
+    '06:20': CARES,
+    '12:20': CARES,
+    '18:20': CARES,
 
     '10:20': TUTORIAL,
     '22:20': TUTORIAL,
